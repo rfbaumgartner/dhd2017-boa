@@ -213,15 +213,15 @@
                 <p>Christian Thomas</p>
                 <p>Das DFG-geförderte Projekt <ref target="http://www.deutschestextarchiv.de/">Deutsches Textarchiv</ref> der Berlin-Brandenburgischen Akademie
                 der Wissenschaften (BBAW) erstellt bzw. publiziert digitale Editionen von
-                derzeit (September 2015) 1 665 Werken im DTA-Kernkorpus unter Verwendung
+                derzeit (September 2015) 1665 Werken im DTA-Kernkorpus unter Verwendung
                 eines selbst entwickelten, auf Open-Source-Software basierenden Frameworks.
-                Zu diesem Framework gehört mit dem Modul <ref target="www.deutschestextarchiv.de/dtae">DTAE</ref> (DTA-Erweiterungen
+                Zu diesem Framework gehört mit dem Modul <ref target="www.deutschestextarchiv.de/dtae">DTAE</ref> (DTA-Erweiterungen)
                 ein elaborierter Workflow zur Integration
                 hochwertiger Textressourcen aus externen Editions- und Forschungsprojekten.
-                Über DTAE konnten als Ergänzungen des DTA-Kernkorpus bislang weitere 1 097
+                Über DTAE konnten als Ergänzungen des DTA-Kernkorpus bislang weitere 1097
                 Einzelwerke sowie der gesamte Bestand zweier herausragender Zeitschriften
-                des 19. / 20. Jahrhunderts, das von J. G. Dingler begründete Polytechnische
-                Journal (346 Bände, 1820–1931) und die Zeitschrift <hi rend="italic">Die
+                des 19./20. Jahrhunderts, das von J. G. Dingler begründete <hi rend="italic">Polytechnische
+                Journal</hi> (346 Bände, 1820–1931) und die Zeitschrift <hi rend="italic">Die
                 Grenzboten</hi> (270 Bände, 1841–1922) in das DTA integriert werden. Der
                 Textbestand aus DTA und DTAE umfasst ca. 200 Mio. Tokens und ca. 1,2 Mrd.
                 Zeichen. Die DTA-Korpora sind einheitlich gemäß dem TEI-basierten und
