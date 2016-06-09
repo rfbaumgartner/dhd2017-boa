@@ -18,7 +18,7 @@ Senden Sie bitte keine komplett neuen Dateien, sondern lediglich die hier
 verlinkten Fassungen in bearbeiteter Form.
 
 Wenn Sie mit dem Git-/GitHub-Workflow vertraut sind (oder sich damit vertraut
-machen möchten!), können Sie gern auch dieses Repository clonen/forken.  Wir
+machen möchten), können Sie gern auch dieses Repository clonen/forken.  Wir
 freuen uns über alle Pull-Requests.
 
  
@@ -196,7 +196,7 @@ freuen uns über alle Pull-Requests.
 
 ### Workshops
 
-* [Komponisten-Datenbanken / -Portale: Entwicklungsmöglich-keiten, Austauschformate und Vernetzungspotential](input/xml/workshops-001.xml)
+* [Komponisten-Datenbanken / -Portale: Entwicklungsmöglichkeiten, Austauschformate und Vernetzungspotential](input/xml/workshops-001.xml)
 * [Wissenschaftliches Bloggen bei de.hypotheses.org](input/xml/workshops-002.xml)
 * [nodegoat Workshop: Einführung in die Nutzung einer multifunktionalen webbasierten Datenbankapplikation für Geisteswissenschaftler](input/xml/workshops-003.xml)
 * [Entwicklung und Nutzung interdisziplinärer Repositorien für historische textbasierte Korpora](input/xml/workshops-004.xml)
