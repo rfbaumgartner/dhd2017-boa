@@ -238,15 +238,12 @@
                     </formula>
                   </p>
                   <p>wobei
-                    <hi rend="italic">f</hi>
-                    <hi rend="italic subscript">i</hi>(
+                    <hi rend="italic">f</hi><hi rend="italic subscript">i</hi>(
                     <hi rend="italic">D</hi>) die relative Häufigkeit des Wortes
                     <hi rend="italic">i</hi> in einem Dokument,
-                    <hi rend="italic">μ</hi>
-                    <hi rend="italic subscript">i</hi> der Mittelwert über die relativen Häufigkeiten des Wortes
+                    <hi rend="italic">μ</hi><hi rend="italic subscript">i</hi> der Mittelwert über die relativen Häufigkeiten des Wortes
                     <hi rend="italic">i</hi> in allen Dokumenten ist und
-                    <hi rend="italic">σ</hi>
-                    <hi rend="italic subscript">i</hi> die Standardabweichung. Durch diese Standardisierung tragen alle Worte in gleichem Maße zum Differenzprofil, das im dritten Schritt berechnet wird, bei. In einem dritten Schritt werden die Abstände aller Texte voneinander berechnet: Für jedes Wort wird die Differenz zwischen dem z-Score für das Wort in dem einen Text und dem anderen Text ermittelt. Die Absolutbeträge der Differenzen werden für alle ausgewählten Wörter aufaddiert:
+                    <hi rend="italic">σ</hi><hi rend="italic subscript">i</hi> die Standardabweichung. Durch diese Standardisierung tragen alle Worte in gleichem Maße zum Differenzprofil, das im dritten Schritt berechnet wird, bei. In einem dritten Schritt werden die Abstände aller Texte voneinander berechnet: Für jedes Wort wird die Differenz zwischen dem z-Score für das Wort in dem einen Text und dem anderen Text ermittelt. Die Absolutbeträge der Differenzen werden für alle ausgewählten Wörter aufaddiert:
                   </p>
                   <p>
                     <formula>
@@ -346,9 +343,9 @@
                       Burrows Delta fast immer an Leistungsfähigkeit und weist, im Gegensatz zu
                       den anderen Varianten, auch bei der Verwendung sehr vieler MFWs keine
                       Verschlechterung auf (Jannidis et. al. 2015). Es stellt sich die Frage,
-                      warum Delta <hi rend="subscript">Cos</hi> besser ist als Delta <hi
+                      warum Delta<hi rend="subscript">Cos</hi> besser ist als Delta <hi
                       rend="subscript">Bur</hi> und ob auf diese Weise erklärt werden kann,
-                      warum Delta <hi rend="subscript">Bur</hi> so überraschend leistungsfähig
+                      warum Delta<hi rend="subscript">Bur</hi> so überraschend leistungsfähig
                       ist. </p>
                       <p>Entscheidend für unsere weitere Analyse war die Erkenntnis, dass man die Verwendung des Cosinus-Abstands als eine Vektor-Normalisierung verstehen kann, da für die Berechnung des Winkels – anders als bei Manhattan- und Euklidischem Abstand – die Länge der Vektoren keine Rolle spielt (vgl. Abb. 1). Experimente haben gezeigt, dass eine explizite Vektor-Normalisierung auch die Ergebnisse der anderen Deltamaße erheblich verbessert und Leistungsunterschiede zwischen den Delta-Varianten weitgehend neutralisiert (Evert et al. 2015).</p>
                       <p>Daraus wurden zwei Hypothesen abgeleitet:</p>
@@ -359,7 +356,7 @@
                           nur für einzelne Texte spezifisch sind. Da das Euklidische Abstandsmaß
                           besonders stark von solchen Ausreißern beeinflusst wird, stellen sie
                           eine nahe liegende Erklärung für das schlechte Abschneiden von Argamons
-                          „Quadratic Delta“ Delta <hi rend="subscript">Q</hi>. Der positive Effekt
+                          „Quadratic Delta“ Delta<hi rend="subscript">Q</hi>. Der positive Effekt
                           der Vektor-Normalisierung wäre dann so zu deuten, dass durch die
                           Vereinheitlichung der Vektorlängen der Betrag der <hi rend="italic"
                           >z</hi>-Werte von textspezifischen Ausreißern deutlich reduziert
@@ -386,8 +383,7 @@
                           <div xml:id="h.wdtsf5koc85b" type="div3" rend="DH-Heading3">
                             <head>Experimente</head>
                             <p>Um die Rolle von Ausreißern und damit die Plausibilität von H1 näher zu
-                              untersuchen, ergänzen wir Delta <hi rend="subscript">Bur</hi> und Delta
-                              <hi rend="subscript">Q</hi> um weitere Delta-Varianten, die auf dem
+                              untersuchen, ergänzen wir Delta<hi rend="subscript">Bur</hi> und Delta<hi rend="subscript">Q</hi> um weitere Delta-Varianten, die auf dem
                               allgemeinen Minkowski-Abstand basieren: </p>
                               <p>
                                 <formula>
@@ -482,19 +478,12 @@
                                 </formula> für
                                 <hi rend="italic">p </hi>≥ 1.
                               </p>
-                              <p>Wir bezeichnen diese Abstandsmaße allgemein als L
-                                <hi rend="italic subscript">p</hi>-Delta. Der Spezialfall
-                                <hi rend="italic">p </hi>= 1 entspricht dem Manhattan-Abstand (also L
-                                <hi rend="subscript">1</hi>-Delta = Delta
-                                <hi rend="subscript">Bur</hi>), der Spezialfall
-                                <hi rend="italic">p</hi> = 2 dem Euklidischen Abstand (also L
-                                <hi rend="subscript">2</hi>-Delta = Delta
-                                <hi rend="subscript">Q</hi>). Je größer
-                                <hi rend="italic">p</hi> gewählt wird, desto stärker wird L
-                                <hi rend="italic subscript">p</hi>-Delta von einzelnen Ausreißerwerten beeinflusst.
+                              <p>Wir bezeichnen diese Abstandsmaße allgemein als L<hi rend="italic subscript">p</hi>-Delta. Der Spezialfall
+                                <hi rend="italic">p </hi>= 1 entspricht dem Manhattan-Abstand (also L<hi rend="subscript">1</hi>-Delta = Delta<hi rend="subscript">Bur</hi>), der Spezialfall
+                                <hi rend="italic">p</hi> = 2 dem Euklidischen Abstand (also L<hi rend="subscript">2</hi>-Delta = Delta<hi rend="subscript">Q</hi>). Je größer
+                                <hi rend="italic">p</hi> gewählt wird, desto stärker wird L<hi rend="italic subscript">p</hi>-Delta von einzelnen Ausreißerwerten beeinflusst.
                               </p>
-                              <p>Abbildung 2 vergleicht vier unterschiedliche L <hi
-                                rend="italic subscript">p</hi>-Abstandsmaße (für <formula>
+                              <p>Abbildung 2 vergleicht vier unterschiedliche L<hi rend="italic subscript">p</hi>-Abstandsmaße (für <formula>
                                 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><mi
                                   xmlns="http://www.w3.org/1998/Math/MathML">p</mi><mi
                                   xmlns="http://www.w3.org/1998/Math/MathML"> </mi><mo
@@ -514,14 +503,14 @@
                                 xmlns="http://www.w3.org/1998/Math/MathML">,</mo><mi
                                 xmlns="http://www.w3.org/1998/Math/MathML"> </mi><mn
                                 xmlns="http://www.w3.org/1998/Math/MathML">4</mn></mml:math>
-                              </formula>) mit Delta <hi rend="subscript">Cos</hi>. Wir übernehmen
+                              </formula>) mit Delta<hi rend="subscript">Cos</hi>. Wir übernehmen
                               dabei den methodologischen Ansatz von Evert et al. (2015): die 75 Texte
                               werden auf Basis der jeweiligen Delta-Abstände automatisch in 25 Cluster
                               gruppiert; anschließend wird die Güte der Autorenschaftszuschreibung mit
                               Hilfe des <hi rend="italic">adjusted Rand index</hi> (ARI) bestimmt. Ein
                               ARI-Wert von 100% entspricht dabei einer perfekten Erkennung der
                               Autoren, ein Wert von 0% einem rein zufälligen Clustering.
-                              Offensichtlich nimmt die Leistung von L <hi rend="italic subscript"
+                              Offensichtlich nimmt die Leistung von L<hi rend="italic subscript"
                               >p</hi>-Delta mit zunehmendem <hi rend="italic">p </hi>ab; zudem
                               lässt die Robustheit der Maße gegenüber der Anzahl von MFW erheblich
                               nach. </p>
@@ -531,22 +520,17 @@
                               <p rend="figure"><hi rend="bold">Abb. 2</hi>: Clustering-Qualität verschiedener Delta-Maße
                               in Abhängigkeit von der Anzahl von MFW, die als Merkmale verwendet
                               werden. Wie bereits von Janndis et al. (2015) und Evert et al. (2015)
-                              festgestellt wurde, liefert Delta <hi rend="subscript">Bur</hi> (L <hi
-                              rend="subscript">1</hi>) durchgänig bessere Ergebnisse als Argamons
-                              Delta <hi rend="subscript">Q</hi> (L <hi rend="subscript">2</hi>). Delta
-                              <hi rend="subscript">Q</hi> erweist sich als besonders anfällig
-                              gegenüber einer zu großen Anzahl von MFW. Delta <hi rend="subscript"
-                              >Cos</hi> ist in dieser Hinsicht robuster als alle anderen
+                              festgestellt wurde, liefert Delta<hi rend="subscript">Bur</hi> (L<hi rend="subscript">1</hi>) durchgänig bessere Ergebnisse als Argamons
+                              Delta<hi rend="subscript">Q</hi> (L<hi rend="subscript">2</hi>). Delta<hi rend="subscript">Q</hi> erweist sich als besonders anfällig
+                              gegenüber einer zu großen Anzahl von MFW. Delta<hi rend="subscript">Cos</hi> ist in dieser Hinsicht robuster als alle anderen
                               Delta-Varianten und erreicht über einen weiten Wertebereich eine nahezu
                               perfekte Autorenschaftszuschreibung (ARI &gt; 90%). </p>
                               <p>Eine Vektor-Normalisierung verbessert die Qualität aller Delta-Maße
-                                erheblich (vgl. Abb. 3). Argamons Delta <hi rend="subscript">Q</hi> ist
-                                in diesem Fall identisch zu Delta <hi rend="subscript">Cos</hi>: die
+                                erheblich (vgl. Abb. 3). Argamons Delta<hi rend="subscript">Q</hi> ist
+                                in diesem Fall identisch zu Delta<hi rend="subscript">Cos</hi>: die
                                 rote Kurve wird von der grünen vollständig überdeckt. Aber auch andere
-                                Delta-Maße (Delta <hi rend="subscript">Bur</hi>, L <hi rend="subscript"
-                                >1.4</hi>-Delta) erzielen praktisch dieselbe Qualität wie Delta <hi
-                                rend="subscript">Cos</hi>. Einzig das für Ausreißer besonders
-                                anfällige L <hi rend="subscript">4</hi>-Delta fällt noch deutlich
+                                Delta-Maße (Delta<hi rend="subscript">Bur</hi>, L<hi rend="subscript">1.4</hi>-Delta) erzielen praktisch dieselbe Qualität wie Delta<hi rend="subscript">Cos</hi>. Einzig das für Ausreißer besonders
+                                anfällige L<hi rend="subscript">4</hi>-Delta fällt noch deutlich
                                 gegenüber den anderen Maßen ab. Diese Ergebnisse scheinen zunächst H1 zu
                                 bestätigen. </p>
                                 <figure>
@@ -566,8 +550,7 @@
                                   Ausreißern praktisch nicht. Abschneiden großer <hi rend="italic"
                                   >z</hi>-Werte wirkt sich nur auf überdurchschnittlich häufige Wörter aus
                                   (rechts oben). Wie in Abbildung 5 zu sehen ist, wird durch diese
-                                  Maßnahme ebenfalls die Qualität aller L <hi rend="italic subscript"
-                                  >p</hi>-Deltamaße deutlich verbessert. Der positive Effekt fällt
+                                  Maßnahme ebenfalls die Qualität aller L<hi rend="italic subscript">p</hi>-Deltamaße deutlich verbessert. Der positive Effekt fällt
                                   aber merklich geringer aus als bei der Vektor-Normalisierung. </p>
                                   <figure>
                                     <graphic n="1004" width="14.962188888888889cm" height="9.782969444444445cm" url="0010-4.png" rend="inline"/>
@@ -605,7 +588,7 @@
                                   <hi rend="italic">z</hi> &lt; –0.43) Häufigkeit der Wörter. </p>
                                   <p>Abbildung 6 zeigt, dass solche Profil-Vektoren hervorragende Ergebnisse
                                     erzielen, die der Vektor-Normalisierung praktisch ebenbürtig sind.
-                                    Selbst das besonders anfällige L <hi rend="subscript">4</hi>-Deltamaß
+                                    Selbst das besonders anfällige L<hi rend="subscript">4</hi>-Deltamaß
                                     erzielt eine weitgehend robuste Clustering-Qualität von über 90%. Wir
                                     interpretieren diese Beobachtung als eine deutliche Bestätigung der
                                     Hypothese H2. </p>
@@ -613,8 +596,7 @@
                                 </div>
                                 <div xml:id="h.s8jqv3z88nyt" type="div2" rend="DH-Heading2">
                                   <head>Diskussion und Ausblick</head>
-                                  <p>H1, die Ausreißerhypothese, konnte widerlegt werden, da die Vektor-Normalisierung die Anzahl von Extremwerten kaum verringert und dennoch die Qualität aller L
-                                    <hi rend="italic subscript">p</hi>-Maße deutlich verbessert wird. H2, die Schlüsselprofil-Hypothese, konnte dagegen bestätigt werden. Die ternäre Quantisierung der Vektoren zeigt deutlich, dass nicht das Maß der Abweichung bzw. die Größe der Amplitude wichtig ist, sondern das Profil der Abweichung über die MFW hinweg. Auffällig ist das unterschiedliche Verhalten der Maße, wenn mehr als 2000 MFW verwendet werden. Fast alle Varianten zeigen bei sehr vielen Features eine Verschlechterung, aber sie unterscheiden sich darin, wann dieser Verfall einsetzt. Wir vermuten, dass das Vokabular in diesem Bereich weniger spezifisch für den Autor, und eher für Themen und Inhalte ist. Die Klärung dieser Fragen wird zusätzliche Experimente erfordern.
+                                  <p>H1, die Ausreißerhypothese, konnte widerlegt werden, da die Vektor-Normalisierung die Anzahl von Extremwerten kaum verringert und dennoch die Qualität aller L<hi rend="italic subscript">p</hi>-Maße deutlich verbessert wird. H2, die Schlüsselprofil-Hypothese, konnte dagegen bestätigt werden. Die ternäre Quantisierung der Vektoren zeigt deutlich, dass nicht das Maß der Abweichung bzw. die Größe der Amplitude wichtig ist, sondern das Profil der Abweichung über die MFW hinweg. Auffällig ist das unterschiedliche Verhalten der Maße, wenn mehr als 2000 MFW verwendet werden. Fast alle Varianten zeigen bei sehr vielen Features eine Verschlechterung, aber sie unterscheiden sich darin, wann dieser Verfall einsetzt. Wir vermuten, dass das Vokabular in diesem Bereich weniger spezifisch für den Autor, und eher für Themen und Inhalte ist. Die Klärung dieser Fragen wird zusätzliche Experimente erfordern.
                                   </p>
                                 </div>
                               </div>
@@ -918,20 +900,14 @@
                                                                     <p rend="figure"><hi rend="bold">Abb. 19</hi>: Clusteringqualität in Abhängigkeit von der
                                                                     Anzahl der häufigsten Wörter</p>
                                                                     <p>Da das Hauptziel eine korrekte Zuordnung der Übersetzer ist, soll die Menge der 500 häufigsten Wörter (im Folgenden
-                                                                      <hi rend="italic">MFW500</hi>), mit der ein ARI
-                                                                      <hi rend="subscript">Ü</hi> von 0,437 erreicht wird, als Vergleichsmaßstab für die weiteren Versuche dienen. Für ein Clustering nach Disziplinen wird mit diesen Wörtern ein ARI
-                                                                      <hi rend="subscript">D</hi> von 0.696 erreicht.
+                                                                      <hi rend="italic">MFW500</hi>), mit der ein ARI<hi rend="subscript">Ü</hi> von 0,437 erreicht wird, als Vergleichsmaßstab für die weiteren Versuche dienen. Für ein Clustering nach Disziplinen wird mit diesen Wörtern ein ARI<hi rend="subscript">D</hi> von 0.696 erreicht.
                                                                     </p>
                                                                     <figure>
                                                                       <graphic n="10020" width="16cm" height="9.48cm" url="0010-20.png" rend="inline"/>
                                                                     </figure>
                                                                     <p rend="figure"><hi rend="bold">Abb. 20</hi>: Dendrogramm für das Clustering mit MFW500,
                                                                     Einfärbung nach Übersetzern</p>
-                                                                    <p>Durch RFE wählen wir aus der Gesamtmenge weniger als 500 Wörter aus. Mit 483 Wörtern ist eine perfekte Klassifikation nach Übersetzern möglich. Wenig überraschend erzielen wir mit diesen Wörtern auch ein perfektes Clustering der Texte nach Übersetzern (ARI
-                                                                      <hi rend="subscript">Ü</hi>=1,0). Auch für die Disziplinen lässt sich eine Menge von 475 Wörtern finden, bei der die Texte sich perfekt aufteilen lassen (ARI
-                                                                      <hi rend="subscript">D</hi>=1,0). Da die durch RFE bestimmten Wörter teilweise sehr spezifisch sind und dadurch zu befürchten ist, dass Merkmale selektiert werden, die jeweils nur zwei Texte aneinander binden oder voneinander trennen, wählen wir aus den für die Übersetzer RFE-selektierten Merkmalen diejenigen aus, die auch in MFW500 enthalten sind. Mit diesen 68 Wörtern ist immer noch eine sehr gute, wenn auch nicht perfekte Unterscheidung der Übersetzer möglich (ARI
-                                                                      <hi rend="subscript">Ü</hi>=0,910). Disziplinen lassen sich mit diesen Merkmalen nur sehr schlecht unterscheiden (ARI
-                                                                      <hi rend="subscript">D</hi>=0,162).
+                                                                    <p>Durch RFE wählen wir aus der Gesamtmenge weniger als 500 Wörter aus. Mit 483 Wörtern ist eine perfekte Klassifikation nach Übersetzern möglich. Wenig überraschend erzielen wir mit diesen Wörtern auch ein perfektes Clustering der Texte nach Übersetzern (ARI<hi rend="subscript">Ü</hi> = 1,0). Auch für die Disziplinen lässt sich eine Menge von 475 Wörtern finden, bei der die Texte sich perfekt aufteilen lassen (ARI<hi rend="subscript">D</hi> = 1,0). Da die durch RFE bestimmten Wörter teilweise sehr spezifisch sind und dadurch zu befürchten ist, dass Merkmale selektiert werden, die jeweils nur zwei Texte aneinander binden oder voneinander trennen, wählen wir aus den für die Übersetzer RFE-selektierten Merkmalen diejenigen aus, die auch in MFW500 enthalten sind. Mit diesen 68 Wörtern ist immer noch eine sehr gute, wenn auch nicht perfekte Unterscheidung der Übersetzer möglich (ARI<hi rend="subscript">Ü</hi> = 0,910). Disziplinen lassen sich mit diesen Merkmalen nur sehr schlecht unterscheiden (ARI<hi rend="subscript">D</hi> = 0,162).
                                                                     </p>
                                                                     <figure>
                                                                       <graphic n="10021" width="16cm" height="9.48cm" url="0010-21.png" rend="inline"/>
@@ -946,18 +922,14 @@
                                                                     </figure>
                                                                     <p rend="figure"><hi rend="bold">Abb. 22</hi>: Heatmap der <hi rend="italic">z</hi>-Werte aus
                                                                     der Schnittmenge von RFE und MFW500 </p>
-                                                                    <p>Die 432 Wörter aus MFW500, die in der Menge der RFE-selektierten Wörter nicht enthalten sind, unterscheiden, wie erwartet, deutlich schlechter zwischen Übersetzern (ARI
-                                                                      <hi rend="subscript">Ü</hi>=0,222), dafür aber sehr gut zwischen Disziplinen (ARI
-                                                                      <hi rend="subscript">D</hi>=0,727) – überraschenderweise sogar deutlich besser als alle 500 Wörter aus MFW500.
+                                                                    <p>Die 432 Wörter aus MFW500, die in der Menge der RFE-selektierten Wörter nicht enthalten sind, unterscheiden, wie erwartet, deutlich schlechter zwischen Übersetzern (ARI<hi rend="subscript">Ü</hi> = 0,222), dafür aber sehr gut zwischen Disziplinen (ARI<hi rend="subscript">D</hi> = 0,727) – überraschenderweise sogar deutlich besser als alle 500 Wörter aus MFW500.
                                                                     </p>
                                                                     <figure>
                                                                       <graphic n="10023" width="16cm" height="9.48cm" url="0010-23.png" rend="inline"/>
                                                                     </figure>
                                                                     <p rend="figure"><hi rend="bold">Abb. 23</hi>: Dendrogramm für das Clustering mit der
                                                                     Differenzmenge aus MFW500 und RFE, Einfärbung nach Disziplinen</p>
-                                                                    <p>Bei den Disziplinen erzielt die Schnittmenge der dafür mit RFE ausgewählten Wörter mit MFW500 sogar perfekte Ergebnisse (Anzahl der Merkmale: 109, ARI=1,0). Die Differenzmenge zeigt hier allerdings nicht den oben beschriebenen Effekt. Zwar ist die Clusteringqualität nach Disziplinen deutlich schlechter als der mit MFW500 erzielte Wert (ARI
-                                                                      <hi rend="subscript">D</hi>=0,384), die nach Übersetzern aber ebenfalls (ARI
-                                                                      <hi rend="subscript">Ü</hi>=0,198).
+                                                                    <p>Bei den Disziplinen erzielt die Schnittmenge der dafür mit RFE ausgewählten Wörter mit MFW500 sogar perfekte Ergebnisse (Anzahl der Merkmale: 109, ARI=1,0). Die Differenzmenge zeigt hier allerdings nicht den oben beschriebenen Effekt. Zwar ist die Clusteringqualität nach Disziplinen deutlich schlechter als der mit MFW500 erzielte Wert (ARI<hi rend="subscript">D</hi> = 0,384), die nach Übersetzern aber ebenfalls (ARI<hi rend="subscript">Ü</hi> = 0,198).
                                                                     </p>
                                                                     <p>Um die Robustheit der Ergebnisse zu prüfen und insbesondere gegen ein Overfitting durch das RFE-Verfahren abzusichern, kann das bisher Beschriebene mit einem in ein Trainingsset und ein Testset aufgeteilten Korpus wiederholt werden, wobei die RFE-selektierten Wörter aus dem Trainingsset bestimmt und im Testset getestet werden. Dabei lassen sich die mit dem Gesamtkorpus beschriebenen Effekte reproduzieren, wenn auch – aufgrund der dann sehr kleinen Textanzahl – in schwächerer Ausprägung. </p>
                                                                   </div>
