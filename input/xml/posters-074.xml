@@ -88,7 +88,7 @@
         hat sich u.a. zur Aufgabe gemacht, eine zweckdienliche Datengrundlage (Fischer i.E.)
         und ein dazugehöriges Methodeninventar (Scholze-Stubenrecht 2013) aufzubauen. </p>
         <p>Für die Erstellung von Korpusanalysen mit Auswertung nach eigens erarbeiteten
-          Bewertungskriterien (Krome, 2013) ist das Projekt auf eine geeignete
+          Bewertungskriterien (Krome 2013) ist das Projekt auf eine geeignete
           Korpusinfrastruktur angewiesen, die es den beteiligten Partnern erlaubt,
           entsprechende Suchanfragen auf den einerseits umfangreichen (über 10 Mrd. Tokens),
           andererseits aus datenschutz- und urheberrechtlichen Gründen mitunter verteilt
@@ -176,7 +176,7 @@
                   <listBibl>
                     <head>Bibliographie</head>
                     <bibl><hi rend="bold">Bański, Piotr / Bingel, Joachim / Diewald, Nils / Frick,
-                      Elena / Hanl, Michael / Kupietz, Marc / Pezik, Piotr / Schnober, Carsten
+                      Elena / Hanl, Michael / Kupietz, Marc / Pęzik, Piotr / Schnober, Carsten
                       / Witt, Andreas</hi> (2013): "KorAP: the new corpus analysis platform at
                       IDS Mannheim." Präsentiert auf der <hi rend="italic">6th Conference on
                       Language and Technology (LTC-2013), Poznan, Polen, Dezember
@@ -189,7 +189,7 @@
                         <bibl><hi rend="bold">Bodmer, Franck</hi> (1996): "Aspekte der
                         Abfragekompononente von COSMAS-II", in: <hi rend="italic">LDV-INFO</hi> 8.
                         Informationsschrift der Arbeitsstelle Linguistische Datenverarbeitung
-                        112-122. </bibl>
+                        112-122.</bibl>
                         <bibl><hi rend="bold">Fischer, Peter M.</hi> (i.E.): <hi rend="italic">Eine
                         Datenbasis zur Beobachtung des Schreibgebrauchs im Deutschen</hi></bibl>
                         <bibl><hi rend="bold">Gray, Jim</hi> (2003): <hi rend="italic">Distributed
@@ -226,7 +226,7 @@
                               the Management of Large Corpora (CMLC2)</hi> 1-6. </bibl>
                               <bibl><hi rend="bold">Münzberg, Franziska</hi> (2011): "Korpusrecherche in der
                               Dudenredaktion. Ein Werkstattbericht", in: Konopka, Marek / Kubczak,
-                              Jacqueline / Mair, Christian / ticha, František / Waßner, Ulrich H.(eds.):
+                              Jacqueline / Mair, Christian / ticha, František / Waßner, Ulrich H. (eds.):
                               <hi rend="italic">Grammatik und Korpora 2009</hi>. Tübingen: Narr
                               Francke Attempto 181–197.</bibl>
                               <bibl><hi rend="bold">Schiller, Anne / Teufel, Simone / Stöckert, Christine /
@@ -250,7 +250,8 @@
                                 2016].</bibl>
                                 <bibl><hi rend="bold">van Uytvanck, Dieter</hi> (2010): <hi rend="italic">CLARIN
                                 Short Guide on Virtual Collections</hi>. Technical report. CLARIN
-                                <ref target="ref">http://www.clarin.eu/files/virtual_collections-CLARIN-ShortGuide.pdf</ref> [letzter Zugriff 26. Februar 2016].</bibl>
+                                <ref target="http://www.clarin.eu/files/virtual_collections-CLARIN-ShortGuide.pdf"
+				     >http://www.clarin.eu/files/virtual_collections-CLARIN-ShortGuide.pdf</ref> [letzter Zugriff 26. Februar 2016].</bibl>
                               </listBibl>
                             </div>
                           </back>
