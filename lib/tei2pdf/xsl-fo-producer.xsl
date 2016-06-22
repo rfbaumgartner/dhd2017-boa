@@ -7,7 +7,7 @@
   xmlns:m="http://www.w3.org/1998/Math/MathML"
   xpath-default-namespace="http://www.tei-c.org/ns/1.0" >
 
-  <xsl:output indent="yes"/>
+  <xsl:output indent="no"/><!-- Wed, 22 Jun 2016 10:02:03 +0200 moocow: indent="yes" breaks manual formatting (e.g. for subscripts) -->
   <!--<xsl:strip-space elements="*"/>-->
   <!--<xsl:preserve-space elements="bibl"/>-->
 
@@ -137,14 +137,16 @@
     <xsl:attribute name="font-family">Arial Unicode MS</xsl:attribute>
     <xsl:attribute name="font-style">normal</xsl:attribute>
   </xsl:template>
-
+  
   <xsl:template name="fraction">
     <xsl:value-of select="./hi[@rend='over']" />
     <xsl:text>/</xsl:text>
     <xsl:value-of select="./hi[@rend='under']" />
   </xsl:template>
 
-
+  <xsl:template name="sameline">
+    <xsl:attribute name="keep-together.within-line">always</xsl:attribute>
+  </xsl:template>
 
   <!-- Super and sub script -->
 
@@ -1567,6 +1569,9 @@ Individual style templates for TEI
     </xsl:when>
     <xsl:when test="@rend='math_alt_font'">
       <fo:inline ><xsl:call-template name="math_alt_font"/><xsl:apply-templates/></fo:inline>
+    </xsl:when>
+    <xsl:when test="@rend='sameline'"><!-- Wed, 22 Jun 2016 10:47:14 +0200 moocow: suppress line breaks (e.g. in formulae) -->
+      <fo:inline ><xsl:call-template name="sameline"/><xsl:apply-templates/></fo:inline>
     </xsl:when>
     <xsl:otherwise>
       <xsl:apply-templates/>

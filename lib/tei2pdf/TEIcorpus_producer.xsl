@@ -17,7 +17,7 @@
 
          ================================================================================= -->
 
-    <xsl:output indent="yes"/>
+    <xsl:output indent="no"/><!-- Wed, 22 Jun 2016 10:02:03 +0200 moocow: indent="yes" breaks manual formatting (e.g. for subscripts) -->
 
     <!-- This is a wildly inefficient but convienent way to select documents -->
     <xsl:variable name="files" select="collection('../../input/xml?recurse=yes;select=*.xml')"/>
