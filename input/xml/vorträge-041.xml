@@ -159,8 +159,8 @@
           <div type="div2" rend="DH-Heading2">
             <head>Anfragen &amp; Parameter</head>
             <p><hi rend="italic">DiaCollo</hi> ist ein anfrageorientierter Dienst. Er
-            behandelt eine Benutzeranfrage als eine Menge von ( <hi rend="italic"
-            >Parameter=Wert</hi>)-Paaren und liefert ein korrespondierendes Profil
+            behandelt eine Benutzeranfrage als eine Menge von (<hi rend="italic">Parameter=Wert</hi>)-Paaren
+	    und liefert ein korrespondierendes Profil
             für den/die angefragten Term(e) zurück. Die Parameter werden wie bei einem
             üblichen Web-Formular an den Service RESTfully via HTTP GET oder POST
             Anfrage überreicht. Jede Anfrage muss einen <hi rend="italic">query</hi>
@@ -178,11 +178,11 @@
           <div type="div2" rend="DH-Heading2">
             <head>Profile &amp; Diffs</head>
             <p>Das Ergebnis einer einfachen <hi rend="italic">DiaCollo</hi> Anfrage wird als
-            tabellarisches Profil der <hi rend="italic">k</hi>-best Kollokate für
+            tabellarisches Profil der <hi rend="math">k</hi>-best Kollokate für
             den/die angefragte(n) Term(e) in jedem der angefragten Zeit-Subintervalle
             ausgegeben (“Epochen” oder “Slices”, e.g. Dekaden), die mit den Parameter
-            <hi rend="italic">date</hi> und <hi rend="italic">slice
-          </hi>spezifiziert wurden. Als Alternative kann der Benutzer auch ein
+            <hi rend="italic">date</hi> und <hi rend="italic">slice</hi>
+	    spezifiziert wurden. Als Alternative kann der Benutzer auch ein
           Vergleichs- bzw. “Diff”-Profil anfordern, um die salientesten Unterschiede
           zwischen zwei unabhängigen Anfragen hervorzuheben; z. B. zwischen zwei
           verschiedenen Worten oder zwischen den Vorkommen eines Wortes in
@@ -192,12 +192,12 @@
           <head>Indizes, Attribute &amp; Aggregierung</head>
           <p><hi rend="italic">DiaCollo</hi> benutzt eine interne “native” Indexstruktur
           über alle Inhaltswörter des Eingabekorpus, um Kollokationsprofile zu
-          berechnen. Jedes indizierte Wort wird als <hi rend="italic">n</hi>-Tupel
+          berechnen. Jedes indizierte Wort wird als <hi rend="math">n</hi>-Tupel
           linguistisch relevanten Token- oder Dokumentattribute behandelt, zusätzlich
           zum Dokumentdatum. Die Attribute <hi rend="italic">Lemma (l)</hi> und <hi
           rend="italic">Pos (p)</hi> (“part-of-speech”) werden per Default
-          indiziert. Die Anfrageparameter <hi rend="italic">query </hi>und <hi
-          rend="italic">groupby</hi> werden als logische Konjunktionen von
+          indiziert. Die Anfrageparameter <hi rend="italic">query</hi> und
+	  <hi rend="italic">groupby</hi> werden als logische Konjunktionen von
           Suchkriterien bezüglich dieser Attribute interpretiert, um die genauen zu
           profilierenden Token-Tupel zu selegieren. Um eine feinkörnigere Auswahl von
           Profilzielen zu ermöglichen, unterstützt DiaCollo den gesamten Umfang der
@@ -206,36 +206,43 @@
         </div>
         <div type="div2" rend="DH-Heading2">
           <head>Scoring &amp; Pruning</head>
-          <p><hi rend="italic">DiaCollo</hi> weist jedem Kollokat <hi rend="italic"
-          >w</hi><hi rend="sub">2</hi> eines unären Profils für einen Zielterm <hi
-          rend="italic">w</hi><hi rend="sub">1</hi> mittels einer
+          <p><hi rend="italic">DiaCollo</hi> weist jedem Kollokat
+	  <hi rend="sameline"><hi rend="math">w</hi><hi rend="sub">2</hi></hi> eines unären Profils für einen Zielterm
+	  <hi rend="sameline"><hi rend="math">w</hi><hi rend="sub">1</hi></hi> mittels einer
           benutzerspezifizierten <hi rend="italic">Scorefunktion</hi> einen
           reellwertigen Assoziationswert (“score”) zu. Zu den unterstützten
-          Scorefunktionen zählen absolute und logarithmische Frequenzen (<hi
-          rend="italic">f, lf</hi>), normierte absolute und logarithmische
-          Frequenzen pro Mio. Token (<hi rend="italic">fm, lfm</hi>), das <hi
-          rend="italic">pointwise mutual information</hi> × log Frequenz Produkt
+          Scorefunktionen zählen absolute und logarithmische Frequenzen
+          (<hi rend="italic">f, lf</hi>), normierte absolute und logarithmische
+          Frequenzen pro Mio. Token (<hi rend="italic">fm, lfm</hi>), das
+	  <hi rend="italic">pointwise mutual information</hi> × log Frequenz Produkt
           (<hi rend="italic">mi</hi>), und der von Rychlý (2008) vorgeschlagene
           skalierte log-Dice Koeffizient (<hi rend="italic">ld</hi>).
           Kollokatkandidaten werden nach Assoziationswert absteigend geordnet und die
-          <hi rend="italic">k</hi>-besten Kandidaten jeder Epoche ausgewählt und
-          zurückgegeben. Für “diff” Anfragen werden unabhängige Profile <hi
-          rend="italic">p</hi><hi rend="sub">a</hi> und <hi rend="italic"
-          >p</hi><hi rend="sub">b</hi> jeweils für die <hi rend="italic"
-          >query</hi> und <hi rend="italic">bquery</hi> Parameter berechnet. Nach
-          der Sortierung anhand der selegierten Scorefunktion wird ein
-          Vergleichsprofil <hi rend="italic">p</hi><hi rend="sub">a−b</hi> berechnet
-          als <hi rend="italic">p</hi><hi rend="sub">a−b</hi> : <hi rend="italic"
-          >w</hi><hi rend="sub">2</hi> → <hi rend="italic">p</hi><hi rend="sub"
-          >a</hi>(<hi rend="italic">w</hi><hi rend="sub">2</hi>) − <hi
-          rend="italic">p</hi><hi rend="sub">b</hi>(<hi rend="italic">w</hi><hi
-          rend="sub">2</hi>) für jeden der bis zu 2<hi rend="italic">k</hi>
-          Kollokate <hi rend="italic">w</hi><hi rend="sub">2</hi> ∈ k-best(<hi
-          rend="italic">p</hi><hi rend="sub">a</hi>) ∪ k-best(<hi rend="italic"
-          >p</hi><hi rend="sub">b</hi>), wonach die <hi rend="italic"
-          >k</hi>-besten von diesen Kandidaten mit den größten absoluten Unterschieden
-          |<hi rend="italic">p</hi><hi rend="sub">a−b</hi>(<hi rend="italic"
-          >w</hi><hi rend="sub">2</hi>)| selegiert und zurückgegeben werden. </p>
+	  <hi rend="math">k</hi>-besten Kandidaten jeder Epoche ausgewählt und
+          zurückgegeben. Für “diff” Anfragen werden unabhängige Profile
+	  <hi rend="sameline"><hi rend="math">p</hi><hi rend="sub">a</hi></hi> und
+	  <hi rend="sameline"><hi rend="math">p</hi><hi rend="sub">b</hi></hi> jeweils für die
+	  <hi rend="italic">query</hi> und <hi rend="italic">bquery</hi> Parameter berechnet.
+	  Nach der Sortierung anhand der selegierten Scorefunktion wird ein
+          Vergleichsprofil <hi rend="sameline"><hi rend="math">p</hi><hi rend="sub">a−b</hi></hi> berechnet
+          als
+	  <hi rend="sameline"><hi rend="math">p</hi><hi rend="sub">a−b</hi></hi>
+	  : <hi rend="sameline"><hi rend="math">w</hi><hi rend="sub">2</hi></hi>
+	    <hi rend="math_alt_font">↦</hi><!-- LaTeX \mapsto -->
+	    <hi rend="sameline"><hi rend="math">p</hi><hi rend="sub">a</hi></hi>(<hi rend="sameline"><hi rend="math">w</hi><hi rend="sub">2</hi></hi>)
+	    −
+	    <hi rend="sameline"><hi rend="math">p</hi><hi rend="sub">b</hi></hi>(<hi rend="sameline"><hi rend="math">w</hi><hi rend="sub">2</hi></hi>)
+	  für jeden der bis zu 2<hi rend="math">k</hi>
+          Kollokate
+	  <hi rend="sameline"><hi rend="math">w</hi><hi rend="sub">2</hi></hi>
+	  <hi rend="math_alt_font">∈</hi><!-- LaTex \in -->
+	    <hi rend="math">k</hi>-best(<hi rend="sameline"><hi rend="math">p</hi><hi rend="sub">a</hi></hi>)
+	    <hi rend="math_alt_font">∪</hi><!-- LaTeX  \cup -->
+	    <hi rend="math">k</hi>-best(<hi rend="sameline"><hi rend="math">p</hi><hi rend="sub">b</hi></hi>),
+	  wonach die <hi rend="math">k</hi>-besten von diesen Kandidaten
+	  mit den größten absoluten Unterschieden
+          <hi rend="sameline">|<hi rend="math">p</hi><hi rend="sub">a−b</hi>(</hi><hi rend="sameline"><hi rend="math">w</hi><hi rend="sub">2</hi>)|</hi>
+	  selegiert und zurückgegeben werden. </p>
         </div>
         <div type="div2" rend="DH-Heading2">
           <head>Ausgabe &amp; Visualisierung</head>
