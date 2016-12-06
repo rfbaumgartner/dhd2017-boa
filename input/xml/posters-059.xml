@@ -110,79 +110,77 @@
             Blei et al. (2003) beschrieben, basiert ist. Das resultierende Topic-Modell wird mit
             der weit verbreiteten Visualisierungssoftware <ref target="http://agoldst.github.io/dfr-browser">DFR-browser</ref> (cf. Goldstone 2013-2015)
             visualisiert. DFR-browser bietet vielfältige
-              Visualisierungen, unter anderem von Listen der “Topwörter” zu jedem Topic und
-              von Topic-übergreifenden Worträngen.
-            </p>
-            <p>Bei der Topic-Modellierung sieht ein üblicher Ablauf wie folgt aus: Der Nutzer lädt eine Textsammlung zu WebLicht hinauf; WebLicht berechnet mit dem oben genannten Webservice ein Topic-Modell mit einer vorgegebenen Anzahl an Topics; die resultierenden Topic-Wort- und Topic-Dokument-Verteilungen werden in das vom DFR-browser benötigte Format konvertiert und im Webbrowser des Nutzers visualisiert. Abbildung 1 enthält eine der Visualisierungsansichten und zeigt die am höchsten eingestuften Wörter für sechs abstrakte Topics in einem Topic-Modell berechnet auf Basis eines großen Zeitungskorpus.
-              <anchor xml:id="id_docs-internal-guid-723e671c-553a-abe3-bf3a-344b0e48fb10"/>Die identifizierten Topics korrespondieren grob mit den Themenfeldern Kultur, Finanzen, Reisen, Politik und Familie. Solch ein Modell kann beispielsweise verwendet werden um Artikel aus einem bestimmten Themenfeld auszuwählen bevor weitere automatische oder manuelle Analysen erfolgen.
-            </p>
-            <p>Der vorgestellte Webservice arbeitet zur Zeit mit mehreren Dokumenten, die als
-              einzelne Textdatei ohne Metadaten formatiert sein müssen. <anchor
-              xml:id="id_docs-internal-guid-723e671c-5541-1669-61d5-756d30b5c2e6"/>Der
-              Webservice erlaubt es zur Zeit die gewünschte Anzahl von Themen einzustellen, sowie
-              die häufigsten (zum Beispiel Funktionswörter) oder seltensten (zur Vermeidung von
-              statistischen Störeinflüssen) Wörter herauszufiltern. Die Ergebnisse werden als
-              statische HTML Seite, welche für begrenzte Zeit auf dem Server gespeichert wird,
-              dargestellt. Es ist geplant, zukünftig auch die Metadaten der Dokumente (Autor,
-              Veröffentlichungsdatum usw.) zu verwenden, sowie die Visualisierungen weiter zu
-              verbessern. Abschließend möchten wir bemerken, dass die Integration von
-              Topic-Modellierung in die WebLicht-Umgebung eine Anzahl von Möglichkeiten für die
-              Verarbeitung schafft, wie z.B. das Erstellen von Modellen, die Annotationen (z. B.
-              Part-of-Speech Tags oder syntaktische Relationen) der WebLicht Umgebung nutzen. </p>
-              <p>
-                <figure>
-                  <graphic url="p059-1000000000000480000003D7B99C79E52CBD2CDC.png"/>
-                  <head><hi rend="bold">Abb. 1</hi>: Beispiel Visualisierung mit
-                  DFR-browser.</head>
-                </figure>
-              </p>
-            </body>
-            <back>
-              <div type="bibliogr">
-                <listBibl>
-                  <head>Bibliographie</head>
-                  <bibl><hi rend="bold">Blei, David M. / Ng, Andrew Y. / Jordan, Michael I. </hi>
-                  (2003): "Latent dirichlet allocation", in: <hi rend="italic">The Journal of
-                  machine Learning research</hi> 3: 993-1022. </bibl>
-                  <bibl><hi rend="bold">CLARIN-D / SfS-Uni. Tübingen</hi> (2012): <hi
-                  rend="italic">WebLicht</hi>. Web-Based Linguistic Chaining Tool <ref
-                  target="https://weblicht.sfs.uni-tuebingen.de"
-                  >https://weblicht.sfs.uni-tuebingen.de</ref> [letzter Zugriff 11.
-                  Februar 2016].</bibl>
-                  <bibl><hi rend="bold">Drouin, Jeff</hi> (2011): "Foray Into Topic Modeling", in:
-                  <hi rend="italic">Ecclesiastical Proust Archive</hi>
-                  <ref target="http://www.proustarchive.org/?q=node/35"
-                    >http://www.proustarchive.org/?q=node/35</ref> [letzter Zugriff 11.
-                    Februar 2016]. </bibl>
-                    <bibl><hi rend="bold">Goldstone, Andrew</hi> (2013-2015): <hi rend="italic"
-                    >DFR-browser</hi>
-                    <ref target="http://agoldst.github.io/dfr-browser/"
-                      >http://agoldst.github.io/dfr-browser</ref> [letzter Zugriff 11. Februar
-                      2016].</bibl>
-                      <bibl>
-                        <anchor xml:id="id_docs-internal-guid-91cfa335-6694-8982-a57a-295caa5e2f7f"
-                          /><hi rend="bold">Grifﬁths, Thomas / Steyvers, Mark</hi> (2004):
-                          "Finding scientific topics", in:  <hi rend="italic">Proceedings of the
-                          National Academy of Sciences</hi> 101 (Suppl 1): 5228–5235 <ref
-                          target="www.pnas.org/content/101/suppl_1/5228.full.pdf"
-                          >www.pnas.org/content/101/suppl_1/5228.full.pdf</ref> [letzter Zugriff
-                          11. Februar 2016].</bibl>
-                          <bibl>
-                            <anchor xml:id="id_docs-internal-guid-91cfa335-6694-be6f-338b-6790943f5c4c"
-                              /><hi rend="bold">Jockers, Matthew</hi> (2010): "Who's your DH Blog
-                              Mate: Match-Making the Day of DH Bloggers with Topic Modeling", in: Matthew
-                              Jockers: <hi rend="italic">Homepage</hi>
-                              <ref
-                                target="http://www.matthewjockers.net/2010/03/19/whos-your-dh-blog-mate-match-making-the-day-of-dh-bloggers-with-topic-modeling/"
-                                >http://www.matthewjockers.net/2010/03/19/whos-your-dh-blog-mate-match-making-the-day-of-dh-bloggers-with-topic-modeling</ref>
-                                [letzter Zugriff 11. Februar 2016]. </bibl>
-                                <bibl><hi rend="bold">Storrer, Angelika et al.</hi> (2012-2015): <hi
-                                rend="italic">KobRA</hi>. Korpus-basierte Recherche und Analyse mit
-                                Hilfe von Data-Mining <ref target="http://kobra.tu-dortmund.de/mediawiki/">
-                                http://kobra.tu-dortmund.de/mediawiki/</ref> [letzter Zugriff 11.
-                                Februar 2016].</bibl>
-                              </listBibl>
-                            </div>
-                          </back>
-                        </text>
-                      </TEI>
+            Visualisierungen, unter anderem von Listen der “Topwörter” zu jedem Topic und
+            von Topic-übergreifenden Worträngen.
+          </p>
+          <p>Bei der Topic-Modellierung sieht ein üblicher Ablauf wie folgt aus: Der Nutzer lädt eine Textsammlung zu WebLicht hinauf; WebLicht berechnet mit dem oben genannten Webservice ein Topic-Modell mit einer vorgegebenen Anzahl an Topics; die resultierenden Topic-Wort- und Topic-Dokument-Verteilungen werden in das vom DFR-browser benötigte Format konvertiert und im Webbrowser des Nutzers visualisiert. Abbildung 1 enthält eine der Visualisierungsansichten und zeigt die am höchsten eingestuften Wörter für sechs abstrakte Topics in einem Topic-Modell berechnet auf Basis eines großen Zeitungskorpus.
+            <anchor xml:id="id_docs-internal-guid-723e671c-553a-abe3-bf3a-344b0e48fb10"/>Die identifizierten Topics korrespondieren grob mit den Themenfeldern Kultur, Finanzen, Reisen, Politik und Familie. Solch ein Modell kann beispielsweise verwendet werden um Artikel aus einem bestimmten Themenfeld auszuwählen bevor weitere automatische oder manuelle Analysen erfolgen.
+          </p>
+          <p>Der vorgestellte Webservice arbeitet zur Zeit mit mehreren Dokumenten, die als
+            einzelne Textdatei ohne Metadaten formatiert sein müssen. <anchor
+            xml:id="id_docs-internal-guid-723e671c-5541-1669-61d5-756d30b5c2e6"/>Der
+            Webservice erlaubt es zur Zeit die gewünschte Anzahl von Themen einzustellen, sowie
+            die häufigsten (zum Beispiel Funktionswörter) oder seltensten (zur Vermeidung von
+            statistischen Störeinflüssen) Wörter herauszufiltern. Die Ergebnisse werden als
+            statische HTML Seite, welche für begrenzte Zeit auf dem Server gespeichert wird,
+            dargestellt. Es ist geplant, zukünftig auch die Metadaten der Dokumente (Autor,
+            Veröffentlichungsdatum usw.) zu verwenden, sowie die Visualisierungen weiter zu
+            verbessern. Abschließend möchten wir bemerken, dass die Integration von
+            Topic-Modellierung in die WebLicht-Umgebung eine Anzahl von Möglichkeiten für die
+            Verarbeitung schafft, wie z.B. das Erstellen von Modellen, die Annotationen (z. B.
+            Part-of-Speech Tags oder syntaktische Relationen) der WebLicht Umgebung nutzen. </p>
+            <figure>
+              <graphic url="p059-1000000000000480000003D7B99C79E52CBD2CDC.png"/>
+              <p><hi rend="bold">Abb. 1</hi>: Beispiel Visualisierung mit
+              DFR-browser.</p>
+            </figure>
+          </body>
+          <back>
+            <div type="bibliogr">
+              <listBibl>
+                <head>Bibliographie</head>
+                <bibl><hi rend="bold">Blei, David M. / Ng, Andrew Y. / Jordan, Michael I. </hi>
+                (2003): "Latent dirichlet allocation", in: <hi rend="italic">The Journal of
+                machine Learning research</hi> 3: 993-1022. </bibl>
+                <bibl><hi rend="bold">CLARIN-D / SfS-Uni. Tübingen</hi> (2012): <hi
+                rend="italic">WebLicht</hi>. Web-Based Linguistic Chaining Tool <ref
+                target="https://weblicht.sfs.uni-tuebingen.de"
+                >https://weblicht.sfs.uni-tuebingen.de</ref> [letzter Zugriff 11.
+                Februar 2016].</bibl>
+                <bibl><hi rend="bold">Drouin, Jeff</hi> (2011): "Foray Into Topic Modeling", in:
+                <hi rend="italic">Ecclesiastical Proust Archive</hi>
+                <ref target="http://www.proustarchive.org/?q=node/35"
+                  >http://www.proustarchive.org/?q=node/35</ref> [letzter Zugriff 11.
+                  Februar 2016]. </bibl>
+                  <bibl><hi rend="bold">Goldstone, Andrew</hi> (2013-2015): <hi rend="italic"
+                  >DFR-browser</hi>
+                  <ref target="http://agoldst.github.io/dfr-browser/"
+                    >http://agoldst.github.io/dfr-browser</ref> [letzter Zugriff 11. Februar
+                    2016].</bibl>
+                    <bibl>
+                      <anchor xml:id="id_docs-internal-guid-91cfa335-6694-8982-a57a-295caa5e2f7f"
+                        /><hi rend="bold">Grifﬁths, Thomas / Steyvers, Mark</hi> (2004):
+                        "Finding scientific topics", in:  <hi rend="italic">Proceedings of the
+                        National Academy of Sciences</hi> 101 (Suppl 1): 5228–5235 <ref
+                        target="www.pnas.org/content/101/suppl_1/5228.full.pdf"
+                        >www.pnas.org/content/101/suppl_1/5228.full.pdf</ref> [letzter Zugriff
+                        11. Februar 2016].</bibl>
+                        <bibl>
+                          <anchor xml:id="id_docs-internal-guid-91cfa335-6694-be6f-338b-6790943f5c4c"
+                            /><hi rend="bold">Jockers, Matthew</hi> (2010): "Who's your DH Blog
+                            Mate: Match-Making the Day of DH Bloggers with Topic Modeling", in: Matthew
+                            Jockers: <hi rend="italic">Homepage</hi>
+                            <ref
+                              target="http://www.matthewjockers.net/2010/03/19/whos-your-dh-blog-mate-match-making-the-day-of-dh-bloggers-with-topic-modeling/"
+                              >http://www.matthewjockers.net/2010/03/19/whos-your-dh-blog-mate-match-making-the-day-of-dh-bloggers-with-topic-modeling</ref>
+                              [letzter Zugriff 11. Februar 2016]. </bibl>
+                              <bibl><hi rend="bold">Storrer, Angelika et al.</hi> (2012-2015): <hi
+                              rend="italic">KobRA</hi>. Korpus-basierte Recherche und Analyse mit
+                              Hilfe von Data-Mining <ref target="http://kobra.tu-dortmund.de/mediawiki/">
+                              http://kobra.tu-dortmund.de/mediawiki/</ref> [letzter Zugriff 11.
+                              Februar 2016].</bibl>
+                            </listBibl>
+                          </div>
+                        </back>
+                      </text>
+                    </TEI>
