@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-039">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-039">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -92,7 +92,7 @@
         rend="italic">best practice</hi>-Vorschläge. Eine direkte Übertragung
         linguistischer Annotationsanleitungen auf den literaturwissenschaftlichen Bereich
         scheint dabei aus mindestens drei Gründen nicht möglich: </p>
-        <list type="ordered">
+        <list type="unordered">
           <item>Literarische Texte sind in der Regel polyvalent, d. h. mehrdeutig: Während
             kollaboratives Annotieren im Bereich der Linguistik letztlich der Vermeidung
             individueller Annotations<hi rend="italic">fehler</hi> dient und eine
@@ -119,19 +119,18 @@
               practice</hi> herausgestellt (vgl. Abbildung 1): </p>
               <figure>
                 <graphic n="1001" width="16.002cm" height="10.401652777777779cm" url="039-image1.png" rend="inline"/>
+                <p><hi rend="bold">Abb. 1</hi>: Ablaufschema kollaborative literaturwissenschaftliche Annotation </p>
               </figure>
-              <p>
-                <hi rend="bold">Abb. 1</hi>: Ablaufschema kollaborative literaturwissenschaftliche
-                Annotation </p>
 
-                <list type="bulleted"><item>Schritt 1: <hi rend="italic">Möglichst genaue Definition der Annotationskategorien.</hi> Es ist sinnvoll, die zugrundeliegenden Annotationskategorien bereits vor der Annotation so spezifisch wie möglich zu definieren. Geschieht dies nicht, so ist es letztlich schwieriger festzustellen, ob sich Annotationen tatsächlich auf Basis der Polyvalenz des literarischen Textes unterscheiden oder aufgrund vager Kategoriendefinitionen. Wenn die Definition einer traditionellen literaturwissenschaftlichen Kategorie auf zwei unterschiedliche Arten verstanden werden kann und beide Varianten interessante Textphänomene beschreiben, dann ist es problemlos möglich, beide Varianten zu operationalisieren – allerdings als sorgfältig getrennte Konzepte. Die Forderung der möglichst genauen Definition geht also nicht notwendigerweise mit einer Beschränkung des Erkenntnisinteresses einher. Zusätzlich zur Definition der Annotationskategorie sollten auch die Textoberflächenindikatoren festgehalten werden, die auf das jeweilige Phänomen hinweisen, sowie die Granularität der annotierten Zeichenkette (Fragment, Wort, Teilsatz, Satz etc.). Die Festlegungen werden in Form von Annotationsguidelines dokumentiert, die allen Annotatoren als Annotationsbasis dienen.</item>
+                <list type="unordered">
+                  <item>Schritt 1: <hi rend="italic">Möglichst genaue Definition der Annotationskategorien.</hi> Es ist sinnvoll, die zugrundeliegenden Annotationskategorien bereits vor der Annotation so spezifisch wie möglich zu definieren. Geschieht dies nicht, so ist es letztlich schwieriger festzustellen, ob sich Annotationen tatsächlich auf Basis der Polyvalenz des literarischen Textes unterscheiden oder aufgrund vager Kategoriendefinitionen. Wenn die Definition einer traditionellen literaturwissenschaftlichen Kategorie auf zwei unterschiedliche Arten verstanden werden kann und beide Varianten interessante Textphänomene beschreiben, dann ist es problemlos möglich, beide Varianten zu operationalisieren – allerdings als sorgfältig getrennte Konzepte. Die Forderung der möglichst genauen Definition geht also nicht notwendigerweise mit einer Beschränkung des Erkenntnisinteresses einher. Zusätzlich zur Definition der Annotationskategorie sollten auch die Textoberflächenindikatoren festgehalten werden, die auf das jeweilige Phänomen hinweisen, sowie die Granularität der annotierten Zeichenkette (Fragment, Wort, Teilsatz, Satz etc.). Die Festlegungen werden in Form von Annotationsguidelines dokumentiert, die allen Annotatoren als Annotationsbasis dienen.</item>
                 <item>Schritt 2: <hi rend="italic">Individuelle Annotation.</hi> Jeder Annotator
                 annotiert auf Basis der Guidelines die Korpustexte individuell. Dadurch soll
                 gewährleistet werden, dass nicht gleich zu Beginn eine gegenseitige
                 Beeinflussung der Anntotatoren besteht, sondern unterschiedliche Lesarten auch
                 tatsächlich in den Annotationen abgebildet werden.
 
-                <list type="bulleted"><item><hi rend="italic">falls notwendig: Verfeinerung der
+                <list type="unordered"><item><hi rend="italic">falls notwendig: Verfeinerung der
                   Annotationskategorien</hi>. Eventuell stellt sich bereits in der
                   individuellen Annotationsrunde heraus, dass einige Annotationskategorien
                   noch nicht spezifisch genug definiert sind, um eine regelgeleitete
@@ -145,7 +144,7 @@
                   diskrepanter Annotationen werden die jeweiligen Gründe der
                   Annotationsentscheidung diskutiert. Generell können vier Arten von Gründen für
                   widersprüchliche Annotationen auftreten, die unterschiedliche Maßnahmen
-                  erfordern: <list type="ordered">
+                  erfordern: <list type="unordered">
                   <item n="a">
                     <hi rend="italic">falsche Annotation</hi>: Eine der Annotationen basiert
                     auf einem eindeutig falschen Verständnis der fraglichen Textstelle oder
