@@ -120,16 +120,12 @@
           <head>Über nodegoat </head>
           <p><ref target="http://nodegoat.net/">nodegoat</ref> is a web-based data management, network analysis and visualisation environment. nodegoat allows scholars to build datasets based on their own data model and offers relational modes of analysis with spatial and diachronic contextualisation. By combining these elements within one environment, scholars are able to instantly process, analyse and visualise complex datasets relationally, diachronically and spatially; trailblazing. nodegoat follows an object-oriented approach throughout its core functionalities. Borrowing from actor-network theory this means that people, events, artefacts, and sources are treated as equal: objects, and hierarchy depends solely on the composition of the network: relations. This object-oriented approach advocates the self-identification of individual objects and maps the correlation of objects within the collective.
         </p>
-        <p>
-          <figure>
-            <graphic url="00000.jpg"/>
-          </figure>
-        </p>
-        <p>
-          <figure>
-            <graphic url="00001.jpg"/>
-          </figure>
-        </p>
+        <figure>
+          <graphic url="00000.jpg"/>
+        </figure>
+        <figure>
+          <graphic url="00001.jpg"/>
+        </figure>
       </div>
       <div type="div1" rend="DH-Heading">
         <head>Beispielprojekte </head>
@@ -160,7 +156,7 @@
   <list type="unordered">
     <item>Schauen Sie sich
       <hi rend="italic">nodegoat Video Tutorials</hi> auf YouTube an
-      <ref target="https://www.youtube.com/watch?v=eLDRNiJrRUc&amp;list=PLXc6y7l7xxxIwd64Qppy AA0G2ECsNGJCx">https://www.youtube.com/watch?v=eLDRNiJrRUc&amp;list=PLXc6y7l7xxxIwd64QppyAA0G2ECsNGJCx </ref>
+      <ref target="https://www.youtube.com/watch?v=eLDRNiJrRUc&amp;list=PLXc6y7l7xxxIwd64QppyAA0G2ECsNGJCx">https://www.youtube.com/watch?v=eLDRNiJrRUc&amp;list=PLXc6y7l7xxxIwd64Qpp yAA0G2ECsNGJCx </ref>
     </item>
     <item>Bitte lesen Sie den Blog-Beitrag
       <ref target="http://nodegoat.net/blog.s/3/enter-curate--explore-data"><hi rend="italic">Enter, Curate &amp; Explore Data</hi></ref>

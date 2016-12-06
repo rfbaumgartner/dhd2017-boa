@@ -130,7 +130,7 @@
     Komponenten von DARIAH-DE. TextGrid setzt sich aus dem TextGrid Repository, einem
     digitalen Forschungsdaten-XML-Langzeitarchiv, und dem TextGrid Laboratory zusammen. </p>
     <p>Das TextGrid Laboratory dient als Einstiegspunkt in die virtuelle Forschungsumgebung mit Werkzeugen und Diensten in einer anpassbaren Software, in die weitere digitale Arbeitsmittel und eigene Tools integriert werden können. Eine Vielzahl von Werkzeugen im Laboratory erlaubt das Arbeiten mit Texten und Bildern, aber auch beispielsweise mit Noten und Digitalisaten. Wichtige Komponenten sind:</p>
-    <list type="ordered">
+    <list type="unordered">
       <item>Ein frei verfügbarer XML-Editor erlaubt das Bearbeiten von XML-Dateien,
         Anwender_innen können dabei beliebig zwischen vier Ansichten wechseln: (i) einer
         Ansicht des XML-Baumes, in den Knoten ergänzt und in dem Elemente verändert
