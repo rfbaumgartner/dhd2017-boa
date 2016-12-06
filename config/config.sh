@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # locate saxon jar file
-sax_jar=lib/saxon9he.jar
+sax_jar=lib/SaxonHE9-7-0-8J/saxon9he.jar
 
 # locate FOP base directory
 fop_lib=lib/fop-2.1
