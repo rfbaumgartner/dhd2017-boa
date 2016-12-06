@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-052">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-052">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -139,7 +139,7 @@
           <hi rend="italic">neue und praktikable Korpushermeneutik</hi>, die sowohl klassische als auch computergestützte Analyseverfahren vereint. Einen zentralen Punkt nimmt dabei die (Weiter-)Entwicklung des bestehenden Wissens ein. Annahmen, Beobachtungen und Ergebnisse werden zu Wissensmodellen korreliert und durch einen zyklisch organisierten Analyseprozess falsifiziert. Zum jetzigen Zeitpunkt ergeben sich drei grundlegende Forderungen an eine Analyse, wenn Sie unter dem Begriff
           <hi rend="italic">Korpushermeneutik</hi> firmieren soll:
         </p>
-        <list type="ordered">
+        <list type="unordered">
           <item>
             <hi rend="bold">Die Analyse muss mehrere, abwechselnde und aufeinander aufbauende Zyklen durchlaufen.</hi>
             <lb/>Diese Idee lehnt sich an der bereits von Felder (2016: 124) aufgestellten Beobachtung an: „
@@ -189,111 +189,94 @@
           <p>
             <hi rend="bold">Bildanhang (Screenshots CorpusExplorer v2.0):</hi>
           </p>
-          <p>
+          <figure>
             <graphic n="1001" width="16.002cm" height="12.0015cm" url="052-image1.png" rend="inline"/> Annotationsansicht
-          </p>
-          <p>
-            <hi rend="italic">Links:</hi> Korpora &amp; Dokumente
-          </p>
-          <p>
-            <hi rend="italic">Mitte:</hi> Annotiertes Dokument mit gewählter Hervorhebungen
-          </p>
-          <p>
-            <hi rend="italic">Rechts:</hi> Gewählte Hervorhebungen (Annotationen)
-          </p>
-          <p>
-            <hi rend="italic">Unten:</hi> Verfügbare Module des CorpusExplorers
-          </p>
+            <p>
+              <hi rend="italic">Links:</hi> Korpora &amp; Dokumente<lb/>
+              <hi rend="italic">Mitte:</hi> Annotiertes Dokument mit gewählten Hervorhebungen<lb/>
+              <hi rend="italic">Rechts:</hi> Gewählte Hervorhebungen (Annotationen)<lb/>
+              <hi rend="italic">Unten:</hi> Verfügbare Module des CorpusExplorers
+            </p>
+          </figure>
           <figure>
             <graphic n="1002" width="16.002cm" height="12.192cm" url="052-image2.png" rend="inline"/>
+            <p>Korpusverteilung<lb/>Zu sehen ist ein Kreuzvergleich von Dokumentmetadaten. Eingenommene Fläche und Farbe (warm &gt; kalt) sind bedeutungstragend</p>
           </figure>
-          <p>Korpusverteilung</p>
-          <p>Zu sehen ist ein Kreuzvergleich von Dokumentmetadaten. Eingenommene Fläche und Farbe (warm &gt; kalt) sind bedeutungstragend
-            <lb/>
-          </p>
-          <p>
+          <figure>
             <graphic n="1003" width="16.002cm" height="12.0015cm" url="052-image3.png" rend="inline"/>
-            <lb/>Begriffspaare / Oppositionswörter kontrastieren
-          </p>
-          <p>
-            <hi rend="italic">Beispiel:</hi> Frau vs. Mann aus einem Zeitungskorpus (Frauenquote vs. Quotenfrau 2010-2014) via LexisNexis
-          </p>
-          <p>
-            <hi rend="italic">Grün:</hi> Kollokatoren tendenziell Syrien
-          </p>
-          <p>
-            <hi rend="italic">Schwarz:</hi> Gemeinsame Kollokatoren
-          </p>
-          <p>
-            <hi rend="italic">Rot:</hi> Kollokatoren tendenziell Isreal
-          </p>
+            <p>
+              Begriffspaare / Oppositionswörter kontrastieren<lb/>
+              <hi rend="italic">Beispiel:</hi> Frau vs. Mann aus einem Zeitungskorpus (Frauenquote vs. Quotenfrau 2010-2014) via LexisNexis<lb/>
+              <hi rend="italic">Grün:</hi> Kollokatoren tendenziell Syrien<lb/>
+              <hi rend="italic">Schwarz:</hi> Gemeinsame Kollokatoren<lb/>
+              <hi rend="italic">Rot:</hi> Kollokatoren tendenziell Isreal
+            </p>
+          </figure>
           <figure>
             <graphic n="1004" width="16.002cm" height="12.192cm" url="052-image4.png" rend="inline"/>
+            <p>
+              N-Gramm-Graph<lb/>
+              Verknüpfung von N-Grammen auf Basis von POS-Tags<lb/>
+              <hi rend="italic">Graph:</hi> Grün: N-Gramm-Kopf, Blau: N-Gramm-Zwischenteil, Rot: N-Gramm-Ende
+            </p>
           </figure>
-          <p>N-Gramm-Graph</p>
-          <p>Verknüpfung von N-Grammen auf Basis von POS-Tags
-            <lb/>
-            <hi rend="italic">Graph:</hi> Grün: N-Gramm-Kopf, Blau: N-Gramm-Zwischenteil, Rot: N-Gramm-Ende
-          </p>
           <figure>
             <graphic n="1005" width="15.939486111111112cm" height="7.170208333333333cm" url="052-image5.png" rend="inline"/>
-          </figure>
-          <p>Kookkurrenzgraph
-            <lb/>(Ausschnitt)
-          </p>
-          <p>Das Beispiel zeigt einen per Rekursion ermittelten Teilausschnitt, der auf die Phrase:
+            <p>Kookkurrenzgraph (Ausschnitt)<lb/>
+            Das Beispiel zeigt einen per Rekursion ermittelten Teilausschnitt, der auf die Phrase:
             <hi rend="italic">„Beobachter / ins / Land / lassen“</hi> rekurriert.
           </p>
-        </body>
-        <back>
-          <div type="Notes">
-            <note xml:id="n01" n="1">z. B. kann die Ausgabe des einen Programms nicht vollumfänglich von einem anderen eingelesen werden.</note>
-            <note xml:id="n02" n="2">Gemeint sind hier die Paradigmen corpus-driven oder corpus-based.</note>
-            <note xml:id="n03" n="3">Aktuell verfügbar: TreeTagger, TnT, Stanford-Tagger oder gar <hi rend="italic">Keine Annotation.</hi></note>
-          </div>
-          <div type="bibliogr">
-            <listBibl>
-              <head>Bibliographie</head>
+        </figure>
+      </body>
+      <back>
+        <div type="Notes">
+          <note xml:id="n01" n="1">z. B. kann die Ausgabe des einen Programms nicht vollumfänglich von einem anderen eingelesen werden.</note>
+          <note xml:id="n02" n="2">Gemeint sind hier die Paradigmen corpus-driven oder corpus-based.</note>
+          <note xml:id="n03" n="3">Aktuell verfügbar: TreeTagger, TnT, Stanford-Tagger oder gar <hi rend="italic">Keine Annotation.</hi></note>
+        </div>
+        <div type="bibliogr">
+          <listBibl>
+            <head>Bibliographie</head>
+            <bibl>
+              <hi rend="bold">Alberrt, Hans</hi> (1969): <hi rend="italic">Traktat über
+              kritische Vernunft</hi>. Tübingen: J.C.B. Mohr (Paul Siebeck). </bibl>
               <bibl>
-                <hi rend="bold">Alberrt, Hans</hi> (1969): <hi rend="italic">Traktat über
-                kritische Vernunft</hi>. Tübingen: J.C.B. Mohr (Paul Siebeck). </bibl>
+                <hi rend="bold">Bubenhofer, Noah</hi> (2009): <hi rend="italic"
+                >Sprachgebrauchsmuster</hi>. Korpuslinguistik als Methode der Diskurs-
+                und Kulturanalyse. Berlin: de Gruyter. </bibl>
                 <bibl>
-                  <hi rend="bold">Bubenhofer, Noah</hi> (2009): <hi rend="italic"
-                  >Sprachgebrauchsmuster</hi>. Korpuslinguistik als Methode der Diskurs-
-                  und Kulturanalyse. Berlin: de Gruyter. </bibl>
+                  <hi rend="bold">Dang-Anh, Mark / Rüdiger, Jan Oliver</hi> (2015): “From
+                  Frequency to Sequence: How Quantitative Methods can Inform Qualitative
+                  Analysis of Digital Media Discourse”, in: <hi rend="italic">10plus1</hi> 1:
+                  57–73. </bibl>
                   <bibl>
-                    <hi rend="bold">Dang-Anh, Mark / Rüdiger, Jan Oliver</hi> (2015): “From
-                    Frequency to Sequence: How Quantitative Methods can Inform Qualitative
-                    Analysis of Digital Media Discourse”, in: <hi rend="italic">10plus1</hi> 1:
-                    57–73. </bibl>
+                    <hi rend="bold">Gardt, Andreas</hi> (2007): “Linguistisches Interpretieren:
+                    Konstruktivistische Theorie und realistische Praxis”, in: Hermanns, Fritz /
+                    Holly, Werner (eds.): <hi rend="italic">Linguistische Hermeneutik</hi>.
+                    Theorie und Praxis des Verstehens und Interpretierens. Tübingen: Niemeyer
+                    263–280. </bibl>
                     <bibl>
-                      <hi rend="bold">Gardt, Andreas</hi> (2007): “Linguistisches Interpretieren:
-                      Konstruktivistische Theorie und realistische Praxis”, in: Hermanns, Fritz /
-                      Holly, Werner (eds.): <hi rend="italic">Linguistische Hermeneutik</hi>.
-                      Theorie und Praxis des Verstehens und Interpretierens. Tübingen: Niemeyer
-                      263–280. </bibl>
+                      <hi rend="bold">Haß, Ulrike</hi> (2007): “Korpus-Hermeneutik: zur
+                      hermeneutischen Methodik in der lexikalischen Semantik”, in: Hermanns, Fritz
+                      / Holly, Werner (eds.): <hi rend="italic">Linguistische Hermeneutik</hi>.
+                      Theorie und Praxis des Verstehens und Interpretierens. Tübingen: Niemyer
+                      241–261. </bibl>
                       <bibl>
-                        <hi rend="bold">Haß, Ulrike</hi> (2007): “Korpus-Hermeneutik: zur
-                        hermeneutischen Methodik in der lexikalischen Semantik”, in: Hermanns, Fritz
-                        / Holly, Werner (eds.): <hi rend="italic">Linguistische Hermeneutik</hi>.
-                        Theorie und Praxis des Verstehens und Interpretierens. Tübingen: Niemyer
-                        241–261. </bibl>
+                        <hi rend="bold">Popper, Karl R.</hi> (2005): <hi rend="italic">Gesammelte
+                        Werke</hi>. 3: Logik der Forschung Tübingen: Mohr Siebeck. </bibl>
                         <bibl>
-                          <hi rend="bold">Popper, Karl R.</hi> (2005): <hi rend="italic">Gesammelte
-                          Werke</hi>. 3: Logik der Forschung Tübingen: Mohr Siebeck. </bibl>
+                          <hi rend="bold">Runkler, Thomas</hi> (2010): <hi rend="italic">Data
+                          Mining</hi>. Methoden und Algorithmen intelligenter Datenanalyse.
+                          Wiesbaden: Vieweg+Teubner. </bibl>
                           <bibl>
-                            <hi rend="bold">Runkler, Thomas</hi> (2010): <hi rend="italic">Data
-                            Mining</hi>. Methoden und Algorithmen intelligenter Datenanalyse.
-                            Wiesbaden: Vieweg+Teubner. </bibl>
-                            <bibl>
-                              <hi rend="bold">Teubert, Wolfgang</hi> (2006): “Korpuslinguistik,
-                              Hermeneutik und die soziale Konstruktion der Wirklichkeit”, in: <hi
-                              rend="italic">Linguistik Online</hi> 28, 3: 41–60 <ref
-                              target="http://www.linguistik-online.de/28_06/teubert.html"
-                              >http://www.linguistik-online.de/28_06/teubert.html</ref> [letzter
-                              Zugriff 09. Februar 2016].</bibl>
-                            </listBibl>
-                          </div>
-                        </back>
-                      </text>
-                    </TEI>
+                            <hi rend="bold">Teubert, Wolfgang</hi> (2006): “Korpuslinguistik,
+                            Hermeneutik und die soziale Konstruktion der Wirklichkeit”, in: <hi
+                            rend="italic">Linguistik Online</hi> 28, 3: 41–60 <ref
+                            target="http://www.linguistik-online.de/28_06/teubert.html"
+                            >http://www.linguistik-online.de/28_06/teubert.html</ref> [letzter
+                            Zugriff 09. Februar 2016].</bibl>
+                          </listBibl>
+                        </div>
+                      </back>
+                    </text>
+                  </TEI>
