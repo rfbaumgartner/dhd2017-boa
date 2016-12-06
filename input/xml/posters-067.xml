@@ -207,7 +207,7 @@
                         von Einträgen verschiedener Dokumenttypen ermöglicht werden (vgl. Abbildung 1). </p>
                         <figure>
                           <graphic n="1001" width="9.177558333333334cm" height="6.997891666666667cm" url="p067-image1.png" rend="inline"/>
-                          <head><hi rend="bold">Abb. 1</hi>: Beispielhafte Toolabbildung</head>
+                          <p><hi rend="bold">Abb. 1</hi>: Beispielhafte Toolabbildung</p>
                         </figure>
                         <p>Zukünftige Arbeiten betreffen die Visualisierung und Umsetzung des Zusammenspiels
                           der unterschiedlichen Datenformate und Modalitäten (Videos, Scans der Skizzen,
@@ -245,13 +245,13 @@
                             </body>
                             <back>
                               <div type="Notes">
-                                
-                                <note xml:id="n01" n="1"> 
+
+                                <note xml:id="n01" n="1">
                               Das Programm wurde von Laurence Anthony entwickelt und funktioniert auf allen gängigen Betriebssystemen.
                               Die aktuelle Programmversion 3.5.0 ist unter <ref target="http://www.laurenceanthony.net/software/antconc/">http://www.laurenceanthony.net/software/antconc/</ref> frei erhältlich.
                                 </note>
                               </div>
-                              
+
                               <div type="bibliogr">
                                 <listBibl>
                                   <head>Bibliographie</head>
@@ -289,7 +289,7 @@
                                                 in: <hi rend="italic">Sociologie du Travail</hi> 3: 291-316. </bibl>
                                                 <bibl>
                                                   <hi rend="bold">Reimer, Eva / Trevisan, Bianka / Eraßme, Denise / Schmidt,
-                                                    Thomas / Jakobs, Eva</hi>‑ <hi rend="bold">Maria</hi> (2015):
+                                                    Thomas / Jakobs, Eva</hi>-<hi rend="bold">Maria</hi> (2015):
                                                     „Annotating Modality Interdependencies“, in: <hi rend="italic">Proceedings
                                                     of the GSCL 2015</hi>: 110-111. </bibl>
                                                     <bibl>
