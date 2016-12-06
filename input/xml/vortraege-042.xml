@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-042">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-042">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -137,12 +137,12 @@
                     </p>
                     <figure>
                       <graphic n="1001" width="14.316308333333334cm" height="8.607777777777779cm" url="042-image1.png" rend="inline"/>
-                      <head>
+                      <p>
                         <anchor xml:id="Ref306530560"/><hi rend="bold"> </hi><anchor
                         xml:id="Ref306535271"/><hi rend="bold">Abb. 1</hi> : Beispiel für die
                         derzeitige Datenbankstruktur in Neo4J. Gut zu Erkennen ist die Gliederung in
                         Tradition (blau), Sections (orange), Readings (pink) und Translations
-                        (rosa). </head>
+                        (rosa). </p>
                       </figure></div>
                       <div type="div1" rend="DH-Heading"><head>Eine adäquate Wiedergabe der gespeicherten Informationen</head>
                       <p>Wie bereits erwähnt, liegt ein weiterer Schwerpunkt des Projektes auf einer angemessenen Wiedergabe der im System vorhandenen Informationen. Aus diesem Grund haben wir, parallel zu den Arbeiten am Backend, bereits damit begonnen, den Prototypen einer Webseite zur Darstellung der Informationen zu implementieren.</p>
@@ -156,16 +156,16 @@
                         Zeitangaben (gelb)).</p>
                         <figure>
                           <graphic n="1002" width="16.002cm" height="7.499011111111111cm" url="042-image2.png" rend="inline"/>
-                          <head><anchor xml:id="Ref306530968"/><hi rend="bold">Abb. 2</hi> : Screenshot der
+                          <p><anchor xml:id="Ref306530968"/><hi rend="bold">Abb. 2</hi> : Screenshot der
                           Webseite. Neben der Transkription (linke Spalte), befinden sich die
                           englische Übersetzung (rechte Spalte), sowie ein Karte mit
-                          Positionsmarkierungen der im Text vorkommenden Ortsbeschreibungen. </head>
+                          Positionsmarkierungen der im Text vorkommenden Ortsbeschreibungen. </p>
                         </figure>
                         <p>Fährt nun der Benutzer mit dem Mauszeiger über einen solchen farblich hervorgehobenen Textteil, werden zu diesem in einem Popup-Fenster weitere Informationen oder Verlinkungen angezeigt. So ist zum Beispiel für Ortsangaben, wie in Abbildung 3 zu sehen, dies üblicherweise der Ortsname, sowie ein vergrößerter Ausschnitt der Karte mit einer Markierung der genauen Position, soweit diese bekannt ist. </p>
                         <figure>
                           <graphic n="1003" width="8.711847222222222cm" height="6.2424027777777775cm" url="042-image3.png" rend="inline"/>
-                          <head><hi rend="bold">Abb. 3</hi>: Beispiel für Zusatzinformationen bezüglich
-                          Constantinople (Faith).</head>
+                          <p><hi rend="bold">Abb. 3</hi>: Beispiel für Zusatzinformationen bezüglich
+                          Constantinople (Faith).</p>
                         </figure>
                         <p>Bei Personenangaben, siehe Abbildung 4, wird die Übersetzung des Namens, der volle
                           Name und weitere Informationen, sowie Links, die zu Einträgen bezüglich der Person
@@ -175,10 +175,8 @@
                         </p>
                         <figure>
                           <graphic n="1004" width="16.002cm" height="7.499011111111111cm" url="042-image4.png" rend="inline"/>
-                          <head> </head>
-
-                          <head><hi rend="bold">Abb. 4</hi> : Beispiel für Zusatzinformationen bezüglich
-                          Ioannes 1 (John I Tzimiskes).</head>
+                          <p><hi rend="bold">Abb. 4</hi> : Beispiel für Zusatzinformationen bezüglich
+                          Ioannes 1 (John I Tzimiskes).</p>
 
                         </figure>
                         <p>Darüber hinaus arbeiten wir daran, sowohl individuelle Textzeugen als auch verschiedene Variationen eines Textes anzeigen zu können.</p>
