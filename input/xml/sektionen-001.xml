@@ -296,7 +296,7 @@
                 gebündelt.</p>
                 <figure>
                   <graphic n="1001" width="16.003763888888887cm" height="11.989152777777777cm" url="00002.png" rend="inline"/>
-                  <head><hi rend="bold">Abb. 1</hi>: Dimensionen der Deliberation</head>
+                  <p><hi rend="bold">Abb. 1</hi>: Dimensionen der Deliberation</p>
                 </figure>
                 <p>Auf Basis dieser Konkretisierung des Begriffs der Deliberation wird im Folgenden anhand der Dimensionen 'Argumentation &amp; Justification' und 'Accomodation' gezeigt, wie die verschiedenen Ebenen innerhalb des Diskurses konkret annotiert werden. Zusammengenommen dienen diese Annotationen als Basis für die Visualisierung, um die Muster im Diskurs im Sinne der Deliberation interpretieren zu können. </p>
               </div>
@@ -380,16 +380,16 @@
                             Doppelklick auf den Glyph eingesehen werden (Abbildung 3).</p>
                             <figure>
                               <graphic n="1002" width="6.9734cm" height="9.630833333333333cm" url="00003.png" rend="inline"/>
-                              <head><hi rend="bold">Abb. 2</hi>: Detailansicht Glyph</head>
+                              <p><hi rend="bold">Abb. 2</hi>: Detailansicht Glyph</p>
                             </figure>
                             <figure>
                               <graphic n="1003" width="7.06cm" height="3.9cm" url="00004.png" rend="inline"/>
-                              <head><hi rend="bold">Abb. 3</hi>: Glyphdarstellung von Argumenten</head>
+                              <p><hi rend="bold">Abb. 3</hi>: Glyphdarstellung von Argumenten</p>
                             </figure>
                             <p>Diese Glyphen werden für jede Äußerung über den Diskurs hinweg erstellt, wie in Abbildung 4 gezeigt. Durch die Interaktivität lässt sich ein Überblick über die Äußerungen der einzelnen Sprecher herstellen, und dabei Rückschlüsse ziehen, welche Rolle ein Sprecher in der Verhandlung eingenommen hat. Abbildung 4 zeigt einen Verhandlungstag der Schlichtungen zu Stuttgart 21: In der obersten Zeile findet sich der Mediator der Schlichtung, Dr. Heiner Geißler, wieder, dessen Beiträge von einem hohen Maß an 'consensus willing' und 'common ground' geprägt sind, wobei relativ wenig Argumente angeführt werden. Im Gegensatz dazu zeigt einer der Befürworter des Projektes, Dr. Volker Kefer, ein anderes Muster auf, nämlich einen deutlich höheren Anteil an argumentativen Redebeiträgen, die geprägt sind von Zusagen ('assurance') und unabänderlichen Vorgaben ('immutable constraint'). Der hohe Grad an kausaler Argumentation findet sich auch bei einem Gegner des Projektes, Boris Palmer, der sich in seinen Beiträgen mehrheitlich auf den 'common ground', d. h. das gemeinsame Wissen der Verhandlungsteilnehmer, beruft. </p>
                             <figure>
                               <graphic n="1004" width="16.002cm" height="8.748888888888889cm" url="00005.png" rend="inline"/>
-                              <head><hi rend="bold">Abb. 4</hi>: Glyphen pro Sprecher</head>
+                              <p><hi rend="bold">Abb. 4</hi>: Glyphen pro Sprecher</p>
                             </figure>
                             <p>Im Sinne der Deliberation sind diese Muster relevant, weil sie zeigen, dass Verhandlungsteilnehmer verschieden argumentieren und sich damit unterschiedlich in der Verhandlung positionieren. Diese Muster tragen wesentlich dazu bei, den Verlauf und den Ausgang der Verhandlung zu erklären und Segmente von intensiven deliberativen Debatten zu identifizieren.</p>
                             <p>Zukünftige Arbeiten werden sich insbesondere mit dem Thema befassen, wie die weiteren Dimensionen der Deliberation in die Glyphenstruktur eingearbeitet werden können und inwiefern die linguistische Analyse weitere Anhaltspunkte von Argumentation und ihre Ausprägung aus dem Text extrahieren kann.</p>
@@ -575,9 +575,9 @@
                                           <p>Für die Bestimmung von Trends werden die Dokumente gezählt, in denen eine der beiden Kategorien vorkommt. Daraus lassen sich wiederum Dokumentfrequenzen für bestimmte Zeiträume aggregieren und mit dem Gesamtdatenbestand in diesen Zeiträumen normalisieren. Damit können Zeitverläufe der Kategorien sichtbar gemacht werden, die wiederum politikwissenschaftlich interpretiert werden können (siehe Abbildung 5).</p>
                                           <figure>
                                             <graphic n="1005" width="16.002cm" height="6.50875cm" url="00006.png" rend="inline"/>
-                                            <head><hi rend="bold">Abb. 5</hi>: Relative Frequenzen von Dokumenten in Die
+                                            <p><hi rend="bold">Abb. 5</hi>: Relative Frequenzen von Dokumenten in Die
                                             Zeit und FAZ welche neoliberale Argumentzusammenhänge enthalten,
-                                            getrennt nach drei Zeitungsressorts (Politik, Wirtschaft, Kultur)</head>
+                                            getrennt nach drei Zeitungsressorts (Politik, Wirtschaft, Kultur)</p>
                                           </figure>
                                         </div>
                                         <div type="div2" rend="DH-Heading2">
@@ -678,8 +678,8 @@
                                                       Ruanda-Konflikt).</p>
                                                       <figure>
                                                         <graphic n="1006" width="12.911666666666667cm" height="11.69058888888889cm" url="00007.png" rend="inline"/>
-                                                        <head><hi rend="bold">Abb. 6</hi>: Topic Based Document Classification zur
-                                                        inhaltlichen Bereinigung von Texten</head>
+                                                        <p><hi rend="bold">Abb. 6</hi>: Topic Based Document Classification zur
+                                                        inhaltlichen Bereinigung von Texten</p>
                                                       </figure>
                                                       <p>Im Anschluss an die Bewertung einer bestimmten Anzahl an Zeitungsartikel wird
                                                         über maschinelles Lernen die Bewertung auf die Gesamtmenge der Zeitungsartikel
@@ -696,18 +696,18 @@
                                                         Militärische Interventionen" zugeordnet wurden. </p>
                                                         <figure>
                                                           <graphic n="1007" width="10.927291666666667cm" height="8.665352777777779cm" url="00008.png" rend="inline"/>
-                                                          <head><hi rend="bold">Abb. 7</hi>: Halbautomatisierte inhaltliche Bereinigung
+                                                          <p><hi rend="bold">Abb. 7</hi>: Halbautomatisierte inhaltliche Bereinigung
                                                           von Sampling Fehlern im <hi rend="italic">Complex Concept
-                                                          Builder</hi></head>
+                                                          Builder</hi></p>
                                                         </figure>
                                                         <p>Im Fall des <hi rend="italic">e-Identity</hi> Korpus blieben von insgesamt
                                                         766.452 Zeitungsartikeln, die ursprünglich Teil des unbereinigten Korpus waren,
                                                         lediglich 460.917 Zeitungsartikel übrig (siehe Abbildung 8).</p>
                                                         <figure>
                                                           <graphic n="1008" width="14.2875cm" height="6.584597222222222cm" url="00009.png" rend="inline"/>
-                                                          <head><hi rend="bold">Abb. 8</hi>: Das bereinigte Issue-Cycle für das Thema
+                                                          <p><hi rend="bold">Abb. 8</hi>: Das bereinigte Issue-Cycle für das Thema
                                                           Kriege und Humanitäre Militärische Interventionen (nach Monaten aggregiert,
-                                                          N=460.917)</head>
+                                                          N=460.917)</p>
                                                         </figure>
                                                         <p>Dieses Verfahren eignet sich darüber hinaus zum Aufspüren und Erstellen inhaltlicher Subkollektionen von Texten für spezifische Fragestellungen. Es bildet somit einen der methodischen Ausgangspunkte für das von Prof. Dr. Andreas Blätte an der Universität Duisburg-Essen geleitete Kurationsprojekt der FAG-8, in dem es um die thematische Strukturierung deutscher Parlamentsprotokolle geht.</p>
                                                         <p>

@@ -354,29 +354,28 @@
                   durchzuführen, und zwar ohne Implementierungsaufwand. </p>
                   <figure>
                     <graphic n="1001" width="16.002cm" height="3.1098944444444445cm" url="0012-1.png" rend="inline"/>
-                    </figure>
-                  <p rend="figure">
-                    <hi rend="bold">Abb. 1</hi>: Transbiblionome Szenarien, auf welche <hi
+                    <p rend="figure">
+                      <hi rend="bold">Abb. 1</hi>: Transbiblionome Szenarien, auf welche <hi
                       rend="italic">Wikidition</hi> zielt. Beispiele: (1) Kafkas Bericht für
-                    eine Akademie (als Matrixtext) versus Hauffs Der Affe als Mensch (als
-                    Echotext); (2) Kafkas Bericht für eine Akademie versus alle „Affentexte“ (R.
-                    Borgards) seit Ende des 18. Jahrhunderts (Hauff, Hoffmann, Flaubert, …); (3)
-                    Kafkas Beim Bau der Chinesischen Mauer versus Prager Tagblatt vom
-                    08.1914–03.1917; (4) Kafkas Werk versus ein Einzeltext aus dem Werk
-                    Nietzsches; (5) eine Werkauswahl Kafkas versus eine Werkauswahl Nietzsches;
-                    (6) Kafkas Werk versus ein Zeitungskorpus (z. B. basierend auf dem Prager
-                    Tagblatt); (7) sämtliche Werke einer Reihe von Schriftstellern versus ein
-                    Einzeltext (z. B. Goethes Faust); (8) sämtliche Werke einer Reihe von
-                    Schriftstellern versus ein Korpus von Faust-Texten; (9) sämtliche Werke
-                    einer Reihe deutschsprachiger Schriftsteller versus sämtliche Werke einer
-                    Reihe englischsprachiger Schriftsteller. Anstelle von Matrix- und Echotexten
-                    (Wagner 2015) kann alternativ von Hyper- und Hypotexten (Genette 1997)
-                    gesprochen werden. In ersterem Fall liegt eine rezeptionsorientierte
-                    Sichtweise zugrunde. </p>
+                      eine Akademie (als Matrixtext) versus Hauffs Der Affe als Mensch (als
+                      Echotext); (2) Kafkas Bericht für eine Akademie versus alle „Affentexte“ (R.
+                      Borgards) seit Ende des 18. Jahrhunderts (Hauff, Hoffmann, Flaubert, …); (3)
+                      Kafkas Beim Bau der Chinesischen Mauer versus Prager Tagblatt vom
+                      08.1914–03.1917; (4) Kafkas Werk versus ein Einzeltext aus dem Werk
+                      Nietzsches; (5) eine Werkauswahl Kafkas versus eine Werkauswahl Nietzsches;
+                      (6) Kafkas Werk versus ein Zeitungskorpus (z. B. basierend auf dem Prager
+                      Tagblatt); (7) sämtliche Werke einer Reihe von Schriftstellern versus ein
+                      Einzeltext (z. B. Goethes Faust); (8) sämtliche Werke einer Reihe von
+                      Schriftstellern versus ein Korpus von Faust-Texten; (9) sämtliche Werke
+                      einer Reihe deutschsprachiger Schriftsteller versus sämtliche Werke einer
+                      Reihe englischsprachiger Schriftsteller. Anstelle von Matrix- und Echotexten
+                      (Wagner 2015) kann alternativ von Hyper- und Hypotexten (Genette 1997)
+                      gesprochen werden. In ersterem Fall liegt eine rezeptionsorientierte
+                      Sichtweise zugrunde. </p>
+                    </figure>
                     <figure>
                       <graphic n="1002" width="11.74cm" height="7.82cm" url="0012-2.png" rend="inline"/>
-
-                      </figure><p rend="figure">
+                      <p rend="figure">
                         <hi rend="bold">Abb. 2</hi>: Linke Bildseite: schematischer Ausschnitt (rot)
                         des autorenspezifischen Vokabulars im Schnittmengenbereich der
                         zugrundeliegenden Matrixsprache (blau). Beispielhafte Fragestellung: <hi
@@ -388,6 +387,7 @@
                         lexikalischen Resolution: die Ebene der Superlemmata, der Lemmata und der
                         syntaktischen Wörter (Wortformen plus grammatische Merkmale) (untere
                         Bildhälfte). </p>
+                      </figure>
                       <p>Die Basis für die Vernetzung von Texteinheiten bildet das Konzept der
                         Intertextualität einerseits bzw. der intratextuellen Kohärenz andererseits.
                         Hierzu werden je Sprachebene (<hi rend="italic">Wort</hi>, <hi rend="italic"
@@ -401,61 +401,61 @@
                         beispielsweise alle Sätze des Inputkorpus danach paarweise analysiert ob sie (1)
                         syntaktisch ähnlich konstruiert sind (syntagmatische Ähnlichkeit<ref
                         type="note" target="n02" n="2">2
-                        </ref>) oder (2) lexikalisch ähnlich aufgebaut sind (paradigmatische
-                        Ähnlichkeit<ref type="note" target="n03" n="3">3
-                        </ref>). Ausgehend von einem zweidimensionalen Koordinatensystem, in dem
-                        syntagmatische und paradigmatische Ähnlichkeit die Dimensionen aufspannen, kann
-                        auf dieser Grundlage für alle texttechnologischen Satzähnlichkeitsmaße
-                        theoretisch bestimmt werden, wo sie innerhalb dieses Bezugssystems angesiedelt
-                        sind. Mit Hilfe von <hi rend="italic">Wikidition</hi> soll auf diese Weise
-                        zugleich eine theoretische und praktische Basis der Text- bzw.
-                        Satzähnlichkeitsmessung gelegt werden, die es Usern erlaubt, den Ergebnissen der
-                        von <hi rend="italic">Wikidition</hi> vorgelegten Ähnlichkeitsmessungen
-                        explorativ nachzuspüren. Gleichzeitig wird so eine Basis für die Analyse von
-                        Satzähnlichkeitsphänomenen im Hinblick auf Zitate gelegt, wie sie insbesondere
-                        für das Werk von Karl Kraus maßgeblich sind. </p>
-                        <p>Analog zu diesem Ansatz wird auf Wortebene zwischen der (syntagmatischen) Tendenz von Wörtern zur Kookkurrenz einerseits und der (paradigmatischen) Tendenz zum Vorkommen in ähnlichen Kontexten andererseits unterschieden. Mittels texttechnologischer Erweiterungen der MediaWiki-Software werden zudem sämtliche dieser Verweisbeziehungen interaktiv visualisiert, so dass Nutzer beispielsweise in Echotexten jenen Satzkandidaten nachspüren können, welche dem Autor des jeweiligen Matrixtexts als Vorlage gedient haben könnten (siehe Abbildung 3). </p>
-                        <figure>
-                          <graphic n="1003" width="16.002cm" height="9.001338888888888cm" url="0012-3.png" rend="inline"/>
-
-                          </figure><p rend="figure">
-                            <hi rend="bold">Abb. 3</hi>: Franz Kafkas <hi rend="italic">In der
-                            Strafkolonie</hi> (als Matrixtext) im Verhältnis zu Heinrich Rauchbergs
-                            <hi rend="italic">Statistische Technik</hi> (als Echotext). In dem
-                            bipartiten Graphen (Bildmitte) verbinden Kanten solche Sätze, die als <hi
-                            rend="italic">Text-Reuse</hi>-Kandidaten ermittelt wurden. Nutzer können
-                            per <hi rend="italic">Fish-Eye</hi>-View den bipartiten Graphen traversieren
-                            und Verweisbeziehungen einzelner Sätze, welche in dem links- bzw.
-                            rechtsseitig dargestellten Text entsprechend hervorgehoben werden,
-                            analysieren. </p>
-                          <p>Der Beitrag exemplifiziert <hi rend="italic">Wikidition</hi> anhand ausgewählter
-                          Texte von Franz Kafka einerseits und von Karl Kraus andererseits. Er ergänzt die
-                          beiden literaturwissenschaftlichen Vorträge der Sektion, indem er das
-                          texttechnologische Instrumentarium einer transbiblionomen Literaturwissenschaft
-                          entwirft und experimentell erprobt. Insbesondere die Verweisstruktur der
-                          resultierenden <hi rend="italic">Wikiditionen</hi> wird auf der Grundlage einer
-                          größeren Zahl von Netzwerkcharakteristika quantitativ evaluiert. Diese
-                          Evaluation zeigt, dass <hi rend="italic">Wikiditionen</hi> jeweils auf der Basis
-                          einer sehr kleinen Zahl von Verweisen, die theoretisch möglich sind, hochgradig
-                          clusternde Graphen erzeugen, die es ihren Lesern erlauben, dasselbe Textkorpus
-                          in jedwede Richtung und ausgehend von jedwedem (Wort-, Satz- oder Text-)Kontext
-                          zu traversieren. Auf diese Weise wird eine Brücke zwischen Literaturwissenschaft
-                          und Informatik gespannt, und zwar am Beispiel der Analyse und Synthese
-                          intertextueller Beziehungen in digitalen Korpora literarischer Texte. </p>
-                        </div>
-                      </body>
-                      <back>
-                        <div type="Notes">
-                          <note xml:id="n01" n="1">Kurznotation für Die Fackel Nr. 366, S. 30</note>
-                          <note xml:id="n02" n="2">Hier sprechen wir auch von syntagmatischer
-                            Kontiguität der betroffenen Sätze in dem Sinne, dass ihre Konstituenten
-                            füreinander austauschbar sind, ohne paradigmatisch oder inhaltlich
-                            verwandt sein zu müssen</note>
-                          <note xml:id="n03" n="3">Hier sprechen wir von paradigmatischer Similarität
-                            der betroffenen Sätze in dem Sinne, dass ihre Konstituenten füreinander
-                            austauschbar sind, ohne dass die Sätze syntaktisch ähnlich zu sein
-                            brauchen. Im Extremfall zweier identischer Sätze gehen syntagmatische
-                            und paradigmatische Ähnlichkeit zusammen.</note>
+                      </ref>) oder (2) lexikalisch ähnlich aufgebaut sind (paradigmatische
+                      Ähnlichkeit<ref type="note" target="n03" n="3">3
+                    </ref>). Ausgehend von einem zweidimensionalen Koordinatensystem, in dem
+                    syntagmatische und paradigmatische Ähnlichkeit die Dimensionen aufspannen, kann
+                    auf dieser Grundlage für alle texttechnologischen Satzähnlichkeitsmaße
+                    theoretisch bestimmt werden, wo sie innerhalb dieses Bezugssystems angesiedelt
+                    sind. Mit Hilfe von <hi rend="italic">Wikidition</hi> soll auf diese Weise
+                    zugleich eine theoretische und praktische Basis der Text- bzw.
+                    Satzähnlichkeitsmessung gelegt werden, die es Usern erlaubt, den Ergebnissen der
+                    von <hi rend="italic">Wikidition</hi> vorgelegten Ähnlichkeitsmessungen
+                    explorativ nachzuspüren. Gleichzeitig wird so eine Basis für die Analyse von
+                    Satzähnlichkeitsphänomenen im Hinblick auf Zitate gelegt, wie sie insbesondere
+                    für das Werk von Karl Kraus maßgeblich sind. </p>
+                    <p>Analog zu diesem Ansatz wird auf Wortebene zwischen der (syntagmatischen) Tendenz von Wörtern zur Kookkurrenz einerseits und der (paradigmatischen) Tendenz zum Vorkommen in ähnlichen Kontexten andererseits unterschieden. Mittels texttechnologischer Erweiterungen der MediaWiki-Software werden zudem sämtliche dieser Verweisbeziehungen interaktiv visualisiert, so dass Nutzer beispielsweise in Echotexten jenen Satzkandidaten nachspüren können, welche dem Autor des jeweiligen Matrixtexts als Vorlage gedient haben könnten (siehe Abbildung 3). </p>
+                    <figure>
+                      <graphic n="1003" width="16.002cm" height="9.001338888888888cm" url="0012-3.png" rend="inline"/>
+                      <p rend="figure">
+                        <hi rend="bold">Abb. 3</hi>: Franz Kafkas <hi rend="italic">In der
+                        Strafkolonie</hi> (als Matrixtext) im Verhältnis zu Heinrich Rauchbergs
+                        <hi rend="italic">Statistische Technik</hi> (als Echotext). In dem
+                        bipartiten Graphen (Bildmitte) verbinden Kanten solche Sätze, die als <hi
+                        rend="italic">Text-Reuse</hi>-Kandidaten ermittelt wurden. Nutzer können
+                        per <hi rend="italic">Fish-Eye</hi>-View den bipartiten Graphen traversieren
+                        und Verweisbeziehungen einzelner Sätze, welche in dem links- bzw.
+                        rechtsseitig dargestellten Text entsprechend hervorgehoben werden,
+                        analysieren. </p>
+                      </figure>
+                      <p>Der Beitrag exemplifiziert <hi rend="italic">Wikidition</hi> anhand ausgewählter
+                      Texte von Franz Kafka einerseits und von Karl Kraus andererseits. Er ergänzt die
+                      beiden literaturwissenschaftlichen Vorträge der Sektion, indem er das
+                      texttechnologische Instrumentarium einer transbiblionomen Literaturwissenschaft
+                      entwirft und experimentell erprobt. Insbesondere die Verweisstruktur der
+                      resultierenden <hi rend="italic">Wikiditionen</hi> wird auf der Grundlage einer
+                      größeren Zahl von Netzwerkcharakteristika quantitativ evaluiert. Diese
+                      Evaluation zeigt, dass <hi rend="italic">Wikiditionen</hi> jeweils auf der Basis
+                      einer sehr kleinen Zahl von Verweisen, die theoretisch möglich sind, hochgradig
+                      clusternde Graphen erzeugen, die es ihren Lesern erlauben, dasselbe Textkorpus
+                      in jedwede Richtung und ausgehend von jedwedem (Wort-, Satz- oder Text-)Kontext
+                      zu traversieren. Auf diese Weise wird eine Brücke zwischen Literaturwissenschaft
+                      und Informatik gespannt, und zwar am Beispiel der Analyse und Synthese
+                      intertextueller Beziehungen in digitalen Korpora literarischer Texte. </p>
+                    </div>
+                  </body>
+                  <back>
+                    <div type="Notes">
+                      <note xml:id="n01" n="1">Kurznotation für Die Fackel Nr. 366, S. 30</note>
+                      <note xml:id="n02" n="2">Hier sprechen wir auch von syntagmatischer
+                        Kontiguität der betroffenen Sätze in dem Sinne, dass ihre Konstituenten
+                        füreinander austauschbar sind, ohne paradigmatisch oder inhaltlich
+                        verwandt sein zu müssen</note>
+                        <note xml:id="n03" n="3">Hier sprechen wir von paradigmatischer Similarität
+                          der betroffenen Sätze in dem Sinne, dass ihre Konstituenten füreinander
+                          austauschbar sind, ohne dass die Sätze syntaktisch ähnlich zu sein
+                          brauchen. Im Extremfall zweier identischer Sätze gehen syntagmatische
+                          und paradigmatische Ähnlichkeit zusammen.</note>
                         </div>
                         <div type="bibliogr">
                           <listBibl>
