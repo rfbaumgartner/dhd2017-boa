@@ -71,9 +71,9 @@
       <p>Hinsichtlich des Interfaces bleiben diese Tools recht nah an der Textebene. Ohne Frage ist diese Nähe zur Textebene für eine Detailanalyse unerlässlich, erschwert es aber durch das Fehlen einer Überblicksdarstellung Zusammenhänge zwischen weiter auseinanderliegenden Textfragmenten zu erkennen, Muster zu identifizieren, die sich auf der Detailebene nicht erschließen und als unterstützende Navigationsebene, das schnelle Bewegen zwischen voneinander entfernten Positionen im Text. Auch ermöglicht der Überblick eine schnelle Einschätzung, welche Stellen des Textes für die Analyse besonders interessant sein könnten. </p>
       <figure>
         <graphic n="1001" width="15.968486111111112cm" height="12.51126388888889cm" url="p070-image1.png" rend="inline"/>
-      </figure>
       <p><hi rend="bold">Abb. 1</hi>: Überblicksdarstellung von beiden Fassungen mit
       Detaildarstellung rechts daneben</p>
+      </figure>
       <p>Hierfür bietet sich eine visuelle Kodierung des Textes an, eine navigierbare interaktive Datenvisualisierung, da sie durch die Komplexitätsreduktion und die Konzentration auf bestimmte Attribute der Wörter eine komprimiertere Darstellung erlaubt. </p>
       <p>Der Vortrag zeigt anhand des oben genannten Kästner-Beispiels neuartige
         Visualisierungsmöglichkeiten für Textkollationen auf und baut hierbei auf
