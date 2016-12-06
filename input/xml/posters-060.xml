@@ -94,15 +94,13 @@
             Der vorliegende Artikel bezieht sich im Kern nicht auf die digitalen Methoden
             der Berechnung von Similaritäten in Stemmata, sondern auf die dem auch in der
             manuellen Stemmatologie folgende Umsetzung in eine geeignete Visualisierung. </p>
-            <p>
-              <figure>
-                <graphic url="p060-100000000000019D000002D2902E11B8.png"/>
+            <figure>
+              <graphic url="p060-100000000000019D000002D2902E11B8.png"/>
+              <p>
+                <hi rend="bold">Abb. 1</hi>: Frühes Stemma, nach O’Hara (1996), aus H. S. Collin
+                und C. Schlyter, 1827, Corpus Iuris Sueo-Gotorum Antiqui, Z Haeggstrom,
+                Stockholm,1. </p>
               </figure>
-            </p>
-            <p>
-              <hi rend="bold">Abb. 1</hi>: Frühes Stemma, nach O’Hara (1996), aus H. S. Collin
-              und C. Schlyter, 1827, Corpus Iuris Sueo-Gotorum Antiqui, Z Haeggstrom,
-              Stockholm,1. </p>
             </div>
             <div type="div1" rend="DH-Heading1">
               <head>Geschichte der Visualisierung </head>
@@ -128,14 +126,12 @@
                 eine farbliche Kennzeichnung von Manuskriptgruppen. Die vielfältigen
                 Möglichkeiten der digitalen Darstellung, wie z. B. dieses farbliche Unterlegen
                 sind jedoch noch nicht konventionalisiert.</p>
-                <p>
                   <figure>
                     <graphic url="p060-10000000000001BF0000013C9F3830D7.jpg"/>
-                  </figure>
-                </p>
                 <p>
                   <hi rend="bold">Abb. 2:</hi> Ein Stemma, das von bio-informatischer Software
                   (SplitsTree) generiert wurde, Howe et al. (2001). </p>
+                  </figure>
                 </div>
                 <div type="div1" rend="DH-Heading1">
                   <head>Dynamisches Stemma </head>
@@ -183,11 +179,9 @@
                       aufeinanderfolgender Zustände des Stemmas im selben visuellen Raum das intuitive
                       Verständnis der Stemmagenese zu fördern oder vielleicht sogar erst zu
                       ermöglichen.</p>
-                      <p>
                         <figure>
                           <graphic url="p060-10000009000003520000044CE820242D.gif"/>
                         </figure>
-                      </p>
                     </div>
                   </body>
                   <back>
@@ -195,53 +189,53 @@
 
                       <note xml:id="n01" n="1">
                         Auch Prozesse wie willentliche Veränderungen, falsche Rückverbesserungen usw. spielen in der Manuskriptgenese eine Rolle.</note>
-                    </div>
-                    <div type="bibliogr">
-                      <listBibl>
-                        <head>Bibliography</head>
-                        <bibl>
-                          <hi rend="bold">Andrews, Tara L. / Macé, Caroline</hi> (2013): "Beyond the
-                          tree of texts: Building an empirical model of scribal variation through
-                          graph analysis of texts and stemmas", in: <hi rend="italic">Literary and
-                          Linguistic Computing</hi> 28, 4: 504–521. </bibl>
+                      </div>
+                      <div type="bibliogr">
+                        <listBibl>
+                          <head>Bibliography</head>
                           <bibl>
-                            <hi rend="bold">Bédier, Joseph</hi> (1928): "La tradition manuscrite du 'Lai
-                            de l’Ombre': Réflexions sur l'Art d'Éditer les Anciens Textes", in: <hi
-                            rend="italic">Romania</hi> 394: 161–196. </bibl>
+                            <hi rend="bold">Andrews, Tara L. / Macé, Caroline</hi> (2013): "Beyond the
+                            tree of texts: Building an empirical model of scribal variation through
+                            graph analysis of texts and stemmas", in: <hi rend="italic">Literary and
+                            Linguistic Computing</hi> 28, 4: 504–521. </bibl>
                             <bibl>
-                              <hi rend="bold">Howe, Christopher J. / Barbrook, Adrian C. / Spencer,
-                                Matthew / Robinson, Peter / Bordalejo, Barbara / Mooney, Linne R.</hi>
-                                (2001): "Manuscript evolution", in: <hi rend="italic">TRENDS in
-                                Genetics</hi> 17, 3: 147-152. </bibl>
-                                <bibl>
-                                  <hi rend="bold">Huson, Daniel H.</hi> (1998): "Splitstree: analyzing and
-                                  visualizing evolutionary data", in: <hi rend="italic">Bioinformatics</hi>
-                                  14: 68–73. </bibl>
+                              <hi rend="bold">Bédier, Joseph</hi> (1928): "La tradition manuscrite du 'Lai
+                              de l’Ombre': Réflexions sur l'Art d'Éditer les Anciens Textes", in: <hi
+                              rend="italic">Romania</hi> 394: 161–196. </bibl>
+                              <bibl>
+                                <hi rend="bold">Howe, Christopher J. / Barbrook, Adrian C. / Spencer,
+                                  Matthew / Robinson, Peter / Bordalejo, Barbara / Mooney, Linne R.</hi>
+                                  (2001): "Manuscript evolution", in: <hi rend="italic">TRENDS in
+                                  Genetics</hi> 17, 3: 147-152. </bibl>
                                   <bibl>
-                                    <hi rend="bold">Maas, Paul</hi> (1937): "Leitfehler und Stemmatische Typen",
-                                    in: <hi rend="italic">Byzantinische Zeitschrift</hi> 37, 2: 289–294. </bibl>
+                                    <hi rend="bold">Huson, Daniel H.</hi> (1998): "Splitstree: analyzing and
+                                    visualizing evolutionary data", in: <hi rend="italic">Bioinformatics</hi>
+                                    14: 68–73. </bibl>
                                     <bibl>
-                                      <hi rend="bold">O’Hara, Robert J.</hi> (1996): "Trees of history in
-                                      systematics and philology", in: <hi rend="italic">Memorie della Società
-                                      Italiana di Scienze Naturali e del Museo Civico di Storia Naturale di
-                                      Milano</hi> 27, 1: 81–88. </bibl>
+                                      <hi rend="bold">Maas, Paul</hi> (1937): "Leitfehler und Stemmatische Typen",
+                                      in: <hi rend="italic">Byzantinische Zeitschrift</hi> 37, 2: 289–294. </bibl>
                                       <bibl>
-                                        <hi rend="bold">Robinson, Peter / Barbrook, Adrian C. / Blake, Norman /
-                                          Howe, Christopher J.</hi> (1998): "The Phylogeny of The Canterbury
-                                          Tales", in: <hi rend="italic">Nature</hi> 394: 839. </bibl>
-                                          <bibl>
-                                            <hi rend="bold">Robinson, Peter / O’Hara, Robert J.</hi> (1996): "Cladistic
-                                            Analysis of an Old Norse Manuscript Tradition", in: <hi rend="italic"
-                                            >Research in Humanities Computing</hi> 4: 115-137. </bibl>
+                                        <hi rend="bold">O’Hara, Robert J.</hi> (1996): "Trees of history in
+                                        systematics and philology", in: <hi rend="italic">Memorie della Società
+                                        Italiana di Scienze Naturali e del Museo Civico di Storia Naturale di
+                                        Milano</hi> 27, 1: 81–88. </bibl>
+                                        <bibl>
+                                          <hi rend="bold">Robinson, Peter / Barbrook, Adrian C. / Blake, Norman /
+                                            Howe, Christopher J.</hi> (1998): "The Phylogeny of The Canterbury
+                                            Tales", in: <hi rend="italic">Nature</hi> 394: 839. </bibl>
                                             <bibl>
-                                              <hi rend="bold">Timpanaro, Sebastiano</hi> (2005): <hi rend="italic">The
-                                              Genesis of Lachmann’s Method</hi>. Chicago: University of Chicago. </bibl>
+                                              <hi rend="bold">Robinson, Peter / O’Hara, Robert J.</hi> (1996): "Cladistic
+                                              Analysis of an Old Norse Manuscript Tradition", in: <hi rend="italic"
+                                              >Research in Humanities Computing</hi> 4: 115-137. </bibl>
                                               <bibl>
-                                                <hi rend="bold">van Reenen, Pieter T. van / van Mulken, Margot</hi> (1996):
-                                                <hi rend="italic">Studies in Stemmatology</hi> I. Amsterdam /
-                                                Philadelphia: John Benjamins Publishing Company.</bibl>
-                                              </listBibl>
-                                            </div>
-                                          </back>
-                                        </text>
-                                      </TEI>
+                                                <hi rend="bold">Timpanaro, Sebastiano</hi> (2005): <hi rend="italic">The
+                                                Genesis of Lachmann’s Method</hi>. Chicago: University of Chicago. </bibl>
+                                                <bibl>
+                                                  <hi rend="bold">van Reenen, Pieter T. van / van Mulken, Margot</hi> (1996):
+                                                  <hi rend="italic">Studies in Stemmatology</hi> I. Amsterdam /
+                                                  Philadelphia: John Benjamins Publishing Company.</bibl>
+                                                </listBibl>
+                                              </div>
+                                            </back>
+                                          </text>
+                                        </TEI>
