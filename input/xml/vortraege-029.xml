@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-029">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-029">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -188,7 +188,7 @@
               <hi rend="italic">Max Stirner: Geschichte der Reaction, Band 1. Berlin, 1852</hi> accompanies it as comprehensive example. The system is free software and available from http://cs.christophwernhard.com/kbset/.
             </p>
             <p>In a typical setting, the system takes as inputs:</p>
-            <list type="ordered">
+            <list type="unordered">
               <item>A source text file, possibly in
                 <hi rend="italic">LaTeX</hi> format. The system can parse
                 <hi rend="italic">LaTeX</hi>, where the set of recognized commands is configurable, including user defined commands as well as commands that establish some "ordered hierarchy of content objects". In this way plain or structured text is available within the system to modules that operate on such text models.
