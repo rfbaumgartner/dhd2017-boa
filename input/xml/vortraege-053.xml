@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-053">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraesge-053">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -195,38 +195,38 @@
                     <p>Auf die Frage „Welche Bereiche interessieren Sie?“ (Mehrfachauswahl war möglich), wurde wie folgt geantwortet:</p>
                     <figure>
                       <graphic url="v53-table1.png" rend="inline"/>
+                      <p rend="figure"><hi rend="bold">Abb. 1</hi>: Frage 6 – „Welche der
+                      folgenden Bereiche interessieren Sie? (Mehrfachantwort möglich)“</p>
                     </figure>
-                    <p rend="figure"><hi rend="bold">Abb. 1</hi>: Frage 6 – „Welche der
-                    folgenden Bereiche interessieren Sie? (Mehrfachantwort möglich)“</p>
                     <p>Die Antworten zeigen, dass die Interessen der Nutzer sich über das gesamte Spektrum der zur Auswahl stehenden Teildisziplinen verteilen. Keine der Optionen wurde von weniger als 10% ausgewählt, so dass wir einstweilen auch keine der betreffenden Nutzergruppen als irrelevant für die weitere Entwicklung der Angebote ausschließen können. Unter den häufiger genannten Antworten sind mit etwa DaF, Gesprächsforschung und Pragmatik mehrere Nutzergruppen, für die trotz ihrer traditionell empirischen Ausrichtung die Arbeit mit digitalen Sprachdatenbanken sicherlich noch nicht als der Normalfall gelten kann. Dediziert „technisch“ ausgerichtete Disziplinen wie Computerlinguistik und Korpustechnologie rangieren hingegen am unteren Ende der Liste.</p>
                     <p>Die Teilnehmer wurden weiterhin nach Vorkenntnissen befragt, die für die Arbeit mit mündlichen Korpora relevant sind:</p>
                     <figure>
                       <graphic n="1001" width="15.769166666666667cm" height="6.402916666666667cm" url="053-image1.png" rend="inline"/>
+                      <p rend="figure"><hi rend="bold">Abb. 2</hi>: Frage 10 – „Bitte beurteilen
+                      Sie Ihre Erfahrung in folgenden Bereichen“</p>
                     </figure>
-                    <p rend="figure"><hi rend="bold">Abb. 2</hi>: Frage 10 – „Bitte beurteilen
-                    Sie Ihre Erfahrung in folgenden Bereichen“</p>
                     <p>Eine große Mehrheit der Teilnehmer gibt an, über keine oder wenig Erfahrung
                       in Programmieren / Skripten und Statistik zu verfügen (88% bzw. 80%). Eine
                       etwas größere Minderheit (41%) beurteilt ihre Kenntnisse in Korpuslinguistik
                       positiv. </p>
                       <figure>
                         <graphic n="1002" width="15.820105555555555cm" height="6.2433861111111115cm" url="053-image2.png" rend="inline"/>
+                        <p rend="figure"><hi rend="bold">Abb. 3</hi>: Frage 11 – „Welche der
+                        folgenden Suchabfragesprachen kennen / nutzen Sie?“</p>
                       </figure>
-                      <p rend="figure"><hi rend="bold">Abb. 3</hi>: Frage 11 – „Welche der
-                      folgenden Suchabfragesprachen kennen / nutzen Sie?“</p>
                       <p>Reguläre Ausdrücke sind der einzige formale Mechanismus, der von einer Mehrheit (56%) gelegentlich oder regelmäßig genutzt wird. Während COSMAS II – die Suchabfragesprache für die schriftlichen IDS-Korpora – noch bei 34% gelegentliche oder regelmäßige Anwendung findet, sind CQP und TigerSearch – als zwei weitere für die deutschsprachige Korpuslinguistik relevante Suchabfragesprachen den meisten Teilnehmern (82% bzw. 78%) unbekannt.</p>
                       <p>In Bezug auf die Vorerfahrungen mit Transkription stellt sich das Gesamtbild deutlich anders dar.</p>
                       <figure>
                         <graphic n="1003" width="15.873016666666667cm" height="6.137566666666666cm" url="053-image3.png" rend="inline"/>
+                        <p rend="figure"><hi rend="bold">Abb. 4</hi>: Frage 13 – „Verfügen Sie über
+                        eigene Transkriptionserfahrung?“</p>
                       </figure>
-                      <p rend="figure"><hi rend="bold">Abb. 4</hi>: Frage 13 – „Verfügen Sie über
-                      eigene Transkriptionserfahrung?“</p>
                       <p>Knapp die Hälfte der Befragten (46%) transkribiert gelegentlich oder regelmäßig selbst. Unter diesen Teilnehmern gaben etwas mehr als die Hälfte (56%) an, Standard-Office-Software (typischerweise MS Word, 82%) für die Transkription zu nutzen, etwa ebenso viele (55%), mit spezialisierter Transkriptionssoftware zu arbeiten. </p>
                       <figure>
                         <graphic n="1004" width="16.002cm" height="7.579430555555556cm" url="053-image4.png" rend="inline"/>
+                        <p rend="figure"><hi rend="bold">Abb. 5</hi>: Frage 16 – „Mit welchem / en
+                        spezialisierten Transkriptionseditor / en arbeiten Sie?“</p>
                       </figure>
-                      <p rend="figure"><hi rend="bold">Abb. 5</hi>: Frage 16 – „Mit welchem / en
-                      spezialisierten Transkriptionseditor / en arbeiten Sie?“</p>
                       <p>EXMARaLDA (regelmäßige Nutzung: 19%, gelegentlich: 27%), Praat (13% bzw. 22%) und FOLKER (13% bzw. 17%) sind bei letzteren die am häufigsten genutzten Tools. </p>
                     </div>
                     <div type="div2" rend="DH-Heading2">
@@ -234,23 +234,23 @@
                       <p>Nach dem allgemeinen Teil wurde Nutzern die Wahl gelassen, zu welchen der drei Angebote sie im weiteren Verlauf der Umfrage befragt werden wollten. Da sich eine Mehrzahl (261 Teilnehmer) hier für die DGD entschied, stellen wir im Folgenden einige exemplarische Auswertungen für diesen Teil der Umfrage vor. </p>
                       <figure>
                         <graphic n="1005" width="12.620625cm" height="7.672916666666667cm" url="053-image5.png" rend="inline"/>
+                        <p rend="figure"><hi rend="bold">Abb. 6</hi>: Frage 33 – „Wie lässt sich
+                        Ihre methodische Herangehensweise am besten beschreiben, wenn Sie mit der
+                        Datenbank für gesprochenes Deutsch (DGD) arbeiten?“ </p>
                       </figure>
-                      <p rend="figure"><hi rend="bold">Abb. 6</hi>: Frage 33 – „Wie lässt sich
-                      Ihre methodische Herangehensweise am besten beschreiben, wenn Sie mit der
-                      Datenbank für gesprochenes Deutsch (DGD) arbeiten?“ </p>
                       <p>Bei der Frage nach der Anwendung von qualitativen oder quantitativen Analysemethoden positionierte sich der größte Anteil der Befragten (38%) in der Mitte des Spektrums. Bei den übrigen Befragten zeigte sich eine leichte Tendenz zu qualitativen Herangehensweisen (37% vs. 25%).</p>
                       <figure>
                         <graphic n="1006" width="15.555555555555555cm" height="6.798941666666667cm" url="053-image6.png" rend="inline"/>
+                        <p rend="figure"><hi rend="bold">Abb. 7</hi>: Frage 34 – „Was ist Ihre
+                        Haupttätigkeit, wenn Sie mit der Datenbank für gesprochenes Deutsch (DGD)
+                        arbeiten? (Mehrfachantwort möglich)“</p>
                       </figure>
-                      <p rend="figure"><hi rend="bold">Abb. 7</hi>: Frage 34 – „Was ist Ihre
-                      Haupttätigkeit, wenn Sie mit der Datenbank für gesprochenes Deutsch (DGD)
-                      arbeiten? (Mehrfachantwort möglich)“</p>
                       <p>Dies spiegelt sich auch in den Antworten auf die Frage nach der Hauptaktivität beim Arbeiten mit der DGD wieder: Hier beurteilten die Befragten die manuell-intellektuelle Inspektion der Daten (Transkripte lesen, Audio anhören) als geringfügig relevanter als Methoden, die auf semi-automatischem Retrieval basieren (Queries, Wortlisten).</p>
                       <figure>
                         <graphic n="1007" width="15.84656111111111cm" height="7.619047222222222cm" url="053-image7.png" rend="inline"/>
+                        <p rend="figure"><hi rend="bold">Abb. 8</hi>: Frage 37 – „Mit welchen
+                        Korpora der DGD arbeiten Sie? (Mehrfachantwort möglich)“</p>
                       </figure>
-                      <p rend="figure"><hi rend="bold">Abb. 8</hi>: Frage 37 – „Mit welchen
-                      Korpora der DGD arbeiten Sie? (Mehrfachantwort möglich)“</p>
                       <p>FOLK als das neueste, technisch fortschrittlichste und größte Gesprächskorpus
                         ist auch dasjenige, das am meisten genutzt wird (regelmäßig oder
                         gelegentlich von 25% bzw. 41%), und es besteht auch weiterhin Interesse an
@@ -259,9 +259,9 @@
                         Vergleich kaum ins Gewicht. </p>
                         <figure>
                           <graphic n="1008" width="14.788358333333333cm" height="7.619047222222222cm" url="053-image8.png" rend="inline"/>
+                          <p rend="figure"><hi rend="bold">Abb. 9</hi>: Frage 54 – „Welche anderen /
+                          zusätzlichen Datentypen würden Sie sich in der DGD wünschen?“ </p>
                         </figure>
-                        <p rend="figure"><hi rend="bold">Abb. 9</hi>: Frage 54 – „Welche anderen /
-                        zusätzlichen Datentypen würden Sie sich in der DGD wünschen?“ </p>
                         <p>Bei der Frage nach Wünschen für zusätzliche Daten oder neue Datentypen in der
                           DGD wurden Mediendaten ( z. B. geskriptete oder freie Interaktionen in
                           Fernsehen oder Radio), Videodaten und Unterrichtsdaten auffällig häufig
@@ -273,15 +273,15 @@
                           „die frühesten archivierten Aufnahmen“).</p>
                           <figure>
                             <graphic n="1009" width="16.002cm" height="7.217833333333333cm" url="053-image9.png" rend="inline"/>
+                            <p rend="figure"><hi rend="bold">Abb. 10</hi>: Frage 52 – „Bitte bewerten
+                            Sie die Webseite der DGD“</p>
                           </figure>
-                          <p rend="figure"><hi rend="bold">Abb. 10</hi>: Frage 52 – „Bitte bewerten
-                          Sie die Webseite der DGD“</p>
                           <p>Das Gesamturteil zur Nutzerfreundlichkeit der DGD-Website fällt positiv aus, wobei die Zufriedenheitswerte allerdings bei eher oberflächlichen Design-Details wie der Farbauswahl (positiv bewertet von über 70%) höher ausfallen als bei letztendlich entscheidenderen Kategorien wie „Intuitive Bedienung“ (52%). </p>
                           <figure>
                             <graphic n="10010" width="16.002cm" height="7.505347222222222cm" url="053-image10.png" rend="inline"/>
+                            <p rend="figure"><hi rend="bold">Abb. 11</hi>: Frage 49 – „Wie zufrieden
+                            sind Sie mit ...?“</p>
                           </figure>
-                          <p rend="figure"><hi rend="bold">Abb. 11</hi>: Frage 49 – „Wie zufrieden
-                          sind Sie mit ...?“</p>
                           <p>Bezogen auf spezifische Teilbereiche der DGD-Funktionalität, wurden Quantität der Daten (11%), Exportoptionen (8%) und Suchfunktionalität (8%) am häufigsten als Bereiche genannt, mit denen Nutzer unzufrieden waren. </p>
                         </div>
                       </div>
