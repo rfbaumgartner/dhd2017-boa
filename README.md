@@ -1,26 +1,25 @@
 # TEI/XML-Quellen für den DHd2016-Konferenzband
 
 Dieses Repository enthält die gesamte Datenbasis des
-[DHd2016](http://dhd2016.de/)-Konferenzbandes, bestehend aus den
+[DHd2016](http://dhd2016.de/)-Konferenzbandes, bestehend aus den korrigierten
 TEI/XML-Quellen aller eingereichten Konferenzabstracts, sowie den
 Transformationsskripten, die auf der Arbeit von Karin Dalziel beruhen.
 (https://github.com/karindalziel/TEI-to-PDF)
 
 
-## Korrekturen
+## Erstellung
 
-AutorInnen von Abstracts des Konferenzbandes haben die Möglichkeit,
-nachträglich Korrekturen einzureichen.  Unten sind alle Abstracts im
-TEI/XML-Format verlinkt aufgelistet.  Sie können Ihren Datensatz herunterladen,
-bearbeiten und Ihre korrigierten Fassungen an abstracts@dhd2016.de senden.
+Eine grobe Anleitung:
 
-Senden Sie bitte keine komplett neuen Dateien, sondern lediglich die hier
-verlinkten Fassungen in bearbeiteter Form.
+* dieses Projekt klonen/herunterladen
+* Apache FOP beziehen (https://xmlgraphics.apache.org/fop/)
+* Saxon-HE beziehen (http://saxon.sourceforge.net/#F9.7HE)
+* config/config.sh anpassen, insb. FOP und Saxon referenzieren
+* erforderliche Schriften verfügbar machen
+* run.sh ausführen
 
-Wenn Sie mit dem Git-/GitHub-Workflow vertraut sind (oder sich damit vertraut
-machen möchten), können Sie gern auch dieses Repository clonen/forken.  Wir
-freuen uns über alle Pull-Requests.
 
+## Beiträge
  
 ### Panels
 
@@ -34,8 +33,8 @@ freuen uns über alle Pull-Requests.
 
 ### Plenarvorträge
 
-* [Die Rolle von Mensch und Computer in den Digital Humanities](input/xml/plenarvorträge-001.xml)
-* [Von den 'digital humanities' zu einer humanen Digitalisierung](input/xml/plenarvorträge-002.xml)
+* [Die Rolle von Mensch und Computer in den Digital Humanities](input/xml/plenarvortraege-001.xml)
+* [Von den 'digital humanities' zu einer humanen Digitalisierung](input/xml/plenarvortraege-002.xml)
 
 
 ### Posters
@@ -131,67 +130,66 @@ freuen uns über alle Pull-Requests.
 
 ### Vorträge
 
-* [Editionsphilologie zwischen Bibliothek, Archiv und Fachwissenschaft: Der standardisierte Open-Source-Workflow der digitalen Edition der Korrespondenz August Wilhelm Schlegels](input/xml/vorträge-001.xml)
-* [Pattern Mining in Keilschriftzeichnungen](input/xml/vorträge-002.xml)
-* [Algorithmische Visualisierungen: Ausdruck von Routinen und Denkstilen in den Digital Humanities](input/xml/vorträge-003.xml)
-* [Die Kunst als Ganzes. Heterogene Bilddatensätze als Herausforderung für die Kunstgeschichte und die Computer Vision.](input/xml/vorträge-004.xml)
-* [Die Corpusanalyse multimodaler Erzählungen am Beispiel graphischer Romane](input/xml/vorträge-005.xml)
-* [Automatische Textanalysen in der Geschichtswissenschaft – Auswertung, Interpretation und Relevanz](input/xml/vorträge-006.xml)
-* [Play(s): Crowdbasierte Anreicherung eines literarischen Volltext-Korpus](input/xml/vorträge-007.xml)
-* [Das juristische Referenzkorpus (JuReko) - Computergestützte Rechtslinguistik als empirischer Beitrag zu Gesetzgebung und Justiz](input/xml/vorträge-008.xml)
-* [DH-Projekte Österreichischer Literaturarchive: Ein Problembericht](input/xml/vorträge-009.xml)
-* [Modelling the Scholarly Domain beyond Infrastructure](input/xml/vorträge-010.xml)
-* [Aufbau und Annotation des Kafka/Referenzkorpus](input/xml/vorträge-011.xml)
-* [Modellierung: eine Begriffsbestimmung](input/xml/vorträge-012.xml)
-* [Korpusanalyse in der computergestützten Komparatistik](input/xml/vorträge-013.xml)
-* [Moving around the City of Glass](input/xml/vorträge-014.xml)
-* [Software-Einsatz in der geisteswissenschaftlichen Forschungspraxis: Ergebnisse einer Umfrage](input/xml/vorträge-015.xml)
-* [HistStadt4D - Multimodale Zugänge zu historischen Bildrepositorien zur Unterstützung stadt- und baugeschichtlicher Forschung und Vermittlung](input/xml/vorträge-016.xml)
-* [Die Geowissenschaftliche Analyse von großen Mengen historischer Texte: Die Visualisierung geographischer Verhältnisse in deutschen Familienzeitschriften](input/xml/vorträge-017.xml)
-* [Die datengeleitete Ermittlung des gemeinsamen sprachlichen Inventars der Geisteswissenschaften](input/xml/vorträge-018.xml)
-* [Weibliches Erzählen im Expressionismus? Eine Stilometrie von Mela Hartwigs Prosa](input/xml/vorträge-019.xml)
-* [Small Data: Wissensproduktion und -vermittlung bei digitalen Visualisierungen in der Kunstgeschichte](input/xml/vorträge-020.xml)
-* [Digitale Editionen als Web-Services](input/xml/vorträge-021.xml)
-* [User-Experience von Spracharchiven: Eine Neubewertung der Interaktion von Archiv und Nutzern.](input/xml/vorträge-022.xml)
-* [Sonification: Vermittlungsansätze zwischen Klang und Information](input/xml/vorträge-023.xml)
-* [Zu virtuellen Forschungsumgebungen, einer genuin digitalen Hermeneutik sowie deren Visualisierung](input/xml/vorträge-024.xml)
-* [Darstellung heterogenen und dynamischen Wissens mit CIDOC CRM und WissKI](input/xml/vorträge-025.xml)
-* [Tambora: Erkenntnisgewinne durch kartographische Visualisierungen von Forschungsdaten aus der historischen Klimatologie](input/xml/vorträge-026.xml)
-* [„Jesus ist keine App“ - Fachsprachliche Konzeptualisierungen des ›Computers‹ und Ansätze computergestützter Fachsprachenlinguistik am Beispiel der Domänen Medizin und Theologie](input/xml/vorträge-027.xml)
-* [Knowledge-Based Support for Scholarly Editing and Text Processing](input/xml/vorträge-029.xml)
-* [Annotation und Distant Reading: Probleme, Synergien, Perspektiven](input/xml/vorträge-030.xml)
-* [ePoetics – Korpuserschließung und Visualisierung deutschsprachiger Poetiken (1770-1960) für den ‚Algorithmic Criticism](input/xml/vorträge-031.xml)
-* [Über den Mehrwert der Vernetzung von OCR-Verfahren zur Erfassung von Texten des 17. Jahrhunderts](input/xml/vorträge-032.xml)
-* [Formate als Sackgassen: Handlungsempfehlungen](input/xml/vorträge-033.xml)
-* [Digital Humanities in Bewegung: Ansätze für die computergestützte Filmanalyse](input/xml/vorträge-034.xml)
-* [Operationalisierung von Forschungsfragen in CLARIN-D - Der Anwendungsfall Ernst Jünger](input/xml/vorträge-035.xml)
-* [Judaica recherchieren – Unterstützung bei der Realisierung forschungsspezifischer Suchlösungen durch die generische Suche von DARIAH-DE](input/xml/vorträge-036.xml)
-* [Nutzung und Kombination von Daten aus strukturierten und unstrukturierten Quellen zur Identifikation transnationaler Lebensläufe](input/xml/vorträge-037.xml)
-* [Sprachwandel im Sanskrit? Eine Corpusstudie zum Einfluss Pāṇinis auf die Lexik des Sanskrit](input/xml/vorträge-038.xml)
-* [Kollaboratives Annotieren literarischer Texte](input/xml/vorträge-039.xml)
-* [Attribuierung direkter Reden in deutschen Romanen des 18.-20. Jahrhunderts. Methoden zur Bestimmung des Sprechers und des Angesprochenen](input/xml/vorträge-040.xml)
-* [DiaCollo: diachronen Kollokationen auf der Spur](input/xml/vorträge-041.xml)
-* [Bearbeitung und Annotation historischer Texte mittels Graph-Datenbanken am Beispiel der Chronik des Matthias von Edessa](input/xml/vorträge-042.xml)
-* [Kafkas Stil. Zur Psychostilistik der Tagebücher Kafkas](input/xml/vorträge-043.xml)
-* [Digitale Workflows in Langzeitprojekten am Beispiel einer Infrastruktur zur Dokumentation indigener nordeurpoäischer Sprachen (INEL)](input/xml/vorträge-044.xml)
-* [Die Lehre der digitalen Visualisierung am Beispiel der Architektur](input/xml/vorträge-045.xml)
-* [Sprache als Netz: Diagnostik durch Visualisierung](input/xml/vorträge-046.xml)
-* [A Visual Approach to the History of Swiss Federal Law](input/xml/vorträge-047.xml)
-* [LERA - Explorative Analyse komplexer Textvarianten in Editionsphilologie und Diskursanalyse](input/xml/vorträge-048.xml)
-* [Classification of Literary Subgenres](input/xml/vorträge-049.xml)
-* [Der falsche Quijote? Autorschaftsattribution für spanische Prosa der frühen Neuzeit.](input/xml/vorträge-051.xml)
-* [Korpushermeneutik - Ansatz und Werkzeug zur Analyse großer Textkorpora](input/xml/vorträge-052.xml)
-* [Wer bist Du, Nutzer?](input/xml/vorträge-053.xml)
-* [Geisteswissenschaftliche Fachdatenrepositorien im Semantic Web. Modellierung, Vernetzung, Visualisierung.](input/xml/vorträge-054.xml)
-* [Topic, Genre, Text](input/xml/vorträge-055.xml)
-* [Technical and social Infrastructures for the Humanities: The Example of the Dagaare-English-Cantonese Dictionary](input/xml/vorträge-056.xml)
-* [Ein Facebook der anderen Art: Digitalisierte Epigraphiken als Quelle der Kulturforschung](input/xml/vorträge-057.xml)
-* [Usability in den Digital Humanities am Beispiel des LAUDATIO-Repositoriums](input/xml/vorträge-058.xml)
-* ["Alles ist Wechselwirkung" – auch in den Digital Humanities: Von 'D' nach 'H' und zurück durch Humboldts Kosmos-Vorträge (1827/28)](input/xml/vorträge-059.xml)
-* [Dramen als small worlds? Netzwerkdaten zur Geschichte und Typologie deutschsprachiger Dramen 1730-1930](input/xml/vorträge-060.xml)
-* [Ein Mehrebenen-Tagging-Modell für die Annotation altäthiopischer Texte](input/xml/vorträge-061.xml)
-* [Emosaic](input/xml/vorträge-062.xml)
-* [Technical and social Infrastructures for the Humanities: The Example of the Dagaare-English-Cantonese Dictionary](input/xml/vorträge-063.xml)
+* [Editionsphilologie zwischen Bibliothek, Archiv und Fachwissenschaft: Der standardisierte Open-Source-Workflow der digitalen Edition der Korrespondenz August Wilhelm Schlegels](input/xml/vortraege-001.xml)
+* [Pattern Mining in Keilschriftzeichnungen](input/xml/vortraege-002.xml)
+* [Algorithmische Visualisierungen: Ausdruck von Routinen und Denkstilen in den Digital Humanities](input/xml/vortraege-003.xml)
+* [Die Kunst als Ganzes. Heterogene Bilddatensätze als Herausforderung für die Kunstgeschichte und die Computer Vision.](input/xml/vortraege-004.xml)
+* [Die Corpusanalyse multimodaler Erzählungen am Beispiel graphischer Romane](input/xml/vortraege-005.xml)
+* [Automatische Textanalysen in der Geschichtswissenschaft – Auswertung, Interpretation und Relevanz](input/xml/vortraege-006.xml)
+* [Play(s): Crowdbasierte Anreicherung eines literarischen Volltext-Korpus](input/xml/vortraege-007.xml)
+* [Das juristische Referenzkorpus (JuReko) - Computergestützte Rechtslinguistik als empirischer Beitrag zu Gesetzgebung und Justiz](input/xml/vortraege-008.xml)
+* [DH-Projekte Österreichischer Literaturarchive: Ein Problembericht](input/xml/vortraege-009.xml)
+* [Modelling the Scholarly Domain beyond Infrastructure](input/xml/vortraege-010.xml)
+* [Aufbau und Annotation des Kafka/Referenzkorpus](input/xml/vortraege-011.xml)
+* [Modellierung: eine Begriffsbestimmung](input/xml/vortraege-012.xml)
+* [Korpusanalyse in der computergestützten Komparatistik](input/xml/vortraege-013.xml)
+* [Moving around the City of Glass](input/xml/vortraege-014.xml)
+* [Software-Einsatz in der geisteswissenschaftlichen Forschungspraxis: Ergebnisse einer Umfrage](input/xml/vortraege-015.xml)
+* [HistStadt4D - Multimodale Zugänge zu historischen Bildrepositorien zur Unterstützung stadt- und baugeschichtlicher Forschung und Vermittlung](input/xml/vortraege-016.xml)
+* [Die Geowissenschaftliche Analyse von großen Mengen historischer Texte: Die Visualisierung geographischer Verhältnisse in deutschen Familienzeitschriften](input/xml/vortraege-017.xml)
+* [Die datengeleitete Ermittlung des gemeinsamen sprachlichen Inventars der Geisteswissenschaften](input/xml/vortraege-018.xml)
+* [Weibliches Erzählen im Expressionismus? Eine Stilometrie von Mela Hartwigs Prosa](input/xml/vortraege-019.xml)
+* [Small Data: Wissensproduktion und -vermittlung bei digitalen Visualisierungen in der Kunstgeschichte](input/xml/vortraege-020.xml)
+* [Digitale Editionen als Web-Services](input/xml/vortraege-021.xml)
+* [User-Experience von Spracharchiven: Eine Neubewertung der Interaktion von Archiv und Nutzern.](input/xml/vortraege-022.xml)
+* [Sonification: Vermittlungsansätze zwischen Klang und Information](input/xml/vortraege-023.xml)
+* [Zu virtuellen Forschungsumgebungen, einer genuin digitalen Hermeneutik sowie deren Visualisierung](input/xml/vortraege-024.xml)
+* [Darstellung heterogenen und dynamischen Wissens mit CIDOC CRM und WissKI](input/xml/vortraege-025.xml)
+* [Tambora: Erkenntnisgewinne durch kartographische Visualisierungen von Forschungsdaten aus der historischen Klimatologie](input/xml/vortraege-026.xml)
+* [„Jesus ist keine App“ - Fachsprachliche Konzeptualisierungen des ›Computers‹ und Ansätze computergestützter Fachsprachenlinguistik am Beispiel der Domänen Medizin und Theologie](input/xml/vortraege-027.xml)
+* [Knowledge-Based Support for Scholarly Editing and Text Processing](input/xml/vortraege-029.xml)
+* [Annotation und Distant Reading: Probleme, Synergien, Perspektiven](input/xml/vortraege-030.xml)
+* [ePoetics – Korpuserschließung und Visualisierung deutschsprachiger Poetiken (1770-1960) für den ‚Algorithmic Criticism](input/xml/vortraege-031.xml)
+* [Über den Mehrwert der Vernetzung von OCR-Verfahren zur Erfassung von Texten des 17. Jahrhunderts](input/xml/vortraege-032.xml)
+* [Formate als Sackgassen: Handlungsempfehlungen](input/xml/vortraege-033.xml)
+* [Digital Humanities in Bewegung: Ansätze für die computergestützte Filmanalyse](input/xml/vortraege-034.xml)
+* [Operationalisierung von Forschungsfragen in CLARIN-D - Der Anwendungsfall Ernst Jünger](input/xml/vortraege-035.xml)
+* [Judaica recherchieren – Unterstützung bei der Realisierung forschungsspezifischer Suchlösungen durch die generische Suche von DARIAH-DE](input/xml/vortraege-036.xml)
+* [Nutzung und Kombination von Daten aus strukturierten und unstrukturierten Quellen zur Identifikation transnationaler Lebensläufe](input/xml/vortraege-037.xml)
+* [Sprachwandel im Sanskrit? Eine Corpusstudie zum Einfluss Pāṇinis auf die Lexik des Sanskrit](input/xml/vortraege-038.xml)
+* [Kollaboratives Annotieren literarischer Texte](input/xml/vortraege-039.xml)
+* [Attribuierung direkter Reden in deutschen Romanen des 18.-20. Jahrhunderts. Methoden zur Bestimmung des Sprechers und des Angesprochenen](input/xml/vortraege-040.xml)
+* [DiaCollo: diachronen Kollokationen auf der Spur](input/xml/vortraege-041.xml)
+* [Bearbeitung und Annotation historischer Texte mittels Graph-Datenbanken am Beispiel der Chronik des Matthias von Edessa](input/xml/vortraege-042.xml)
+* [Kafkas Stil. Zur Psychostilistik der Tagebücher Kafkas](input/xml/vortraege-043.xml)
+* [Digitale Workflows in Langzeitprojekten am Beispiel einer Infrastruktur zur Dokumentation indigener nordeurpoäischer Sprachen (INEL)](input/xml/vortraege-044.xml)
+* [Die Lehre der digitalen Visualisierung am Beispiel der Architektur](input/xml/vortraege-045.xml)
+* [Sprache als Netz: Diagnostik durch Visualisierung](input/xml/vortraege-046.xml)
+* [A Visual Approach to the History of Swiss Federal Law](input/xml/vortraege-047.xml)
+* [LERA - Explorative Analyse komplexer Textvarianten in Editionsphilologie und Diskursanalyse](input/xml/vortraege-048.xml)
+* [Classification of Literary Subgenres](input/xml/vortraege-049.xml)
+* [Der falsche Quijote? Autorschaftsattribution für spanische Prosa der frühen Neuzeit.](input/xml/vortraege-051.xml)
+* [Korpushermeneutik - Ansatz und Werkzeug zur Analyse großer Textkorpora](input/xml/vortraege-052.xml)
+* [Wer bist Du, Nutzer?](input/xml/vortraege-053.xml)
+* [Geisteswissenschaftliche Fachdatenrepositorien im Semantic Web. Modellierung, Vernetzung, Visualisierung.](input/xml/vortraege-054.xml)
+* [Topic, Genre, Text](input/xml/vortraege-055.xml)
+* [Technical and social Infrastructures for the Humanities: The Example of the Dagaare-English-Cantonese Dictionary](input/xml/vortraege-056.xml)
+* [Ein Facebook der anderen Art: Digitalisierte Epigraphiken als Quelle der Kulturforschung](input/xml/vortraege-057.xml)
+* [Usability in den Digital Humanities am Beispiel des LAUDATIO-Repositoriums](input/xml/vortraege-058.xml)
+* ["Alles ist Wechselwirkung" – auch in den Digital Humanities: Von 'D' nach 'H' und zurück durch Humboldts Kosmos-Vorträge (1827/28)](input/xml/vortraege-059.xml)
+* [Dramen als small worlds? Netzwerkdaten zur Geschichte und Typologie deutschsprachiger Dramen 1730-1930](input/xml/vortraege-060.xml)
+* [Ein Mehrebenen-Tagging-Modell für die Annotation altäthiopischer Texte](input/xml/vortraege-061.xml)
+* [Emosaic](input/xml/vortraege-062.xml)
 
 
 ### Workshops
