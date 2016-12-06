@@ -149,7 +149,7 @@
         <div type="div1">
           <head>Podiumsdiskussion (ca. 30 Minuten)</head>
           <p>Im Anschluss an diese Kurzvorstellung erfolgt eine moderierte Podiumsdiskussion, worin folgende Punkte weiter thematisiert werden:</p>
-          <list type="ordered">
+          <list type="unordered">
             <item>Dokumentation von Technologie und Workflows: Wie gut sind die technischen Aspekte dokumentiert? Ist es für Dritte möglich, anhand dieser Dokumente ähnliche Projekte zu realisieren? Welche technische Infrastruktur ist dafür notwendig?</item>
             <item>Veröffentlichung von Code: Ist der für das System geschriebene oder adaptierte Code für andere nachnutzbar veröffentlicht (z. B. auf GitHub)?</item>
             <item>Wird das entwickelte Framework auch als Service angeboten?</item>
