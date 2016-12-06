@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-038">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-038">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -200,9 +200,9 @@
                           geringer wird. </p>
                           <figure>
                             <graphic n="1001" width="12.183180555555555cm" height="7.3099083333333335cm" url="038-image1.png" rend="inline"/>
+                            <p><hi rend="bold"> </hi><anchor xml:id="Ref432675410"/><hi rend="bold">Abb. 1</hi>:
+                            Verteilung von Beispielnomina aus der Aṣṭādhyāyī </p>
                           </figure>
-                          <p><hi rend="bold"> </hi><anchor xml:id="Ref432675410"/><hi rend="bold">Abb. 1</hi>:
-                          Verteilung von Beispielnomina aus der Aṣṭādhyāyī </p>
                           <p>Abbildung 1 klärt allerdings nicht, ob die Verwendungshäufigkeit bei Lexemen aus der Aṣṭādhyāyī weniger stark abnimmt als bei Lexemen aus anderen frühen Texten. In Abbildung 2 wird deshalb die zeitliche Verteilung Pāṇinäischer Beispielnomina derjenigen der
                             <hi rend="italic">śruti</hi>-Nomina in fünf Konfigurationen gegenübergestellt. Der linke Teilbereich zeigt, dass sich die Nomina aus beiden Gruppen grundsätzlich ähnlich über die Sanskrit-Literatur verteilen. Während in der epischen, wissenschaftlichen und „Rechtsliteratur“ eine allgemeine Abnahme früher Nomina zu beobachten ist, erleben sie in der religiösen und philosophischen Literatur eine Art
                             <hi rend="italic">revival</hi>. Die Analyse der daran beteiligten Begriffe zeigt, dass hierfür v.a. Begriffe wie
@@ -215,24 +215,24 @@
                             <hi rend="italic">śruti</hi>-Nomina (S) in die drei Teilmengen
                             <hi rend="italic">P</hi>∩
                             <hi rend="italic">S</hi> (Schnittmenge),
-                            <hi rend="italic">P</hi>∖
+                            <hi rend="italic">P</hi>\
                             <hi rend="italic">S</hi> (alle aus P, die nicht in S sind) und
-                            <hi rend="italic">S</hi>∖
+                            <hi rend="italic">S</hi>\
                             <hi rend="italic">P</hi> (alle aus S, die nicht in P sind) aufgeteilt. Der allgemeine Trend dieser Detailverteilungen unterscheidet sich auf den ersten Blick nicht grundsätzlich von der linken Seite des Plots. Bemerkenswert ist allerdings der vergleichsweise hohe Anteil, den die Schnittmenge
                             <hi rend="italic">P</hi>∩
                             <hi rend="italic">S</hi> am später verwendeten frühen Nominalvokabular einnimmt. Dieser Befund deutet aus unserer Sicht weniger auf eine verstärkte Rezeption Pāṇini’s hin als auf die Tatsache, dass die Aṣṭādhyāyī populäre Beispielwörter verwendet.
                           </p>
                           <figure>
                             <graphic n="1002" width="12.183180555555555cm" height="12.183180555555555cm" url="038-image2.png" rend="inline"/>
-                          </figure>
-                          <p>
-                            <anchor xml:id="Ref432676694"/><hi rend="bold">Abb. 2</hi>: Links: Verteilung
-                            von Nomina, die in der Aṣṭādhyāyī (dunkelgrau) und in der <hi rend="italic"
-                            >śruti</hi> (hellgrau) vorkommen. Rechts: Verteilung von Nomina, die in <hi
-                            rend="italic">śruti</hi> und Aṣṭādhyāyī (dunkelgrau), nur in der Aṣṭādhyāyī
-                            (mittelgrau) und nur in der <hi rend="italic">śruti</hi> (hellgrau) vorkommen. </p>
+                            <p>
+                              <anchor xml:id="Ref432676694"/><hi rend="bold">Abb. 2</hi>: Links: Verteilung
+                              von Nomina, die in der Aṣṭādhyāyī (dunkelgrau) und in der <hi rend="italic"
+                              >śruti</hi> (hellgrau) vorkommen. Rechts: Verteilung von Nomina, die in <hi
+                              rend="italic">śruti</hi> und Aṣṭādhyāyī (dunkelgrau), nur in der Aṣṭādhyāyī
+                              (mittelgrau) und nur in der <hi rend="italic">śruti</hi> (hellgrau) vorkommen. </p>
+                            </figure>
                             <p>Abschließend werden die Häufigkeiten für alle fünf Konfigurationen pro Zeitperiode über alle Themengebiete gemittelt. Die drei oberen Plots in Abbildung 3 zeigen, dass der Kernbestand des spätvedischen Vokabulars im klassischen Sanskrit zunehmend seltener verwendet wird. Weniger eindeutig ist die Verteilung in den beiden unteren Plots, die eine geringe, aber recht konstante Verwendung der Nomina aus
-                              <hi rend="italic">P</hi>∖
+                              <hi rend="italic">P</hi>\
                               <hi rend="italic">S</hi> erkennen lassen.
                             </p>
                             <p>Diese geringere Abnahme des Pāṇinäischen Kernvokabulars scheint die These zu stützen, dass die Aṣṭādhyāyī dauerhaft rezipiert wurde und ihre Wörter durch diese regelmäßige Verwendung weniger stark dem allgemeinen Wandel der Lexik unterliegen. Allerdings muss diese Schlussfolgerung in zwei Punkten deutlich eingeschränkt werden. Erstens ist die Vergleichsgruppe der religiösen Texte nur deshalb bis heute überliefert, weil sie ebenfalls als wichtig angesehen und deshalb regelmäßig rezipiert wurden. Hier fehlt ein Corpus von Texten aus der Zeit Pāṇini’s, die danach keine Rolle mehr spielten. Zweitens sollten die Vergleichswörter aus der
@@ -241,10 +241,10 @@
                             </p>
                             <figure>
                               <graphic n="1003" width="12.183180555555555cm" height="9.124597222222222cm" url="038-image3.png" rend="inline"/>
-                            </figure>
-                            <p>
-                              <anchor xml:id="Ref432675979"/><hi rend="bold">Abb. 3</hi>: Über Themengebiete
-                              gemittelte Häufigkeiten für die fünf Vergleichskonfigurationen </p>
+                              <p>
+                                <anchor xml:id="Ref432675979"/><hi rend="bold">Abb. 3</hi>: Über Themengebiete
+                                gemittelte Häufigkeiten für die fünf Vergleichskonfigurationen </p>
+                              </figure>
                             </div>
                           </body>
                           <back>
