@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-010">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-010">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -288,7 +288,7 @@
                               Alois</hi>: <hi rend="italic">D3.4</hi>. Research Report on DH Scholarly
                               Primitives <ref
                               target="http://dm2e.eu/files/D3.4_2.0_Research_Report_on_DH_Scholarly_Primitives_150402.pdf"
-                              >http://dm2e.eu/files/D3.4_2.0_Research_Report_on_DH_Scholarly_Primitives_150402.pdf</ref>
+                              >http://dm2e.eu/files/D3.4_2.0_Research_Report_on_DH_Scholarly_ Primitives_150402.pdf</ref>
                               [last accessed 15. October 2015]. </bibl>
                               <bibl><hi rend="bold">Hughes, Lorna / Constantopoulos, Panos / Dallas,
                                 Costis</hi> (2016): “Digital Methods in the Humanities: Understanding
