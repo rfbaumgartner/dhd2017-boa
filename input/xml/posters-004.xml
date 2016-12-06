@@ -130,16 +130,16 @@
           <p>Um die Ähnlichkeit von Artefakten zu bestimmen, wird die Struktur der Taxonomie als Hintergrundwissen einer Distanz-Funktion als Graph bereitgestellt. Aufbauend auf der Distanzmetrik, die Wu und Palmer für die Bestimmung konzeptueller Entfernung zwischen Begriffen (Palmer 1994) entwickelt haben, soll die Ähnlichkeit von Artefakten über die jeweiligen Distanzen ihrer Attributsausprägungen bestimmt werden. Eine Anwendung dieser Metrik auf die Attributsausprägungen „Farbe“ soll in Abbildung 1 demonstriert werden. Hier wird den Farbklassen „Hellblau“ und „Gelbtöne“ über Bestimmung des gemeinsamen Elternknotens (C3) und der Kantenanzahlen von jeder Klasse (C1 und C2) zu dem Elternknoten (N1 und N2), sowie von Elternknoten zu Wurzelknoten (N3) durch die Anwendung der Distanzmetrik ein Ähnlichkeitswert von 0,4 zugeordnet (wobei 1 mit Identität und 0 mit völliger Verschiedenheit korrespondiert). </p>
           <figure>
             <graphic n="1001" width="10.4775cm" height="7.408333333333333cm" url="p004-image1.png" rend="inline"/>
+            <p rend="figure"><hi rend="bold">Abb. 1</hi>: Distanzbestimmung der Attribute</p>
           </figure>
-          <p rend="figure"><hi rend="bold">Abb. 1</hi>: Distanzbestimmung der Attribute</p>
         </div>
         <div type="div1" rend="DH-Heading1"><head>Visualisierung: Hinweise auf Musterkandidaten</head>
         <p>Die Ergebnisse der Ähnlichkeitsanalyse können dann als Graph visualisiert werden. Abbildung 2 zeigt eine Beispielauswertung. Der Übersichtlichkeit halber haben wir die Anfrage auf Basiselemente, welche mit „negativ belegten“ Charaktereigenschaften assoziiert und von „weiblichen“ Rollen getragen werden, sowie auf die Kostümeigenschaften „Design“, „Farbe“ und „Zustand“ in der Ähnlichkeitsanalyse beschränkt. Die größte Ähnlichkeit bei den abgefragten Kostümen liegt bei „Unifarben“, „Gold/Silber“ und „Sauber“.</p>
         <p>Diese so identifizierten Häufungen bzw. Cluster ähnlicher Attributsausprägungen können als Hinweise auf mögliche Kostümmuster gewertet werden. Wie die Ergebnisse bewertet werden und ob ein gehäuftes Auftreten ähnlicher Ausprägungen als Kostümmuster bewertet werden kann, bedarf einer weiterführenden Interpretation der Ergebnisse durch einen Domänenexperten.</p>
         <figure>
           <graphic n="1002" width="12.57123611111111cm" height="7.231944444444444cm" url="p004-image2.png" rend="inline"/>
+          <p rend="figure"><hi rend="bold">Abb. 2</hi>: Visualisierung der gemeinsamen Merkmale</p>
         </figure>
-        <p rend="figure"><hi rend="bold">Abb. 2</hi>: Visualisierung der gemeinsamen Merkmale</p>
         <p>Um die Analyse und Visualisierung einfach zugänglich zu machen, ist das Tool über ein
           Web Frontend erreichbar und erlaubt über Filtermöglichkeiten und
           unterschiedliche Visualisierung ein differenziertes Auswerten der Daten. Einen
@@ -148,12 +148,12 @@
           gegeben werden. </p>
           <figure>
             <graphic n="1003" width="12.57123611111111cm" height="7.231944444444444cm" url="p004-image3.png" rend="inline"/>
+            <p rend="figure"><hi rend="bold">Abb. 3</hi>: Web Frontend: Heatmap</p>
           </figure>
-          <p rend="figure"><hi rend="bold">Abb. 3</hi>: Web Frontend: Heatmap</p>
           <figure>
             <graphic n="1004" width="12.57123611111111cm" height="7.231944444444444cm" url="p004-image4.png" rend="inline"/>
+            <p rend="figure"><hi rend="bold">Abb. 4</hi>: Web Frontend: Distanzdiagramm </p>
           </figure>
-          <p rend="figure"><hi rend="bold">Abb. 4</hi>: Web Frontend: Distanzdiagramm </p>
           <p>Über das Kostüm hinaus kann dieser Ansatz auch für andere Domänen der Digital Humanities fruchtbar gemacht werden. So zum Beispiel ist der Einsatz bei der Identifikation musikalischer Muster angedacht. Hier wurde bereits mit der Erstellung musikalischer Taxonomien als Grundlage begonnen. </p>
         </div></body>
         <back>
