@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-047">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-047">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -206,37 +206,37 @@
                     <p>Visualizations shall be converted in an interactive interface allowing other researches to examine the results and to hypothesize, we hope, innovative explanations of the evolution of the Federal Law. They shall also be made accessible to the general public via the media as an input for the debate about legal complexity in the public sphere.</p>
                     <figure>
                       <graphic n="1001" width="9.932311111111112cm" height="12.36266388888889cm" url="047-image1.jpeg" rend="inline"/>
-                    </figure>
-                    <p>
-                      <hi rend="bold">Fig. 1</hi>: Field recognition in the <hi rend="italic">DPA</hi>
-                      from March 22nd 1974. </p>
+                      <p>
+                        <hi rend="bold">Fig. 1</hi>: Field recognition in the <hi rend="italic">DPA</hi>
+                        from March 22nd 1974. </p>
+                      </figure>
                       <figure>
                         <graphic n="1002" width="15.959666666666667cm" height="11.310055555555556cm" url="047-image2.png" rend="inline"/>
-                      </figure>
-                      <p>
-                        <hi rend="bold">Fig. 2</hi>: A XML Akoma Ntoso representation the <hi rend="italic"
-                        >Bundesgesetz über das Verwaltungsstrafrecht</hi> from March 22nd 1974
-                        (excerpt). </p>
+                        <p>
+                          <hi rend="bold">Fig. 2</hi>: A XML Akoma Ntoso representation the <hi rend="italic"
+                          >Bundesgesetz über das Verwaltungsstrafrecht</hi> from March 22nd 1974
+                          (excerpt). </p>
+                        </figure>
                         <figure>
                           <graphic n="1003" width="12.402677777777777cm" height="11.62246388888889cm" url="047-image3.png" rend="inline"/>
+                          <p><hi rend="bold">Fig. 3</hi>: Circular tree layout representation of the <hi
+                          rend="italic">DPA</hi> from March 22nd 1974. </p>
                         </figure>
-                        <p><hi rend="bold">Fig. 3</hi>: Circular tree layout representation of the <hi
-                        rend="italic">DPA</hi> from March 22nd 1974. </p>
                         <figure>
                           <graphic n="1004" width="13.77975cm" height="13.08003888888889cm" url="047-image4.jpeg" rend="inline"/>
-                        </figure>
-                        <p>
-                          <anchor xml:id="Ref431892850"/>
-                          <hi rend="bold">Fig. 4</hi>: Force directed layout visualization. Black: body of the
-                          <hi rend="italic">DPA</hi> from March 22nd 1974. Blue: article with number of
-                          contained paragraphs; Red: paragraphs with word lengths. </p>
+                          <p>
+                            <anchor xml:id="Ref431892850"/>
+                            <hi rend="bold">Fig. 4</hi>: Force directed layout visualization. Black: body of the
+                            <hi rend="italic">DPA</hi> from March 22nd 1974. Blue: article with number of
+                            contained paragraphs; Red: paragraphs with word lengths. </p>
+                          </figure>
                           <figure>
                             <graphic n="1005" width="16.007291666666667cm" height="6.589888888888889cm" url="047-image5.png" rend="inline"/>
-                          </figure>
-                          <p>
-                            <hi rend="bold">Fig. 5</hi>: Evolution of law viewed in a circle partition layout.
-                            size: total amount of text: green : titles, blue : articles and subarticles ; red :
-                            paragraphs. </p>
+                            <p>
+                              <hi rend="bold">Fig. 5</hi>: Evolution of law viewed in a circle partition layout.
+                              size: total amount of text: green : titles, blue : articles and subarticles ; red :
+                              paragraphs. </p>
+                            </figure>
                           </body>
                           <back>
                             <div type="bibliogr">
@@ -340,7 +340,7 @@
                                                                                     à travers la cuisine d’un restaurant” in <hi rend="italic">Le Temps</hi>
                                                                                     <ref
                                                                                       target="http://www.letemps.ch/Page/Uuid/095a80c8-c69c-11e4-959d-74804f4bcbe7/Linflation_de_lois_vue_à_travers_la_cuisine_dun_restaurant"
-                                                                                      >http://www.letemps.ch/Page/Uuid/095a80c8-c69c-11e4-959d-74804f4bcbe7/Linflation_de_lois_vue_à_travers_la_cuisine_dun_restaurant</ref>
+                                                                                      >http://www.letemps.ch/Page/Uuid/095a80c8-c69c-11e4-959d-74804f4bcbe7/Linflation_de_lois_vue_à_travers_la_cuisine_dun _restaurant</ref>
                                                                                       [last seen April 16th 2015]. </bibl>
                                                                                     </listBibl>
                                                                                   </div>
