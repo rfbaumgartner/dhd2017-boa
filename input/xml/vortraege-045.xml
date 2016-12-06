@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-045">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-045">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -120,10 +120,11 @@
               geisteswissenschaftlicher Inhalte für die Ausbildung von Architekten nicht
               wesensfremd und wird seit Jahren erfolgreich erprobt (vgl. v. a. Lengyel /
               Toulouse 2011b).</p>
+              <figure>
+                <graphic url="045-10000201000001C6000000FFD217E470.png"/>
+              </figure>
               <p>
-                <figure>
-                  <graphic url="045-10000201000001C6000000FFD217E470.png"/>
-                </figure>Der Anspruch an die Architektenlehre ist immer auch ein Anspruch an eine hohe Gestaltungsqualität. Diese so zu vermitteln, dass deutlich wird, dass Gestaltung vor allem eine hohe Konsistenz der Einzelteile bedeutet, nicht etwa eine Geschmacksache ist, sondern eben aus Erfahrung, intensiver Auseinandersetzung mit Grundlagen und auch der eigenen Arbeit sowie der Einbeziehung fächerübergreifender Perspektiven erwächst, ist Inhalt der Lehre auch der digitalen Visualisierung.
+                Der Anspruch an die Architektenlehre ist immer auch ein Anspruch an eine hohe Gestaltungsqualität. Diese so zu vermitteln, dass deutlich wird, dass Gestaltung vor allem eine hohe Konsistenz der Einzelteile bedeutet, nicht etwa eine Geschmacksache ist, sondern eben aus Erfahrung, intensiver Auseinandersetzung mit Grundlagen und auch der eigenen Arbeit sowie der Einbeziehung fächerübergreifender Perspektiven erwächst, ist Inhalt der Lehre auch der digitalen Visualisierung.
               </p>
             </div>
             <div type="div1" rend="DH-Heading1">
@@ -152,10 +153,11 @@
                     die Statik des Materials beachtet werden, die eigentliche Herausforderung ist
                     aber auch hier die Gestaltung des 3D-Drucks. Die Geometrie muss trotz der
                     technisch bedingten Anpassung den architektonischen Charakter beibehalten. Auch
-                    hierfür sind stringente Gestaltungsrichtlinien zu berücksichtigen. <figure>
-                    <graphic url="045-10000201000001C60000012212E9E6E6.png"/>
-                  </figure>
+                    hierfür sind stringente Gestaltungsrichtlinien zu berücksichtigen.
                 </p>
+                <figure>
+                  <graphic url="045-10000201000001C60000012212E9E6E6.png"/>
+                </figure>
                 <p>Spätestens in dieser Phase muss das Modell zurückgeführt werden in den Bereich
                   der Wahrnehmung. Die Bedeutung der gezielten Projektion des Modells in ein
                   sichtbares Medium wird durch die Analogie virtuelles Modell und virtuelle
