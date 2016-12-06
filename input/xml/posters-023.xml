@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lizenzauswahlwerkzeuge für die digitalen Geisteswissenschaften</title>
+        <title>Lizenzauswahlwerk-zeuge für die digitalen Geisteswissenschaften</title>
         <author>
           <name>
             <surname>Kamocki</surname>
@@ -112,7 +112,7 @@
           <back>
             <div type="bibliogr">
               <listBibl>
-                <head>Bibliography</head>
+                <head>Bibliograpie</head>
                 <bibl><hi rend="bold">Cardellino, Cristian </hi> (2014): <hi rend="italic"
                 >Licentia</hi>. Licenses Visualizer  <ref
                 target="http://licentia.inria.fr/visualize"
