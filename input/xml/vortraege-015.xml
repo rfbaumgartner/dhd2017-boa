@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-015">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-015">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Software-Einsatz in der geisteswissenschaftlichen Forschungspraxis: Ergebnisse einer Umfrage</title>
+        <title>Software-Einsatz in der geisteswissenschaftli-chen Forschungspraxis: Ergebnisse einer Umfrage</title>
         <author>
           <name>
             <surname>Müller-Birn</surname>
@@ -96,8 +96,8 @@
       <div type="div1" rend="DH-Heading1">
         <head>Methodischer Ansatz</head>
         <p>Die Umfrage-basierte Studie orientiert sich an folgendem Vorgehen (Müller et al.
-          2014): (1) Definition der Forschungsziele, (2) Bestimmung der Zielgruppe, 
-		  (3) Spezifizierung des Fragenbogendesigns, (4) Überprüfung durch 
+          2014): (1) Definition der Forschungsziele, (2) Bestimmung der Zielgruppe,
+		  (3) Spezifizierung des Fragenbogendesigns, (4) Überprüfung durch
 		  Pre-Tests, (5) Durchführung der Umfrage sowie (6) Analyse der Daten. Wir werden
           auf diese einzelnen Schritte im Folgenden kurz eingehen.</p>
           <div type="div2" rend="DH-Heading2">
