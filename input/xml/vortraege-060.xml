@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-060">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-060">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -164,10 +164,10 @@
               Strukturalismus und der Sozialgeschichte); gefragt werden soll hier, inwieweit
               die Entwicklung der netzwerkanalytischen Werte mit den von der Forschung
               vorgeschlagenen Periodisierungen korreliert. </p>
-              <p rend="figure">
-                <hi rend="bold">Abb. 1</hi>: Average Path Length (Mean; nach Dekaden) </p>
-                <figure>
-                  <graphic n="1001" width="14.123911111111111cm" height="6.325327777777778cm" url="060-image1.png" rend="inline"/>
+              <figure>
+                <graphic n="1001" width="14.123911111111111cm" height="6.325327777777778cm" url="060-image1.png" rend="inline"/>
+                <p rend="figure">
+                  <hi rend="bold">Abb. 1</hi>: Average Path Length (Mean; nach Dekaden) </p>
                 </figure>
               </div>
               <div type="div1" rend="DH-Heading1">
@@ -204,9 +204,6 @@
                   Komposition von Dramen unterscheiden lassen und wir werden literarhistorisch
                   fundiert erörtern, welche Eigenschaften der Dramen für die unterschiedlichen
                   Werte verantwortlich sind.</p>
-                  <p rend="figure"><hi rend="bold">Abb. 2.1 bis 2.4</hi>: Node Degree Distribution für »Der
-                  sterbende Cato« (1731), »Emilia Galotti« (1772), »Götz von Berlichingen« (1773)
-                  und »Die Räuber« (1781) </p>
                   <figure>
                     <graphic n="1002" width="11.337727777777777cm" height="7cm" url="060-image2.jpeg" rend="block"/>
                   </figure>
@@ -218,12 +215,15 @@
                   </figure>
                   <figure>
                     <graphic n="1005" width="11.3383cm" height="7cm" url="060-image5.jpeg" rend="block"/>
+                    <p rend="figure"><hi rend="bold">Abb. 2.1 bis 2.4</hi>: Node Degree Distribution für »Der
+                    sterbende Cato« (1731), »Emilia Galotti« (1772), »Götz von Berlichingen« (1773)
+                    und »Die Räuber« (1781) </p>
                   </figure>
-                  <p rend="figure">
-                    <hi rend="bold">Abb. 3</hi>: Vergleich des Clustering Coefficent des
-                    Dramen-Netzwerks mit dem eines jeweils entsprechenden Random-Netzwerks </p>
-                    <figure>
-                      <graphic url="v60-table1.png" rend="inline"></graphic>
+                  <figure>
+                    <graphic url="v60-table1.png" rend="inline"></graphic>
+                    <p rend="figure">
+                      <hi rend="bold">Abb. 3</hi>: Vergleich des Clustering Coefficent des
+                      Dramen-Netzwerks mit dem eines jeweils entsprechenden Random-Netzwerks </p>
                     </figure>
                   </div>
                 </body>
@@ -282,7 +282,7 @@
                               >https://letterpress.uchicago.edu/index.php/jdhcs/article/view/86/91</ref>
                               [letzter Zugriff 12. Oktober 2015]. </bibl>
                               <bibl><hi rend="bold">Stiller, James / Nettle, Daniel / Dunbar, Robin I. M.</hi>
-                              (2003): "The Small World of Shakespeareʼs Plays", in: <hi rend="italic"
+                              (2003): "The Small World of Shakespeare's Plays", in: <hi rend="italic"
                               >Human Nature</hi> 14: 397–408. </bibl>
                               <bibl><hi rend="bold">Stiller, James / Hudson, Matthew</hi> (2005): "Weak Links
                               and Scene Cliques Within the Small World of Shakespeare", in: <hi
