@@ -136,45 +136,37 @@
           (Jähnicke 2015) – welche als Web-basierte Open Source JavaScript Bibliothek
           implementiert und damit projektunabhängig einsetzbar sind – für verschiedene
           geisteswissenschaftliche Fragestellungen. </p>
-          <p>
-            <figure>
-              <graphic url="p061-10000201000004BC0000021CE9AE6605.png"/>
-              <head><hi rend="bold">Abb. 1</hi>: Wordle Tag Cloud vereint Schlagworte
-              aller Texte.</head>
-            </figure>
-          </p>
-          <p>
-            <figure>
-              <graphic url="p061-10000201000004800000045615798E77.png"/>
-              <head><hi rend="bold">Abb. 2</hi>: TagPie ermöglicht den Vergleich von
-              Schlagworten zwischen den Texten.</head>
-            </figure>
-          </p>
-          <p>
-            <figure>
-              <graphic url="p061-1000000000000408000003DE2D309CB1.png"/>
-              <head><hi rend="bold">Abb. 3</hi>: Das Voynich-Manuskript ist ein mehr als
-              einhundert Seiten umfassendes, in einer Geheimschrift verfasstes Werk
-              (wahrscheinlich aus dem frühen 15. Jahrhundert), welches bis heute nicht
-              entschlüsselt wurde und damit viele Wissenschaftler fasziniert. Die
-              TagPie-Visualisierung ermöglicht die visuelle Exploration von
-              Wort-Kontexten, welche neueren Analysen zufolge (Montemurro / Zanette
-              2013) interessante Muster aufweisen.</head>
-            </figure>
-          </p>
-          <p>
-            <figure>
-              <graphic url="p061-1000000000000436000003F40ED544A7.png"/>
-              <head><hi rend="bold">Abb. 4</hi>: Das Editionsprojekt <ref
-              target="http://www.ddr-im-blick.de/">“Die DDR im Blick der
-              Stasi”</ref> (BStU 2016) stellt die geheimen Stimmungs- und
-              Lageberichte der “Zentralen Auswertungs- und Informationsgruppe” (ZAIG)
-              des MfS einer breiten Öffentlichkeit zur Verfügung. Der TagPie zeigt die
-              Kookkurrenzwörter für die Nachnamen ausgewählter, besonders in den Fokus
-              der Stasi geratener kirchlicher Amtsträger. Weiterführende Informationen
-              in (Kuras et al. 2014). </head>
-            </figure>
-          </p>
+          <figure>
+            <graphic url="p061-10000201000004BC0000021CE9AE6605.png"/>
+            <p><hi rend="bold">Abb. 1</hi>: Wordle Tag Cloud vereint Schlagworte
+            aller Texte.</p>
+          </figure>
+          <figure>
+            <graphic url="p061-10000201000004800000045615798E77.png"/>
+            <p><hi rend="bold">Abb. 2</hi>: TagPie ermöglicht den Vergleich von
+            Schlagworten zwischen den Texten.</p>
+          </figure>
+          <figure>
+            <graphic url="p061-1000000000000408000003DE2D309CB1.png"/>
+            <p><hi rend="bold">Abb. 3</hi>: Das Voynich-Manuskript ist ein mehr als
+            einhundert Seiten umfassendes, in einer Geheimschrift verfasstes Werk
+            (wahrscheinlich aus dem frühen 15. Jahrhundert), welches bis heute nicht
+            entschlüsselt wurde und damit viele Wissenschaftler fasziniert. Die
+            TagPie-Visualisierung ermöglicht die visuelle Exploration von
+            Wort-Kontexten, welche neueren Analysen zufolge (Montemurro / Zanette
+            2013) interessante Muster aufweisen.</p>
+          </figure>
+          <figure>
+            <graphic url="p061-1000000000000436000003F40ED544A7.png"/>
+            <p><hi rend="bold">Abb. 4</hi>: Das Editionsprojekt <ref
+            target="http://www.ddr-im-blick.de/">“Die DDR im Blick der
+            Stasi”</ref> (BStU 2016) stellt die geheimen Stimmungs- und
+            Lageberichte der “Zentralen Auswertungs- und Informationsgruppe” (ZAIG)
+            des MfS einer breiten Öffentlichkeit zur Verfügung. Der TagPie zeigt die
+            Kookkurrenzwörter für die Nachnamen ausgewählter, besonders in den Fokus
+            der Stasi geratener kirchlicher Amtsträger. Weiterführende Informationen
+            in (Kuras et al. 2014). </p>
+          </figure>
         </div>
         <div type="div1">
           <head>Über die Nutzung von TagPies in eXChange </head>
@@ -206,15 +198,13 @@
               Vergleich zu den TagPies keine Hinweise. Damit übersteigen TagPies den
               “rekonstruktiven” Charakter von Wörterbüchern, indem sie auf die reale
               Verwendung in den Textkorpora rekurrieren.</p>
-              <p>
-                <figure>
-                  <graphic url="p061-10000201000004F400000724DB604F96.png"/>
-                  <head><hi rend="bold">Abb. 5</hi>: Vergleichende Analyse von <hi
-                  rend="bold">gibbus</hi> und <hi rend="bold">gibbosus</hi> mit
-                  Belegstellen für <hi rend="bold">gibbus</hi> und <hi rend="bold"
-                  >dorso</hi> sowie aus dem Sachfeld der christlichen “Moral”. </head>
-                </figure>
-              </p>
+              <figure>
+                <graphic url="p061-10000201000004F400000724DB604F96.png"/>
+                <p><hi rend="bold">Abb. 5</hi>: Vergleichende Analyse von <hi
+                rend="bold">gibbus</hi> und <hi rend="bold">gibbosus</hi> mit
+                Belegstellen für <hi rend="bold">gibbus</hi> und <hi rend="bold"
+                >dorso</hi> sowie aus dem Sachfeld der christlichen “Moral”. </p>
+              </figure>
             </div>
             <div type="div2">
               <head>Vergleich von ατρεμ*, ησυχ* und ακινητ*</head>
@@ -238,17 +228,15 @@
                 einzelnen Belegstellen, aber auch weitere Visualisierungen mithilfe der
                 TagPies (z. B. mit Eingrenzung auf das Corpus Hippocraticum) sind geplant,
                 um die qualitative Auswertung der Ergebnisse fortzuführen.</p>
-                <p>
-                  <figure>
-                    <graphic url="p061-100002010000050000000742E2291D24.png"/>
-                    <head><hi rend="bold">Abb. 6</hi>: Vergleichende Analyse von <hi
-                    rend="bold">ατρεμ*</hi>, <hi rend="bold">ησυχ* </hi>und <hi
-                    rend="bold">ακινητ*</hi> mit Belegstellen für für <hi
-                    rend="bold">ακινητ*</hi> und <hi rend="bold">κινουν</hi> sowie
-                    <hi rend="bold">ατρεμ* </hi>und <hi rend="bold"
-                    >διαφορητικος</hi>. </head>
-                  </figure>
-                </p>
+                <figure>
+                  <graphic url="p061-100002010000050000000742E2291D24.png"/>
+                  <p><hi rend="bold">Abb. 6</hi>: Vergleichende Analyse von <hi
+                  rend="bold">ατρεμ*</hi>, <hi rend="bold">ησυχ* </hi>und <hi
+                  rend="bold">ακινητ*</hi> mit Belegstellen für für <hi
+                  rend="bold">ακινητ*</hi> und <hi rend="bold">κινουν</hi> sowie
+                  <hi rend="bold">ατρεμ* </hi>und <hi rend="bold"
+                  >διαφορητικος</hi>. </p>
+                </figure>
               </div>
             </div>
             <div type="div1">
