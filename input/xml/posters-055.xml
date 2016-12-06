@@ -120,18 +120,18 @@
             <p>Der Datenumfang beträgt mehr als 2,86 TB an Audio-, Video- und Sensorsignaldaten, sowie ca. 17,4 GB an Annotations- und Metadaten. </p>
             <figure>
               <graphic n="1001" width="15.963194444444444cm" height="14.358055555555556cm" url="p055-image1.png" rend="inline"/>
-            </figure>
             <p><hi rend="bold">Abb. 1</hi>: Startseite des BAS Repository mit der Liste
             verfügbarer Korpora.</p>
+            </figure>
           </div>
           <div type="div1">
             <head>Inhalt des Repository</head>
             <p>Die überwiegende Anzahl der Ressourcen wurde vom BAS selbst oder in Kooperation mit industriellen oder akademischen Partnern erstellt. Zunehmend werden weitere, von externen Partnern erstellte Ressourcen in das Repository aufgenommen.</p>
             <figure>
               <graphic n="1002" width="15.963194444444444cm" height="14.358055555555556cm" url="p055-image2.png" rend="inline"/>
-            </figure>
             <p><hi rend="bold">Abb. 2</hi>: Repositoryansicht der Sessions im Korpus
             ALC.</p>
+            </figure>
             <p>Darüberhinaus sucht das BAS aktiv nach verwaisten Ressourcen, d. h.
               Sprachdatensammlungen, die im Rahmen von Projekten, Dissertationen, oder
               sonstigen Datenerhebungen erstellt wurden, deren Fortbestand aber aufgrund
@@ -205,9 +205,9 @@
                                 Webservices basieren. </p>
                                 <figure>
                                   <graphic n="1003" width="15.980833333333333cm" height="13.828888888888889cm" url="p055-image3.png" rend="inline"/>
-                                </figure>
                                 <p><hi rend="bold">Abb. 3</hi>: WebMAUS mit 4 hochgeladenen Dateipaaren für die
                                 automatische Segmentation.</p>
+                                </figure>
                                 <p>Ein Webservice erlaubt einem User oder einer Applikation mittels des
                                   REST-Protokolls automatische Verarbeitungen von Daten auf einem dedizierten
                                   Server durchzuführen. Zum Beispiel benutzt das Annotations-Tool ELAN (vgl.
