@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-037">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-037">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -123,10 +123,10 @@
                 englischsprachigen Beitrag fehlen diese Informationen, während aber eine
                 detaillierte Auflistung der von ihm unterstützten, in den Vereinigten
                 Staaten ansässigen Einrichtungen vorgelegt wird. </p>
-                <p>
-                  <figure>
-                    <graphic url="037-10000201000004A3000002EE5150F110.png"/>
-                  </figure> Historiker können für eine fundierte Auseinandersetzung mit dem
+                <figure>
+                  <graphic url="037-10000201000004A3000002EE5150F110.png"/>
+                </figure>
+                <p>Historiker können für eine fundierte Auseinandersetzung mit dem
                   Leben von Jakob Schiff auf einen Eintrag der Datenbank von <hi rend="italic"
                   ><ref target="http://immigrantentrepreneurship.org/entry.php?rec=41"
                   >Immigrant Entrepreneurship</ref></hi> zurückgreifen. In dieser
@@ -162,11 +162,9 @@
                     quanitativen Textanalyse hin. Der steigendem Abstand der Knoten von der
                     Zeitleiste spiegelt eine steigende Unsicherheit der Ereignisse im Kontext
                     des biographischen Rahmens wider.</p>
-                    <p>
-                      <figure>
-                        <graphic url="037-10000201000004A3000002E12D96A60B.png"/>
-                      </figure>
-                    </p>
+                    <figure>
+                      <graphic url="037-10000201000004A3000002E12D96A60B.png"/>
+                    </figure>
                   </div>
                   <div type="div2" rend="DH-Heading2">
                     <head>Iterativer Verarbeitungsprozess</head>
@@ -186,16 +184,14 @@
                     <p>An konkreten Beispiel der Verarbeitung biographischer Daten resultiert die Anwendung des Frameworks und des zu Grunde liegenden Konzepts in einer iterativen, kontextspezifischen Verarbeitungslogik, die in der folgenden Anwendung skizziert wird und das Zusammenspiel zwischen qualitativer Forschung und quantitativen Verfahren am Beispiel des
                       <hi rend="italic">Cosmobilities</hi> Prototypen verdeutlicht.
                     </p>
-                    <p>
-                      <figure>
-                        <graphic url="037-10000000000011CC00000B03E30DCDDD.png"/>
-                      </figure>So haben Forscher die Möglichkeit an drei Stellen des Prozesses manuell einzuwirken und die quantitative Verarbeitung zu beeinflussen: Zunächst werden durch die Erfassung einer Datenquelle bzw. der Beschreibung ihrer Datenstrukturen (deskriptive Datenmodellierung) biographische Daten und Texte erfasst. Erkenntnisse, die durch eine angewendete Transformation der Daten extrahiert werden können werden ggf. in den Kontext bestehender biographischer Rahmenbedingungen gesetzt und in biographische Profile übernommen.
-                    </p>
+                    <figure>
+                      <graphic url="037-10000000000011CC00000B03E30DCDDD.png"/>
+                    </figure>So haben Forscher die Möglichkeit an drei Stellen des Prozesses manuell einzuwirken und die quantitative Verarbeitung zu beeinflussen: Zunächst werden durch die Erfassung einer Datenquelle bzw. der Beschreibung ihrer Datenstrukturen (deskriptive Datenmodellierung) biographische Daten und Texte erfasst. Erkenntnisse, die durch eine angewendete Transformation der Daten extrahiert werden können werden ggf. in den Kontext bestehender biographischer Rahmenbedingungen gesetzt und in biographische Profile übernommen.
                     <p>Auf eben diese qualitativen Einschätzung können Forscher an zwei wesentlichen Stellen einwirken: Einerseits besteht die Möglichkeit, die Einordnung biographischer Daten durch die Beschreibung von Modellen und Heuristiken zu beeinflussen. Eine vereinfachte Heuristik wird in der folgenden Abbildung dargestellt. Hier würde beispielsweise ein Versterben der Mutter zu einem Eintrag im biographischen Profil des Kindes führen, welcher den Aufenthaltsort des Kindes, insofern dieses zu diesem Zeitpunkt höchstens 16 Jahre alt war, mit einer hohen Wahrscheinlichkeit mit dem Sterbeort der Mutter korreliert. An Stelle einer solchen einfachen Heuristik könnten auch komplexere, epochenspezifische Betrachtungen, wie z. B. den Lebensalterdarstellungen von Wirag (Wirag 1994) oder Anwendungen von Lebensstufenmodellen (z. B. von Grayerz 2010) nach Anforderungen der jeweiligen Forscherperspektive stehen.</p>
-                    <p>
-                      <figure>
-                        <graphic url="037-100000000000087C0000029083CF2BD1.png"/>
-                      </figure>Die zweite Möglichkeit der qualitativen Beeinflussung besteht in
+                    <figure>
+                      <graphic url="037-100000000000087C0000029083CF2BD1.png"/>
+                    </figure>
+                    <p>Die zweite Möglichkeit der qualitativen Beeinflussung besteht in
                       der konkreten Veränderung des biographischen Rahmens, also die manuelle
                       Erfassung oder Korrektur wesentlicher Eckpunkte wie Geburts- und Sterbedaten
                       der einzelnen Person oder auch seiner nächsten Verwandten. Ein weiterer
