@@ -176,25 +176,21 @@
             wesentlichen drei Phasen deutlich identifizieren: eine noch instabile radiale
             Verbreitung, eine relative lange Phase der Stabilität und schließlich eine Phase
             der Reduktion. </p>
-            <p>
               <figure>
                 <graphic url="p032-100002010000072E000005716BD96742.png"/>
-              </figure>
-            </p>
             <p rend="figure"><hi rend="bold">Abb. 1</hi>: Minimaler verbundener Graph der Editionen der
             Sphaera. Kanten spiegeln hier die chronologische Ordnung wieder. Dieser Graph
             legt die Randbedingungen für die weiter Analyse der Einflussbereiche der
             Editionen fest. Blaue Punkte stellen die lateinischen Editionen, rote die
             Editionen in lokalen Sprachen dar.</p>
-            <p>
+              </figure>
               <figure>
                 <graphic url="p032-100002010000071300000515D813C0B5.png"/>
-              </figure>
-            </p>
             <p rend="figure"><hi rend="bold">Abb. 2</hi>: The graph shows the role of editions where Clavius
             is given as one co-author (squares). The color indicates the publishers which
             are clustered by city. Only the places where Clavius is a co-author have labels.
             The big unnamed cluster in the middle is Paris.</p>
+              </figure>
             <p>Die zweite Fallstudie widmet sich einem anderen Bereich. Dem epistemischen
               Netzwerk der Allgemeinen Relativitätstheorie. Kurz umrissen geht es hierbei um
               die Analyse des Prozesses, der dazu führte, dass die ART in der Nachkriegsphase
@@ -223,15 +219,13 @@
               den Forscher nutzbar sind? In unserem Fall haben wir dazu unterschiedliche
               Ansätze verfolgt, erneut die Umsetzung mittels iPython, und die Visualisierung
               dann in Gephi und Cytoscape.</p>
-              <p>
                 <figure>
                   <graphic url="p032-100002010000057800000400705A8743.png"/>
-                </figure>
-              </p>
               <p rend="figure"><hi rend="bold">Abb. 3</hi>: Visualization of the network of collaborations of
               scientists who worked on general relativity in the post-war period. Node size is
               proportional to the degree centrality. The color of the nodes is a
               representation of betweenness centrality (from lighter to darker). </p>
+                </figure>
             </div>
           </body>
           <back>
