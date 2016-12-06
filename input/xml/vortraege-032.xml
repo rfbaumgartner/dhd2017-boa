@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-032">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-032">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -160,10 +160,10 @@
             <head>Arbeitsablauf</head>
             <figure>
               <graphic n="1001" width="13.335cm" height="10.107083333333334cm" url="032-image1.png" rend="inline"/>
-            </figure>
-            <p>
-              <hi rend="bold">Abb. 1</hi>: Modell eines vollständigen Erfassungsworkflows
-              (diese Studie betrifft die eingefärbten Stationen). </p>
+              <p>
+                <hi rend="bold">Abb. 1</hi>: Modell eines vollständigen Erfassungsworkflows
+                (diese Studie betrifft die eingefärbten Stationen). </p>
+              </figure>
               <p>Abbildung 1 gibt einen Überblick über den Arbeitsablauf der hier vorgestellten Methode. Im Unterschied zu existierenden Workflows unterteilt unser Vorschlag die Bildoptimierung in zwei Phasen: 1.
                 <hi rend="italic">global</hi>: Das komplette Digitalisat wird beschnitten, binarisiert, begradigt und von Artefakten befreit. Danach findet die Optische Layouterkennung (OLR) statt. 2.
                 <hi rend="italic">lokal</hi>: Die identifizierten Textzonen werden aus dem Bild der Seite ausgeschnitten und nochmals begradigt. Dadurch wird die häufig zu beobachtende Trapezform der Digitalisate, die durch Scannen von Büchern ohne Auftrennen des Buchrückens entsteht, behandelt. Die Bilder für die einzelnen Zonen werden anschließend in Zeilen zerschnitten und den OCR-Engines übergeben.
@@ -201,9 +201,9 @@
                   <p>Ein typisches Beispiel für die Untersuchungsgrundlage sowie die entsprechenden OCR-Ausgaben gibt Abbildung 2.</p>
                   <figure>
                     <graphic n="1002" width="16.00113888888889cm" height="8.960555555555555cm" url="032-image2.png" rend="inline"/>
-                  </figure>
-                  <p>
-                    <hi rend="bold">Abb. 2</hi>: Vergleich der OCR-Ergebnisse. </p>
+                    <p>
+                      <hi rend="bold">Abb. 2</hi>: Vergleich der OCR-Ergebnisse. </p>
+                    </figure>
                   </div>
                   <div xml:id="h.2eo3ulvoieam" type="div1" rend="DH-Heading1">
                     <head>Material</head>
@@ -274,98 +274,13 @@
                             rend="bold color(980000)">rot</hi>) sind hervorgehoben. Da wir keinen
                             Einfluss auf die Vorverarbeitung der Trainingsmaterialien der mitgelieferten
                             Modelle haben, ist die Matrix in dieser Hinsicht unvollständig. </p>
-                            <table rend="rules">
-                              <row>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">|</cell>
-                                <cell cols="3" rend="DH-Default">OCRopus</cell>
-                                <cell rend="DH-Default">|</cell>
-                                <cell cols="3" rend="DH-Default">Tesseract</cell>
-                              </row>
-                              <row>
-                                <cell rend="DH-Default">
-                                  <p>Vorverarbeitung Training</p>
-                                </cell>
-                                <cell rend="DH-Default">|</cell>
-                                <cell rend="DH-Default">
-                                  <p>Vorverarbeitung Test</p>
-                                </cell>
-                                <cell rend="DH-Default">|</cell>
-                                <cell rend="DH-Default">
-                                  <p>standard</p>
-                                </cell>
-                                <cell rend="DH-Default">|</cell>
-                                <cell rend="DH-Default">
-                                  <p>spezifisch</p>
-                                </cell>
-                                <cell rend="DH-Default">|</cell>
-                                <cell rend="DH-Default">
-                                  <p>standard</p>
-                                </cell>
-                                <cell rend="DH-Default">|</cell>
-                                <cell rend="DH-Default">
-                                  <p>spezifisch</p>
-                                </cell>
-                              </row>
-                              <row>
-                                <cell rend="DH-Default">nlbin</cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">nlbin</cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">25,41 %</cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">6,04 %</cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">-</cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default"><hi rend="bold color(980000)">53,10 %</hi></cell>
-                              </row>
-                              <row>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">Scantailor</cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">21,05 %</cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default"><hi rend="bold color(38761D)">3,89 %</hi></cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">-</cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">40,91 %</cell>
-                              </row>
-                              <row>
-                                <cell rend="DH-Default">Scantailor</cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">nlbin</cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">-</cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">6,95 %</cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">37,37 %*</cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">29,81 %</cell>
-                              </row>
-                              <row>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">Scantailor</cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">-</cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">4,21 %</cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">27,15 %*</cell>
-                                <cell rend="DH-Default"/>
-                                <cell rend="DH-Default">16,48 %</cell>
-                              </row>
-                            </table>
-                            <p>
-                              <hi rend="bold">Tab. 1</hi>: Darstellung der Ergebnisse auf Einzel-OCR-Ebene im Bezug auf
-                              Vorverarbeitungsmethode für Trainings- und Testmaterial, Modelltyp und verwendete
-                              OCR-Software. </p>
+                            <figure>
+                              <graphic n="1004" url="032-image4.svg" rend="inline"/>
+                              <p>
+                                <hi rend="bold">Tab. 1</hi>: Darstellung der Ergebnisse auf Einzel-OCR-Ebene im Bezug auf
+                                Vorverarbeitungsmethode für Trainings- und Testmaterial, Modelltyp und verwendete
+                                OCR-Software. </p>
+                              </figure>
                               <p>Die geringste erreichte Fehlerrate (3,89 %) liegt etwa im Bereich der
                                 Textgenauigkeit der 111 Gedichte aus der Pilotstudie von Federbusch (Federbusch
                                 / Polzin 2013). Die Fehlerrate von Tesseract ist jeweils höher als die von
@@ -375,9 +290,9 @@
                               <p>Desweiteren zeigt sich, dass die Vorverarbeitung mit nlbin für Tesseract sowohl auf Trainings- als auch auf Testebene jeweils schlechtere Ergebnisse bringt. Für OCRopus sind die Ergebnisse bzgl. der Vorverarbeitung differenzierter: Die beste Kombination liefert eine Vorverarbeitung des Trainingsmaterials mit nlbin bei einer nachfolgenden Vorverarbeitung des Testmaterials mit Scantailor. Unterschiede im Ergebnis der Vorverarbeitung beider Programme illustriert Abbildung 3.</p>
                               <figure>
                                 <graphic n="1003" width="16.002cm" height="2.806347222222222cm" url="032-image3.png" rend="inline"/>
-                              </figure>
-                              <p> Abb. 3: Bild einer Textzeile nach der Vorverarbeitung mit nlbin (oben) und
-                                Scantailor (unten). </p>
+                                <p> Abb. 3: Bild einer Textzeile nach der Vorverarbeitung mit nlbin (oben) und
+                                  Scantailor (unten). </p>
+                                </figure>
                                 <p>Die von Scantailor durchgeführte Bildvorverarbeitung ist deutlich normativer und für einen zeichenorientierten Ansatz wie Tesseract besser geeignet. Das Training sequenzorientierter Ansätze leidet unter dieser Vergröberung.</p>
                                 <p>Es zeigt sich erneut, dass spezifisch trainierte Modelle eine massive Textgenauigkeitsverbesserung mit sich bringen können (vgl. auch Springmann et al. 2015).</p>
                                 <div xml:id="h.b53zdskw38g8" type="div2" rend="DH-Heading2">
