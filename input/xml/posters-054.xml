@@ -125,8 +125,8 @@
             <p>Es sind somit 34.913 Motive kodiert worden, nach einer automatischen Konvertierung aus der oben genannten Internetquelle.</p>
             <figure>
               <graphic n="1001" width="16.003763888888887cm" height="8.535458333333333cm" url="p054-image1.png" rend="inline"/>
-              <head><hi rend="bold">Abb. 1</hi>: Toplevel Stufe unserer Ontologie, dargestellt im
-              TopBraid Editor.</head>
+              <p><hi rend="bold">Abb. 1</hi>: Toplevel Stufe unserer Ontologie, dargestellt im
+              TopBraid Editor.</p>
             </figure>
             <p>Die Kodebeispiele unten zeigen erst eine Instanz eines Motivs, und dann wie die beinhaltenden Klasse in der Klassenhierarchie eingebettet ist.</p>
             <figure>
