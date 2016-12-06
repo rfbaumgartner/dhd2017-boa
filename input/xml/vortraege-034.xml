@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-034">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-034">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -175,9 +175,9 @@
                   Film besonders viel oder wenig gesprochen wird (vgl. Abbildung 1). </p>
                   <figure>
                     <graphic n="1001" width="16.002cm" height="10.562166666666666cm" url="034-image1.png" rend="inline"/>
-                    <head><hi rend="bold">Abb. 1</hi>: Beispielhafte Visualisierung der Zeichen-
+                    <p><hi rend="bold">Abb. 1</hi>: Beispielhafte Visualisierung der Zeichen-
                     und Sprachsequenzhäufigkeiten für jeweils fünfminütige Teilabschnitte
-                    des Films „Anchorman: The Legend of Ron Burgundy“.</head>
+                    des Films „Anchorman: The Legend of Ron Burgundy“.</p>
                   </figure>
                   <p>
                     <hi rend="italic">Beispielhafte Fragestellungen, die mit dem Tool untersucht werden können</hi>:
@@ -218,9 +218,9 @@
                     Korrelationen zu den Nutzerbewertungen aufzuzeigen. </p>
                     <figure>
                       <graphic n="1002" width="16.002cm" height="9.382125cm" url="034-image2.png" rend="inline"/>
-                      <head><hi rend="bold">Abb. 2</hi>: Beispielhafte Visualisierung der Serie
+                      <p><hi rend="bold">Abb. 2</hi>: Beispielhafte Visualisierung der Serie
                       „Breaking Bad“, mit paralleler Darstellung der Benutzerbewertungen sowie
-                      der Sentiment-Analyse der Dialoge für jede einzelne Episode.</head>
+                      der Sentiment-Analyse der Dialoge für jede einzelne Episode.</p>
                     </figure>
                     <p>
                       <hi rend="italic">Beispielhafte Fragestellungen, die mit dem Tool untersucht werden können</hi>:
@@ -248,9 +248,9 @@
                       dominanten Farben im jeweiligen Bild.</p>
                       <figure>
                         <graphic n="1003" width="15.979069444444445cm" height="10.13001388888889cm" url="034-image3.png" rend="inline"/>
-                        <head><hi rend="bold">Abb. 3</hi>: Analyse des Films „König der Löwen“, mit
+                        <p><hi rend="bold">Abb. 3</hi>: Analyse des Films „König der Löwen“, mit
                         Darstellung des Farbprofils (oben), der Sentiment-Analyse (Mitte) sowie
-                        der häufigsten Wörter (unten) entlang der Zeitachse des Films.</head>
+                        der häufigsten Wörter (unten) entlang der Zeitachse des Films.</p>
                       </figure>
                       <p>
                         <hi rend="italic">Beispielhafte Fragestellungen, die mit dem Tool untersucht werden können</hi>:
