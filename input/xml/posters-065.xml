@@ -104,9 +104,9 @@
           <p>Der Bereich Form setzt sich mit der Struktur von Annotationen auseinander. Die Mehrzahl der Befragten gab an, vor allem basierend auf Textdokumenten zu forschen. Daher wurde entschieden, neonion zunächst für Textdokumente zu verwenden. Die Softwarearchitektur wurde mit Webframeworks umgesetzt. Hierzu findet Django im Bereich des Back-Ends und vorrangig Bootstrap und AngularJS im Front-End Anwendung. Die erzeugten Annotationen werden zur dauerhaften Aufbewahrung zum einen in den AnnotationStore, der auf Grundlage von ElasticSearch arbeitet, gespeichert, zum andern in den Sesame Triple Store eingespeist.</p>
           <figure>
             <graphic n="1001" width="14.087469444444444cm" height="8.008055555555556cm" url="p065-image1.png" rend="inline"/>
-            <head>
+            <p>
               <anchor xml:id="Ref306792875"/><hi rend="bold">Abb. 1</hi>: Auswahl des
-              Annotationsmodus im Annotator</head>
+              Annotationsmodus im Annotator</p>
             </figure>
             <p>Im Bereich Funktion wurde der Frage der Verwendung nachgegangen. So wurde
               ersichtlich, dass unterschiedliche Annotationsmodi (s. Abbildung 1) notwendig sind.
@@ -120,9 +120,9 @@
               <p>Zur Implementierung der Annotationskomponente kommt die quelloffene JavaScript Bibliothek Annotator.js zum Einsatz. Die Bibliothek der OKFN wurde zusätzlich durch eigene Plug-Ins, insbesondere zur Realisierung einer semantischen Annotation, erweitert.</p>
               <figure>
                 <graphic n="1002" width="12.664722222222222cm" height="6.738830555555555cm" url="p065-image2.png" rend="inline"/>
-                <head>
+                <p>
                   <anchor xml:id="Ref306793337"/><hi rend="bold">Abb. 2</hi>: Annotationsübersicht
-                  gefiltert nach semantischen Tags</head>
+                  gefiltert nach semantischen Tags</p>
                 </figure>
                 <p>Der längerfristige Wert der Annotation wurde im dritten Bereich untersucht. Hier
                   wurde von allen Interviewteilnehmer_innen angegeben, dass eine Weiterverwendung der
@@ -140,9 +140,9 @@
                   <p>Darüber hinaus wurde das bestehende Open Annotation-Datenmodell um die Möglichkeit erweitert, semantische Tags über eine typisierte Verbindung in Relationen zueinander zu setzen. Die semantischen Tags stellen in diesem Zusammenhang Instanzen von vordefinierten Konzepten mit eigener URI (Unified Resource Identifier) dar und ermöglichen durch die Beziehung der Instanzen zueinander eine mehrstufige Analyse von Annotationen.</p>
                   <figure>
                     <graphic n="1003" width="14.534444444444444cm" height="8.902988888888888cm" url="p065-image3.png" rend="inline"/>
-                    <head>
+                    <p>
                       <anchor xml:id="Ref306792990"/><hi rend="bold">Abb. 3</hi>: Defintion eines
-                      Begriffsystems als Concept Sets </head>
+                      Begriffsystems als Concept Sets </p>
                     </figure>
                     <p>Im vierten Bereich wurde der Frage nachgegangen, wie Annotationen inhaltlich geteilt
                       werden. Unsere Interviewpartner führten aus, dass vor allem im Bereich der
