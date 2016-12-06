@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-019">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-019">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -216,7 +216,7 @@
                         <bibl><hi rend="bold">Internet Archive</hi>: <ref target="https://archive.org/"
                         >https://archive.org/</ref> [letzter Zugriff 22. Dezember 2015].</bibl>
                         <bibl><hi rend="bold">McIntyre, Dan / Walker, Brian</hi> (2010): "How can
-                        corpora be used to explore the language of poetry and drama?", in: OʼKeeffe,
+                        corpora be used to explore the language of poetry and drama?", in: O'Keeffe,
                         Anne / McCarthy, Michael (eds.): <hi rend="italic">The Routledge Handbook of
                         Corpus Linguistics</hi>. London: Routledge 516-530.</bibl>
                         <bibl><hi rend="bold">Meyer, Urs</hi> (2007): "Stilanalyse", in: Anz, Thomas
