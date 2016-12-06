@@ -72,12 +72,12 @@
         Tabelle 1).</p>
         <figure>
           <graphic url="p56-table1.png" rend="inline"></graphic>
+          <p rend="figure"><hi rend="bold">Tab. 1</hi>: Themenbereiche und Auswahl an Textsorten im DWR</p>
         </figure>
-        <p rend="figure"><hi rend="bold">Tab. 1</hi>: Themenbereiche und Auswahl an Textsorten im DWR</p>
         <p>Ursprünglich wurde das Korpus im Rich-Text-Format (RTF) bzw. MS-Office (DOC) erstellt, und die Metadaten in einer Oracle-Datenbank verwaltet. Im Rahmen des LIS-Projektes „Zentrum für germanistische Forschungsprimärdaten“
           <ref type="note" target="n01" n="1">1</ref> wurde das Korpus für die Langzeitarchivierung aufbereitet. Im Einzelnen wurden folgende Schritte durchgeführt:
           </p>
-          <list type="ordered">
+          <list type="unordered">
             <item>Alignierung und Bereinigung der Metadaten: Die Verknüpfung von Metadaten mit
               Dokumenten war über Dateinamen repräsentiert, die teilweise nicht einheitlich
               enkodiert waren. Diese wurden entsprechend normalisiert, um einen eindeutigen
@@ -108,10 +108,10 @@
               </p>
               <figure>
                 <graphic n="1001" width="16.002cm" height="4.821cm" url="p056-image1.png" rend="block"/>
-              </figure>
-              <p rend="figure"><hi rend="bold">Abb. 1</hi>: Heatmaps für den Vergleich von Themenbereichen (links)
-              und Textsorten innerhalb eines Themenbereichs ( <hi rend="italic">Politik</hi>:
+                <p rend="figure"><hi rend="bold">Abb. 1</hi>: Heatmaps für den Vergleich von Themenbereichen (links)
+                und Textsorten innerhalb eines Themenbereichs ( <hi rend="italic">Politik</hi>:
               mitte, <hi rend="italic">Frauen</hi>: rechts). </p>
+              </figure>
               <p>Abbildung 2 zeigt den Beitrag einzelner Wörter zu der Distanz zwischen Teilkorpora in Form von Wortwolken. Groß dargestellte Wörter sind hierbei besonders typisch für ein Teilkorpus, die Farbe korrespondiert mit der relativen Häufigkeit eines Wortes im Teilkorpus (blau für selten, purpur für häufig). Die Wortwolke links vergleicht
                 <hi rend="italic">Frauen</hi> mit dem restlichen Korpus. Sie wird sowohl auf begrifflicher Ebene (
                 <hi rend="italic">Frau/Mann</hi>) als auch auf grammatischer Ebene (
@@ -130,16 +130,16 @@
               </p>
               <figure>
                 <graphic n="1002" width="16.002cm" height="4.835cm" url="p056-image2.png" rend="block"/>
-              </figure>
               <p rend="figure"><hi rend="bold">Abb. 2</hi>: Wortwolken für die typischen Wörter des Themenbereichs
               <hi rend="italic">Frauen</hi> im Vergleich mit dem restlichen Korpus (links) und
               in den Textsorten <hi rend="italic">Zeitungsartikel</hi> vs. <hi rend="italic"
               >Essay</hi> im Themenbereich <hi rend="italic">Frauen</hi> (mitte und rechts). </p>
+              </figure>
               <p>Dieser kurze explorative Überblick kann natürlich nur einen kursorischen Eindruck über Inhalt und Vielfalt des Korpus geben. Technisch wurde er erst möglich durch die konsequente Kuration der Metadaten und Daten an Hand der generellen Richtlinien der CLARIN Infrastruktur.</p>
             </body>
             <back>
               <div type="Notes">
-                
+
                 <note xml:id="n01" n="1">
               Das <ref
                 target="http://www1.ids-mannheim.de/fi/projekte/lis.html">Zentrum für
@@ -152,7 +152,7 @@
                 <note xml:id="n03" n="3">Siehe <ref target="https://repos.ids-mannheim.de/"
                   >IDS-Repositorium</ref>.</note>
               </div>
-              
+
               <div type="bibliogr">
                 <listBibl>
                   <head>Bibliographie</head>
