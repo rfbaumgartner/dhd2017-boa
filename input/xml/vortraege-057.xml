@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-057">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-057">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -90,13 +90,11 @@
         <div type="div1" rend="DH-Heading">
           <head>Feldforschung, Sozialer Kontext und Datensatz</head>
           <p>Voraussetzungen für solche Forschungsarbeiten ist eine flächendeckende und diachronische Dokumentation von Sepulkralkulturen, die bewußt viele mögliche Gegensätze einschließt, wie zum Beispiel Heldenfriedhöfe, Gräber nationaler Eliten, Heidenfriedhöfe, Selbstmördergräber, Klosterfriedhöfe, Fabriksfriedhöfe, Friedhöfe in dörflichen und städtischen Gemeinden, anonyme Gräber, Grabstätten ethnischer, sprachlicher, religiöser oder andersartiger Minderheiten etc. Eine solche Dokumentation der Unterschiedlichkeit, der Macht, der Unterdrückung und des Vergessens hilft, nationalistische, nationale oder auch gut gemeinte Schulbuchgeschichtsschreibung zu hinterfragen: Wer waren diese Leute, wo kamen sie her und was haben sie gemacht und gedacht? Wie war ihre Stellung in der Gesellschaft und wie hat sich diese im Laufe der Zeit verändert?</p>
-          <p>
-            <figure>
-              <graphic url="057-100000000000064000000640E43AB774.png"/>
-              <head><hi rend="bold">Abb. 1</hi>: Auf Taiwan und den vorgelagerten
-              Penghu-Inseln dokumentierte Friedhöfe.</head>
-            </figure>
-          </p>
+          <figure>
+            <graphic url="057-100000000000064000000640E43AB774.png"/>
+            <p><hi rend="bold">Abb. 1</hi>: Auf Taiwan und den vorgelagerten
+            Penghu-Inseln dokumentierte Friedhöfe.</p>
+          </figure>
           <p>Dies ist der Forschungsansatz den wir seit 2007 in dem Projekt 'ThakBong' für Taiwan und seine umliegenden Inseln verfolgen. Die etwa 400-jährige Geschichte dieser Inseln ist geprägt von Migration und einer sich wiederholenden Abfolge von Kolonialherrschaften. Geschrieben wurden diese Geschichten aus der Sicht der jeweiligen Besatzer. Holländer, Spanier, Handel treibende Haudegen, Mandschuren, Japaner und Chinesen zwangen die Bevölkerung in ihre Kulturen, Religionen, Ideologien und Sprachen, wobei die „eigene“ Kultur meistens stark von der Kultur der vorhergehenden Besatzer geprägt war. Erst nach Aufhebung des Kriegsrechtes 1987 wurde es weiten Schichten der Bevölkerung möglich, aktiv ihre Identität außerhalb der Kultur der letzten Besatzer zu suchen. Dies führte zu einer Rückbesinnung auf Zeiten und Kulturen, die aus heutiger Sicht einen romantischen Rahmen für die moderne Daseinsform bieten. Diese Rückbesinnung reicht von einer vorgeschichtlichen, indigenen Basis, über eine an Japan angelegte Lebensform bis zur Identifizierung als Chinese. Diese unterschiedlichen Selbstbetrachtungen schließen sich nicht aus und können zeitgleich in einer Person oder einer Gruppe in unterschiedlichen Formen des Diskurs wiedergefunden werden.</p>
           <p>In den acht Jahren des Projekts wurden in ca. 500 Tagen Feldforschung 700
             Friedhöfe mit 59.000 Gräbern durch 212.000 digitale, georeferenzierte Fotos
@@ -114,13 +112,14 @@
           <div type="div1" rend="DH-Heading">
             <head>Focus, Ortsnamen und Soziale Identität</head>
             <p>Ein zentrales Element unserer Analyse von Inschriften ist der sogenannte Fokus. Der Fokus ist das Element der Inschrift, das durch seine Größe und seine Anordnung auf dem Grabstein hervorspringt und, semantisch betrachtet, nicht die Unterschiedlichkeit der Verstorbenen unterstreicht, sondern deren Einbettung in eine wirkliche oder imaginäre Gemeinschaft. Mögliche Realisierungen des Fokus sind ein Kreuz, eine arabische Sure, eine Swastika, ein Ortsname, ein politisches Symbol oder der Name einer politischen Ära. </p>
+            <figure>
+              <graphic url="057-1000000000000F15000012431789C930.jpg"/>
+              <p><hi rend="bold">Abb. 2</hi>: Ein Fokus mit einem Verweis auf die Ming
+              Dynastie (<hi rend="Chinese">皇明</hi>) auf einem Grabstein auf den Penghu-Inseln von 1669,
+              während in China schon die Qing Dynastie herrscht.</p>
+            </figure>
             <p>
-              <figure>
-                <graphic url="057-1000000000000F15000012431789C930.jpg"/>
-                <head><hi rend="bold">Abb. 2</hi>: Ein Fokus mit einem Verweis auf die Ming
-                Dynastie (皇明) auf einem Grabstein auf den Penghu-Inseln von 1669,
-                während in China schon die Qing Dynastie herrscht.</head>
-              </figure>Der Ortsname, der am häufigsten vorkommende Fokus, kann in drei
+              Der Ortsname, der am häufigsten vorkommende Fokus, kann in drei
               Untergruppen unterteilt werden. Dies sind a) lokale Ortsnamen, die auf einen Ort
               auf Taiwan verweisen, b) Ortsnamen in China, 'Jiguan' genannt, die den
               Ausgangspunkt einer Migration aus den südchinesischen Provinzen Guangdong and
@@ -133,15 +132,13 @@
               dieser drei Typen zugreifen könnten, wird, geschichtlich und regional
               betrachtet, jeweils einer dieser drei Ortsnamentypen bevorzugt (Streiter /
               Goudin 2013, 2014 ). </p>
-              <p>
-                <figure>
-                  <graphic url="057-100000000000010B000001CBB5772427.jpg"/>
-                  <head><hi rend="bold">Abb. 3</hi>: Die erste Seite des ältesten jemals
-                  gefundenen Baijiaxing (百家姓), geschrieben um 1100. Es zeigt die
-                  kanonisierte Beziehung zwischen Familiennamen, z. B. Zhao (趙), und deren
-                  Tanghao, z. B. Tianshui (天水).</head>
-                </figure>
-              </p>
+              <figure>
+                <graphic url="057-100000000000010B000001CBB5772427.jpg"/>
+                <p><hi rend="bold">Abb. 3</hi>: Die erste Seite des ältesten jemals
+                gefundenen Baijiaxing (<hi rend="Chinese">百家姓</hi>), geschrieben um 1100. Es zeigt die
+                kanonisierte Beziehung zwischen Familiennamen, z. B. Zhao (<hi rend="Chinese">趙</hi>), und deren
+                Tanghao, z. B. Tianshui (<hi rend="Chinese">天水</hi>).</p>
+              </figure>
               <p>Alle drei Untergruppen könnten oberflächlich gesehen sehr leicht als Ausdruck einer Identität interpretiert werden. Der Taiwanische Ortsname stünde demnach für eine lokale Identität, die entweder aus der indigenen Geschichte Taiwans oder aus einer Abkehr von China zu erklären wäre. Das 'Jiguan' unterstrich die Verbundenheit mit Südchina, den gemeinsamen südchinesischen Sprachen und Gebräuchen und der Migration die hauptsächlich in der Qing Periode stattfand. Das 'Tanghao' verwiese, der gleichen Logik folgend, auf die Wiege der chinesischen Kultur in Nordchina.</p>
               <p>Aber wie der Fall des 'Tanghao' zeigt, können ideologische Bestrebungen der
                 nationalistischen chinesischen Regierung in Taiwan die Präferenz für das Tanghao
@@ -155,14 +152,12 @@
                 unterschiedlichen Formen bemüht wird (Office of the President, Republic of China
                 2012). </p>
                 <p>Ebenso verschwand das 'Jiguan', die Referenz auf die Migration von Südchina, von den Grabsteinen Taiwans in dem Maße, wie die Kolonialmacht Japan bestrebt war, die Bürger Taiwans zu seinen Bürgern zu machen. Die Hoffnung, die lokale Bevölkerung an dem Krieg der Besatzer teilnehmen zu sehen, dürfte bei diesem Bestreben ebenso eine Rolle gespielt haben, wie wenige Jahre später, als eine Chinesische Identität lokale Taiwanesen motivieren sollte, China von der Kommunistischen Partei zurückzuerobern.</p>
-                <p>
-                  <figure>
-                    <graphic url="057-100000000000041A0000041AAC8E3BA8.jpg"/>
-                    <head><hi rend="bold">Abb. 4</hi>: Ortsnamentypen im Wandel: Taiwan unter
-                    den Qing (bis 1895), unter dem Japanischen Kaiserreich (bis 1945) und
-                    unter der Chinesischen Republik.</head>
-                  </figure>
-                </p>
+                <figure>
+                  <graphic url="057-100000000000041A0000041AAC8E3BA8.jpg"/>
+                  <p><hi rend="bold">Abb. 4</hi>: Ortsnamentypen im Wandel: Taiwan unter
+                  den Qing (bis 1895), unter dem Japanischen Kaiserreich (bis 1945) und
+                  unter der Chinesischen Republik.</p>
+                </figure>
               </div>
               <div type="div1" rend="DH-Heading">
                 <head>Paradigmen, Macht und Mediation</head>
@@ -221,7 +216,7 @@
                                   <bibl>
                                     <anchor xml:id="id_index.xml-bibl-w1872614aab3b3b1b1c15"/>
                                     <hi rend="bold">Theobald, Ulrich </hi> (2011): "Chinese Literature:
-                                    Baijiaxing 百家姓 'The Hundred Family Names'" in: <hi rend="italic"
+                                    Baijiaxing <hi rend="Chinese">百家姓</hi> 'The Hundred Family Names'" in: <hi rend="italic"
                                     >CHINAKNOWLEDGE</hi>. A universal guide for China studies <ref
                                     target="http://www.chinaknowledge.de/Literature/Classics/baijiaxing.html"
                                     >http://www.chinaknowledge.de/Literature/Classics/baijiaxing.html</ref>
