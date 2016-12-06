@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-031">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-031">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title> ePoetics – Korpuserschließung und Visualisierung deutschsprachiger Poetiken (1770-1960) für den ‚Algorithmic Criticism </title>
+        <title> ePoetics – Korpuserschließung und Visualisierung deutschsprachiger Poetiken (1770-1960) für den ,Algorithmic Criticism‘ </title>
         <author>
           <name>
             <surname>Alscher</surname>
@@ -184,25 +184,24 @@
           (2007).</p>
           <figure>
             <graphic n="1001" width="16.003763888888887cm" height="7.350125cm" url="031-image1.png" rend="inline"/>
+            <p><hi rend="bold">Abb. 1</hi>: Intellektuelle Vorgehensweise und die algorithmischen Verfahren in ePoetics, in Anlehnung an Kuhn und Reiter (2015).</p>
           </figure>
-          <p><hi rend="bold">Abb. 1</hi>: Intellektuelle Vorgehensweise und die algorithmischen
-          Verfahren in ePoetics, in Anlehnung an Kuhn und Reiter (2015).</p>
-          <p><hi rend="bold">Intellektuelle Vorgehensweise (Sprach- und Literaturwissenschaft)</hi></p>
+          <head>Intellektuelle Vorgehensweise (Sprach- und Literaturwissenschaft)</head>
           <p>Die Texte des Testkorpus‘ stehen als Image-Digitalisate und als nach dem ‚Double Keying‘-Verfahren transkribierte und aufbereitete digitale Volltexte zur Verfügung. Die strukturellen (und auch die semantischen) Annotationen des Korpus‘ erfolgen nach den Konventionen der Text Encoding Initiative (TEI). Das Korpus wird in virtuelle Forschungs-Infrastrukturen wie TextGrid und das Deutsche Textarchiv (DTA) integriert und dort mit den vorhandenen Referenztexten verlinkt.</p>
           <p>Nach der Identifikation relevanter und interessanter Begriffe und Konzepte wurden zu einzelnen ausgesuchten Begriffen wie der Metapher mithilfe des UAM CorpusTool Annotationsschemata für manuelle Annotationen erstellt. Diese wurden unter ausführlicher Dokumentation von Annotationsguidelines durch mehrere Annotatoren getestet, kontinuierlich verbessert, ausgebaut und schließlich in den Poetiken durchgeführt. Abbildung 2 zeigt eine vereinfache Version des daraus hervorgegangenen Annotationsschemas, das sich in zwei Teilbereiche gliedern lässt, die teils direkt und teils mit leichten Veränderungen auch auf andere Begriffe übertragen werden können. Das Schema resultiert aus den oben genannten sprach- und literaturwissenschaftlichen Fragen, die sich in die Aspekte der Repräsentation und des Verständnisses bzw. der Anwendung des Metaphernbegriffs in den Poetiken aufteilen lassen.</p>
           <figure>
             <graphic n="1002" width="16.037277777777778cm" height="9.025819444444444cm" url="031-image2.png" rend="inline"/>
+            <p><hi rend="bold">Abb. 2</hi>: Vereinfachte Darstellung des Annotationsschemas zur
+            Metapher: Erkennbar ist der begriffsunspezifische (oben, orange) und -spezifische
+            Bereich (unten, blau). Während sich der Teil des Schemas, der die Repräsentation des
+            Begriffs im Text abbildet, sofort auf andere Begriffe anwenden lässt, ist der Teil,
+            der sich dem Begriffsverständnis und der -anwendung widmet, begriffsspezifisch. D.
+            h. die hier zu annotierenden Kategorien lassen sich nicht für andere Begriffe
+            verwenden, aber leicht durch passende für den jeweiligen Begriff ersetzen.</p>
           </figure>
-          <p><hi rend="bold">Abb. 2</hi>: Vereinfachte Darstellung des Annotationsschemas zur
-          Metapher: Erkennbar ist der begriffsunspezifische (oben, orange) und -spezifische
-          Bereich (unten, blau). Während sich der Teil des Schemas, der die Repräsentation des
-          Begriffs im Text abbildet, sofort auf andere Begriffe anwenden lässt, ist der Teil,
-          der sich dem Begriffsverständnis und der -anwendung widmet, begriffsspezifisch. D.
-          h. die hier zu annotierenden Kategorien lassen sich nicht für andere Begriffe
-          verwenden, aber leicht durch passende für den jeweiligen Begriff ersetzen.</p>
           <p>Das Annotationsschema stellt eine Systematisierung des Begriffs, d. h. seines Vorkommens und Verständnisses in den Poetiken dar. Die für den Begriff relevanten Textstellen werden zunächst dahingehend klassifiziert, ob es sich um Poetikentext handelt (also Text vom Autor der Poetik selbst), oder ob andere theoretische oder literarische Texte zitiert, paraphrasiert oder genannt werden. Neben den Verweisungsformen annotieren wir hierbei auch die Quellenangaben – beides im Übrigen nicht nur, wenn es explizit angegeben ist. So berücksichtigen wir auch die Möglichkeit von „versteckten“ Zitaten oder solchen, bei denen die Quelle nicht oder unvollständig benannt ist. Das Auffinden bestimmter Muster sowie zum Beispiel Titel und Personennamen oder Zitate wird dabei unterstützt durch computerlinguistische Methoden und Verfahren der interaktiven Visualisierung. Darüber hinaus systematisieren wir das vorliegende Begriffsverständnis, d. h. ob die Metapher z. B. als Übertragung erklärt wird, und grenzen sie von anderen Begriffen ab, z. B. im Unterschied zum Vergleich. Zusätzlich lassen sich auch Beobachtungen zu konkreten hermeneutischen Hypothesen annotieren, z. B. ob anhand des Metapherngebrauchs zwischen poetischer und prosaischer Sprache unterschieden wird. </p>
           <p>Schon durch die Annotation von implizitem Wissen entsteht somit bereits bei den manuellen Annotationen eine Metaebene an Informationen, mit der der digitalisierte Poetikentext angereichert wird. Die Systematisierung erfordert eine andere Herangehensweise an den Gegenstand, als es bei einer rein hermeneutischen Analyse der Fall wäre. Ebenso führt diese zwangsläufig zur Problematisierung der Systematisierungs(un)möglichkeit eines per se komplexen, weil heterogenen Untersuchungsgegenstandes. Das Ziel der algorithmischen Weiterverarbeitung wird zum Paradigma für die systematisch-kategorisierende Ausdifferenzierung von theoretischen Begriffen, wobei diesbzgl. neue Erkenntnisse, aber auch Grenzen aufgezeigt werden können. Die Operationalisierung der Daten führt so bereits zu Erkenntnissen, bevor computertechnologische Auswertungen durchgeführt werden, womit sie sich über den Status bloßer Vorverarbeitung erheben und einen Eigenwert besitzen. </p>
-          <p><hi rend="bold">Algorithmische Verfahren (Computerlinguistik)</hi></p>
+          <head>Algorithmische Verfahren (Computerlinguistik)</head>
           <p>Mit algorithmischen Verfahren können aus kleinen Mengen annotierter Daten (aus der manuellen und damit zeitaufwendigen Annotation) große Mengen gemacht werden, indem die annotierten Arten von Informationen automatisch auf größere Datenmengen übertragen werden.</p>
           <p>Im Folgenden wird anhand eines Beispiels in Anlehnung an den rechten Teil von
             Abbildung 1 beschrieben, wie die manuelle Annotation, das Training von
@@ -225,7 +224,7 @@
             untersucht und bedeutende Werke / Zitate erkannt werden. Diese Erkenntnisse können
             dann wiederum als Metadaten im Dokument annotiert werden (Manuelles Annotieren von
             Konzepten und Metadaten).</p>
-            <p><hi rend="bold">Interaktive Visualisierung</hi></p>
+            <head>Interaktive Visualisierung</head>
             <p>Interaktive Visualisierung spielt eine wesentliche Rolle in der Vorgehensweise von
               ePoetics, siehe Abbildung 1, da sie eine zusätzliche Interaktion zwischen Forschern
               und den Untersuchungsgegenständen ermöglicht. Zum einen können interaktive Systeme
@@ -250,11 +249,11 @@
               „Wallenstein“ (in der 3. Word Cloud sichtbar) erhält.</p>
               <figure>
                 <graphic n="1003" width="15.834430555555555cm" height="8.128cm" url="031-image3.png" rend="inline"/>
+                <p><hi rend="bold">Abb. 3</hi>: Emil Staigers “Grundbegriffe der Poetik” unterteilt (von
+                links nach rechts) in unterschiedliche Ebenen. Kapitel (mit Word Clouds),
+                Unterkapitel (mit Balkendiagrammen und Piktogrammen), Seiten (mit Piktogrammen),
+                Textzeilen und gescannte Digitalisate der aktuellen Seite.</p>
               </figure>
-              <p><hi rend="bold">Abb. 3</hi>: Emil Staigers “Grundbegriffe der Poetik” unterteilt (von
-              links nach rechts) in unterschiedliche Ebenen. Kapitel (mit Word Clouds),
-              Unterkapitel (mit Balkendiagrammen und Piktogrammen), Seiten (mit Piktogrammen),
-              Textzeilen und gescannte Digitalisate der aktuellen Seite.</p>
               <p>Der zweite Ansatz (Heimerl et al. 2014) wurde konzipiert, um eine textvergleichende
                 Analyse zu ermöglichen (siehe Abbildung 4). Die Visualisierung bietet einen
                 Vergleich von mehreren Dokumenten auf einer abstrakten Ebene in Bezug auf die
@@ -263,14 +262,14 @@
                 einen reibungslosen Übergang zwischen close und distant reading.</p>
                 <figure>
                   <graphic n="1004" width="14.580305555555556cm" height="9.974791666666667cm" url="031-image4.png" rend="inline"/>
+                  <p><hi rend="bold">Abb. 4</hi>: In dieser Abbildung sind drei ausgewählte Texte
+                  nebeneinander dargestellt. Jedes dieser Dokumente verfügt über Seitenangabenskala
+                  (linke Seite) und jeweils zwei Bänder, die zum einen Annotation darstellen (grüne
+                  Balken) und zu anderen Suchergebnisse (orangene Balken). Der Analyst kann durch die
+                  einzelnen Dokumente navigieren (Textboxscrollleiste) und per Mausklick zwischen den
+                  einzelnen Annotationen (Balken) springen.</p>
                 </figure>
-                <p><hi rend="bold">Abb. 4</hi>: In dieser Abbildung sind drei ausgewählte Texte
-                nebeneinander dargestellt. Jedes dieser Dokumente verfügt über Seitenangabenskala
-                (linke Seite) und jeweils zwei Bänder, die zum einen Annotation darstellen (grüne
-                Balken) und zu anderen Suchergebnisse (orangene Balken). Der Analyst kann durch die
-                einzelnen Dokumente navigieren (Textboxscrollleiste) und per Mausklick zwischen den
-                einzelnen Annotationen (Balken) springen.</p>
-                <p><hi rend="bold">Conclusion</hi></p>
+                <head>Conclusion</head>
                 <p>Ergebnis des Projekts ePoetics ist ein digitalisiertes und annotiertes Korpus
                   poetologischer Texte (TEI-konform und nachnutzbar), in denen zentrale Konzepte der
                   Sprach- und Literaturtheorie durch XML-Auszeichnung explizit gemacht und
