@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-006">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-006">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Automatische Textanalysen in der Geschichtswissenschaft – Auswertung, Interpretation und Relevanz </title>
+        <title>Automatische Textanalysen in der Geschichtswissen-schaft – Auswertung, Interpretation und Relevanz </title>
         <author>
           <name>
             <surname>Fiedler</surname>
