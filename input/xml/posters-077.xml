@@ -101,9 +101,9 @@
         <p>In diesem Beitrag stellen wir erste Einsichten aus einer quantitativen Analyse von Dramen vor, sowie unsere Konzeption für eine darauf aufbauende interaktive Werkbank, die einen Anstoß für eine Diskussion zur Tool-Unterstützung quantitativer Dramenanalyse geben soll. Die Werkbank unterstützt interessierte Forscherinnen und Forscher beim Einlesen von Dramen aus TEI-basierten Quellen und befindet sich noch in Entwicklung
           <ref type="note" target="n01" n="1">1</ref>. Neben den in Dramen schon explizit kodierten strukturellen Informationen (Wer spricht was?) stellt die Werkbank insbesondere Möglichkeiten zur Verfügung mit Werkzeugen zur maschinellen Sprachverarbeitung auch den Inhalt der Figurenrede zu analysieren. Inspektions- und Aggregationswerkzeuge und -sichten erlauben auch die Analyse größerer Korpora.
         </p>
-        <p>Um die Anwendungsgebiete der Werkbank aufzuzeigen, skizzieren wir ‒ anhand einer
+        <p>Um die Anwendungsgebiete der Werkbank aufzuzeigen, skizzieren wir &#8211; anhand einer
           <hi rend="italic">Pilotstudie</hi> zur Analyse des Verhältnisses von
-          dramatischer Figur zur dramatischen Handlung ‒ den Problemhorizont quantitativer
+          dramatischer Figur zur dramatischen Handlung &#8211; den Problemhorizont quantitativer
           Literaturwissenschaft. Dabei interessieren uns insbesondere diese Fragen: Gibt
           es einen Zusammenhang zwischen angenommenen prototypischen Rollen (Protagonist,
           Intrigant, König usw.) und Länge bzw. Häufigkeit der Redebeiträge oder der
@@ -199,7 +199,6 @@
                         Galotti</hi> zeigt): </p>
                         <figure>
                           <graphic n="1001" width="11.7348cm" height="11.260666666666667cm" url="p077-image1.png" rend="inline"/>
-                        </figure>
                         <p rend="figure"><hi rend="bold">Abb. 1</hi>: „ <hi rend="bold">Token von
                         x</hi>“ = Gesamthäufigkeit der Nennung jeder einzelnen Namensvariante.
                         <hi rend="bold">Figurennennung</hi> = Nennung der Namensvarianten in der
@@ -208,6 +207,7 @@
                         Wörtern. <hi rend="bold">(Aktivitäts)Quotient</hi> = Summe der
                         Redehäufigkeit geteilt durch die Summe der Figurennennung: X &gt; 1 = Aktiv
                         (Redet häufiger als über sie geredet wird); X &lt; 1 = Passiv. </p>
+                        </figure>
                       </div>
                     </div>
                     <div type="div1" rend="DH-Heading1">
@@ -230,18 +230,18 @@
                           visuelle Auswertung dieser Analyse.</p>
                           <figure>
                             <graphic n="1002" width="16.003763888888887cm" height="10.787944444444445cm" url="p077-image2.png" rend="inline"/>
-                          </figure>
                           <p rend="figure"><hi rend="bold">Abb. 2</hi>: Strukturelle und inhaltliche
                           Analyse von Schillers Johanna von Orleans. Unten: Figurenaktivität. Oben:
                           Prominenz ausgewählter semantischer Räume in der Figurenrede (Frankreich,
                           Gott, Militär). </p>
+                          </figure>
                           <figure>
                             <graphic n="1003" width="15.801947222222223cm" height="6.265333333333333cm" url="p077-image3.png" rend="inline"/>
-                          </figure>
                           <p rend="figure"><hi rend="bold">Abb. 3</hi>: Anhand der Häufigkeit der
                           Figurennennung („Emilia“ vs. „Tochter“) kann der (bisher kaum erforschte)
                           Diskursverlauf im Sinne einer Unterscheidung in private und öffentliche
                           Konversation sehr gut nachvollzogen werden. </p>
+                          </figure>
                         </div>
                         <div type="div2" rend="DH-Heading2">
                           <head>Stilometrische Analysen von Figurenreden</head>
@@ -253,9 +253,9 @@
                             sprechen als Adelsfiguren:</p>
                             <figure>
                               <graphic n="1004" width="8.049772222222222cm" height="9.837011111111112cm" url="p077-image4.jpg" rend="inline"/>
-                            </figure>
                             <p rend="figure"><hi rend="bold">Abb. 4</hi>: Figurenreden, extrahiert aus 34
                             Dramen; nach Standeszugehörigkeit benannt.</p>
+                            </figure>
                           </div>
                           <div type="div2" rend="DH-Heading2">
                             <head>Sentiment-Analyse</head>
@@ -318,7 +318,7 @@
                                           (2015): „Digital Network Analysis of Dramatic“, in: <hi rend="italic"
                                           >Digital Humanities 2015 Conference Abstracts</hi>: <ref
                                           target="http://dh2015.org/abstracts/xml/FISCHER_Frank_Digital_Network_Analysis_of_Dramati/FISCHER_Frank_Digital_Network_Analysis_of_Dramatic_Text.xml"
-                                          >http://dh2015.org/abstracts/xml/FISCHER_Frank_Digital_Network_Analysis_of_Dramati/FISCHER_Frank_Digital_Network_Analysis_of_Dramatic _Text.xml</ref>
+                                          >http://dh2015.org/abstracts/xml/FISCHER_Frank_Digital_Network_Analysis_of_ Dramati/FISCHER_Frank_Digital_Network_ Analysis_of_Dramatic _Text.xml</ref>
                                           [letzter Zugriff 16. Februar 2016].</bibl>
                                         </listBibl>
                                       </div>
