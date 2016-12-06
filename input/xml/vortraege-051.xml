@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-051">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-051">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -130,64 +130,64 @@
             <p>Im ersten Korpus mit 32 Texten funktioniert die Zuordnung sehr gut. Die Cervantes-Texte sind trotz ihrer starken Größenunterschiede (Novellen mit ca. 7000 und Romane mit ca. 200.000 Wörtern) klar zusammen geclustert. </p>
             <figure>
               <graphic n="1001" width="13.000183333333334cm" height="13.000183333333334cm" url="051-image1.png" rend="inline"/>
+              <p><hi rend="bold">Abb.1</hi>: Cluster Analysis mit R (stylo), 900 MFW, Eder’s
+              Delta</p>
             </figure>
-            <p><hi rend="bold">Abb.1</hi>: Cluster Analysis mit R (stylo), 900 MFW, Eder’s
-            Delta</p>
             <figure>
               <graphic n="1002" width="13.646727777777778cm" height="13.646727777777778cm" url="051-image2.png" rend="inline"/>
+              <p><hi rend="bold">Abb. 2</hi>: Cluster Analysis mit R (stylo), 5000 MFW, Eder’s
+              Delta</p>
             </figure>
-            <p><hi rend="bold">Abb. 2</hi>: Cluster Analysis mit R (stylo), 5000 MFW, Eder’s
-            Delta</p>
             <p>Ab 900 MFW und darunter ist die Autorschaftszuordnung mit Eder’s Delta einwandfrei, bei darüber liegenden Zahlen schlich sich beständig der Nachahmer-„Lazarillo“ von Cortés de Tolosa und auch der Block der Werke von Castillo Slórzano zwischen die Cervantes-Werke. Zum Vergleich wurde der gleiche Versuch mit Cosine Distance durchgeführt und brachte keine größere Veränderung in der Darstellung. Weiterhin blieb der Roman von Cortés de Tolosa hartnäckig bis zum 300 MFW unter den Cervantes-Werken, jedoch konnte Castillo Solórzano früher heraus genommen werden.</p>
             <figure>
               <graphic n="1003" width="13.023272222222221cm" height="13.023272222222221cm" url="051-image3.png" rend="inline"/>
+              <p><hi rend="bold">Abb. 3</hi>: Cluster Analysis mit R (stylo), 300 MFW, Cosine
+              Distance</p>
             </figure>
-            <p><hi rend="bold">Abb. 3</hi>: Cluster Analysis mit R (stylo), 300 MFW, Cosine
-            Distance</p>
             <figure>
               <graphic n="1004" width="12.884725cm" height="12.884725cm" url="051-image4.png" rend="inline"/>
+              <p><hi rend="bold">Abb. 4</hi>: Cluster Analysis mit R (stylo), 5000 MFW, Cosine
+              Distance</p>
             </figure>
-            <p><hi rend="bold">Abb. 4</hi>: Cluster Analysis mit R (stylo), 5000 MFW, Cosine
-            Distance</p>
             <p>Interessant ist hier, dass die PCA mit denselben Variablen zeigt, wie weit entfernt der „Lazarillo“ von Cortés de Tolosa doch von den übrigen Werken Cervantes‘ entfernt ist (und zwar bei allen 100-5000 MFW):</p>
             <figure>
               <graphic n="1005" width="13.97cm" height="13.97cm" url="051-image5.png" rend="inline"/>
+              <p><hi rend="bold">Abb. 5</hi>: PCA mit R (stylo), 5000 MFW, Cosine Distance</p>
             </figure>
-            <p><hi rend="bold">Abb. 5</hi>: PCA mit R (stylo), 5000 MFW, Cosine Distance</p>
             <p>Deutlich wird vor allem, dass der “Lazarillo”, den Cortés Tolosa in Nachahmung des Originals (anonym 1554) geschrieben hat, sehr von seinem übrigen Werk abweicht, aber ebenso noch deutlich von den Cervantes-Werken entfernt ist. Das erklärt sich allerdings leicht durch die sprachliche Unterscheidung der vorliegenden Edition des Werkes, die eine ältere Form des Kastilischen verwendet und daher in der Vergleichbarkeit eingeschränkt bleibt.</p>
             <p>Spannender werden die Ergebnisse, wenn man Avellaneda und weitere Kandidaten hinzunimmt:</p>
             <figure>
               <graphic n="1006" width="13.600547222222222cm" height="13.600547222222222cm" url="051-image6.png" rend="inline"/>
+              <p><hi rend="bold">Abb. 6</hi>: Cluster Analysis mit R (stylo), 5000 MFW, Cosine
+              Distance (Korpuserweiterung: 43 Texte)</p>
             </figure>
-            <p><hi rend="bold">Abb. 6</hi>: Cluster Analysis mit R (stylo), 5000 MFW, Cosine
-            Distance (Korpuserweiterung: 43 Texte)</p>
             <figure>
               <graphic n="1007" width="13.208cm" height="13.208cm" url="051-image7.png" rend="inline"/>
+              <p><hi rend="bold">Abb. 7</hi>: Cluster Analysis mit R (stylo), 800 MFW, Cosine
+              Distance </p>
             </figure>
-            <p><hi rend="bold">Abb. 7</hi>: Cluster Analysis mit R (stylo), 800 MFW, Cosine
-            Distance </p>
             <p>Auch mit der Korpuserweiterung bleiben die Zuordnungen relativ stabil (außer Cortés de Tolosa, wie zuvor). Keiner der möglichen Kandidaten wird jedoch Avellaneda zugeordnet, sondern der apokryphe „Quijote“ wird mit den anderen beiden Teilen von Cervantes zusammen geclustert – dies bleibt über 100-5000 MFW konstant. Auch mit dem einer PCA bestätigt sich dieses Ergebnis (vgl. Fig. 8: der blaue Punkt bei den schwarzen zeigt Avellaneda im Umkreis der Cervantes-Werke):</p>
             <figure>
               <graphic n="1008" width="12.538361111111112cm" height="12.538361111111112cm" url="051-image8.png" rend="inline"/>
+              <p><hi rend="bold">Abb. 8</hi>: PCA mit R (stylo), 5000 MFW, Cosine Distance</p>
             </figure>
-            <p><hi rend="bold">Abb. 8</hi>: PCA mit R (stylo), 5000 MFW, Cosine Distance</p>
             <p>In einer nächsten Korpuserweiterung nehmen wir weitere Kandidaten mit Prosabeispielen hinzu, von denen nur ein Text zur Verfügung steht.</p>
             <figure>
               <graphic n="1009" width="14.039272222222221cm" height="14.039272222222221cm" url="051-image9.png" rend="inline"/>
+              <p><hi rend="bold">Abb. 9</hi>: Cluster Analysis mit R (stylo), 100 MFW, Cosine
+              Distance (Korpuserweiterung: 49 Texte)</p>
             </figure>
-            <p><hi rend="bold">Abb. 9</hi>: Cluster Analysis mit R (stylo), 100 MFW, Cosine
-            Distance (Korpuserweiterung: 49 Texte)</p>
             <figure>
               <graphic n="10010" width="14.708908333333333cm" height="14.708908333333333cm" url="051-image10.png" rend="inline"/>
+              <p><hi rend="bold">Abb. 10</hi>: Cluster Analysis mit R (stylo), 5000 MFW, Cosine
+              Distance</p>
             </figure>
-            <p><hi rend="bold">Abb. 10</hi>: Cluster Analysis mit R (stylo), 5000 MFW, Cosine
-            Distance</p>
             <p>Es wird schnell deutlich, dass die Einzelgänger unter den Texten, das zuvor stabile Gefüge auseinanderbringen und offensichtlich nicht für die statistische Untersuchung zu gebrauchen sind. Erstaunlich bleibt jedoch, dass selbst in diesem sehr vagen Clustering (je nach MFW schieben sich die einzelnen Texte mal dort mal dort hin), die drei „Quijote“-Texte konsistent bei 100-5000 MFW ein Cluster bilden. Kein anderer Kandidat schafft es in die Nähe von Avellaneda. </p>
             <p>Auch die PCA bringt keine entscheidenden Vorteile gegenüber der Cluster Analysis. Espinel und Úbeda gruppieren sich zwar in die Cervantes-Gruppe, aber nicht direkt zu Avellaneda.</p>
             <figure>
               <graphic n="10011" width="14.06236111111111cm" height="14.06236111111111cm" url="051-image11.png" rend="inline"/>
+              <p><hi rend="bold">Abb. 11</hi>: PCA mit R (stylo), 5000 MFW, Cosine Distance</p>
             </figure>
-            <p><hi rend="bold">Abb. 11</hi>: PCA mit R (stylo), 5000 MFW, Cosine Distance</p>
           </div>
           <div type="div1" rend="DH-Heading1">
             <head>Schlussfolgerungen </head>
