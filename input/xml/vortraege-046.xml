@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-046">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-046">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -124,12 +124,12 @@
             unterschiedlich Erzählverläufe aussehen können:</p>
             <figure>
               <graphic n="1001" width="12.532430555555555cm" height="3.1697083333333333cm" url="046-image1.png" rend="inline"/>
+              <p><hi rend="bold">Abb. 1</hi>: kreb, Alzheimer Demenz</p>
             </figure>
-            <p><hi rend="bold">Abb. 1</hi>: kreb, Alzheimer Demenz</p>
             <figure>
               <graphic n="1002" width="12.532430555555555cm" height="3.1697083333333333cm" url="046-image2.png" rend="inline"/>
+              <p><hi rend="bold">Abb. 2</hi>: oeh, Alzheimer Demenz</p>
             </figure>
-            <p><hi rend="bold">Abb. 2</hi>: oeh, Alzheimer Demenz</p>
             <p>Die Geschichte des Alzheimer Patienten „kreb“ besteht nur aus drei Sequenzen, die
               kaum verknüpft sind. Bei der Abbildung 2 (Alzheimer-Patientin „oeh“) wird deutlich,
               dass sich diese Demenzpatientin nur auf das Ende der Geschichte konzentriert und die
@@ -141,22 +141,22 @@
               häufige Rückverweise lassen sie aber als wenig strukturiert erscheinen.</p>
               <figure>
                 <graphic n="1003" width="12.532430555555555cm" height="3.1697083333333333cm" url="046-image3.png" rend="inline"/>
+                <p><hi rend="bold">Abb. 3</hi>: rei, Kontrollgruppe</p>
               </figure>
-              <p><hi rend="bold">Abb. 3</hi>: rei, Kontrollgruppe</p>
               <figure>
                 <graphic n="1004" width="12.532430555555555cm" height="3.1697083333333333cm" url="046-image4.png" rend="inline"/>
+                <p><hi rend="bold">Abb. 4</hi>: fcon, Kontrollgruppe</p>
               </figure>
-              <p><hi rend="bold">Abb. 4</hi>: fcon, Kontrollgruppe</p>
               <p>Aggregiert man einzelne Graphen über Gruppen wird auch die Variabilität bei bestimmten Items sichtbar, was hilfreich bei der Entwicklung von diagnostischen Instrumentarien sein könnte (vgl. Abbildung 5). Für die Beschreibung des Zeitpunktes 17, der für die Probanden das Kernereignis repräsentiert, werden 26 verschiedene Versionen (P-Knoten) gewählt, bei den Eingangssequenzen der Geschichte gibt es dagegen kaum Variation. Sichtbar wird auch, welches Weltwissen als geteilt angenommen wird.</p>
               <figure>
                 <graphic n="1005" width="12.532430555555555cm" height="10.181166666666666cm" url="046-image5.png" rend="inline"/>
+                <p><hi rend="bold">Abb. 5</hi></p>
               </figure>
-              <p><hi rend="bold">Abb. 5</hi></p>
               <p>Abbildung 6 zeigt abschließend beispielhaft die Visualisierung eines Interviews mit einem Alzheimer-Patienten. Hier kann man bspw. den thematischen Aufbau, die Turnorganisation, die Redeanteile oder auch die Rückverweise erkennen.</p>
               <figure>
                 <graphic n="1006" width="16.002cm" height="9.953202777777777cm" url="046-image6.png" rend="inline"/>
+                <p><hi rend="bold">Abb. 6</hi>: Interview Alzheimer-Patient</p>
               </figure>
-              <p><hi rend="bold">Abb. 6</hi>: Interview Alzheimer-Patient</p>
               <p>Dieser Ansatz ist allerdings nicht für alle Datensätze geeignet. Abschließend sollen deshalb die folgenden Probleme kurz diskutiert werden: Wo könnten die diagnostischen Grenzen liegen, wenn man mit Visualisierungen in diesem Bereich arbeitet (bspw. in der Komplexität der Graphen)? Wie lässt sich eine solche, auch auf Visualisierungen basierende Diagnostik theoretisch und durch externe Kriterien empirisch absichern? Und wie kann eine Brücke geschlagen werden zwischen dem oft deduktiven Vorgehen der Psycholinguistik und dem zumeist induktiven Vorgehen der Korpuslinguistik?</p>
             </body>
             <back>
