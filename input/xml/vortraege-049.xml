@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-049">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-049">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -175,28 +175,29 @@
           </p>
           <figure>
             <graphic n="1001" width="10.668230555555555cm" height="6.892397222222222cm" url="049-image1.png" rend="inline"/>
+            <p>a) adventure/non-adventure </p>
           </figure>
-          <p>a) adventure/non-adventure </p>
           <figure>
             <graphic n="1002" width="10.67cm" height="6.89cm" url="049-image2.png" rend="inline"/>
+            <p>b) educational/non-educational</p>
           </figure>
-          <p>b) educational/non-educational</p>
           <figure>
             <graphic n="1003" width="10.67cm" height="6.89cm" url="049-image3.png" rend="inline"/>
+            <p>c) social/non-social</p>
           </figure>
-          <p>c) social/non-social</p>
           <figure>
             <graphic n="1004" width="10.67cm" height="6.89cm" url="049-image4.png" rend="inline"/>
+            <p>d) adventure/educational</p>
           </figure>
-          <p>d) adventure/educational</p>
           <figure>
             <graphic n="1005" width="10.67cm" height="6.89cm" url="049-image5.png" rend="inline"/>
+            <p>e) educational/social</p>
           </figure>
-          <p>e) educational/social</p>
-          <p><hi rend="bold">Fig. 1</hi>: Classification results for different subgenre
+          <p><hi rend="italic"><hi rend="bold">Fig. 1</hi>: Classification results for different subgenre
           settings in terms of accuracy using LDA with topic size <hi rend="italic">t</hi>
           = 10, 70, 100, 200 and five different preprocessing procedures on 628 German
-          novels </p>
+          novels </hi></p>
+          <p>&#160;</p>
           <p>When comparing different feature sets across our subgenre constellations we can
             see that semantic based features (mfw, 4grams, lda) all perform quite good while
             network features perform rather poorly (see figure 2). With an accuracy score of
@@ -205,9 +206,9 @@
             using surface features. </p>
             <figure>
               <graphic n="1006" width="15.138125cm" height="8.845930555555556cm" url="049-image6.png" rend="inline"/>
+              <p><hi rend="bold">Fig. 2</hi>: Accuracy for different scenarios and feature sets
+              including the majority vote baseline. </p>
             </figure>
-            <p><hi rend="bold">Fig. 2</hi>: Accuracy for different scenarios and feature sets
-            including the majority vote baseline. </p>
             <p>As the classification performance of adventure/educational is quite impressive we
               take a closer look at the discriminating words of these genres (Figure 3). Some
               of the most typical words of adventure novels include <hi rend="italic">captain,
@@ -217,9 +218,9 @@
               novels. </p>
               <figure>
                 <graphic n="1007" width="14.16843888888889cm" height="15.886536111111111cm" url="049-image7.png" rend="inline"/>
+                <p><hi rend="bold">Fig. 3</hi>: Discriminating words for adventure (preferred) and
+                educational (avoided) novels (Craig’s Zeta)</p>
               </figure>
-              <p><hi rend="bold">Fig. 3</hi>: Discriminating words for adventure (preferred) and
-              educational (avoided) novels (Craig’s Zeta)</p>
               <p>To test whether authorship of novels influences our results we removed the author
                 signal by allowing only one document per author. In this way, we construct a new
                 dataset called ‘uni’. The sampling is done once so that the same novels are used
@@ -233,8 +234,8 @@
                 author for the other categories. </p>
                 <figure>
                   <graphic n="1008" width="15.896166666666666cm" height="8.6995cm" url="049-image8.png" rend="inline"/>
+                  <p><hi rend="bold">Fig. 4</hi>: The influence of authorship </p>
                 </figure>
-                <p><hi rend="bold">Fig. 4</hi>: The influence of authorship </p>
                 <p>In the next experiment we test whether the combination of feature sets changes
                   our classification results. To balance the size of the feature sets we use
                   Principal Component Analysis (PCA) and construct 100 features from the 3000 mfw
@@ -245,9 +246,9 @@
                   be overrated.</p>
                   <figure>
                     <graphic n="1009" width="15.191041666666667cm" height="9.714894444444445cm" url="049-image9.png" rend="inline"/>
+                    <p><hi rend="bold">Fig. 5</hi>: Classification results for combinations of different
+                    feature sets including bars for standard deviation</p>
                   </figure>
-                  <p><hi rend="bold">Fig. 5</hi>: Classification results for combinations of different
-                  feature sets including bars for standard deviation</p>
                 </div>
                 <div type="div1" rend="DH-Heading1">
                   <head>Conclusion</head>
