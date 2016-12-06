@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vorträge-044">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vortraege-044">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -127,8 +127,8 @@
           geschlossen. </p>
           <figure>
             <graphic n="1001" width="16.002cm" height="19.939cm" url="044-image1.png" rend="inline"/>
+            <p><hi rend="bold">Abb. 1</hi>: Der geographische Skopus des Projekts. </p>
           </figure>
-          <p><hi rend="bold">Abb. 1</hi>: Der geographische Skopus des Projekts. </p>
           <p>Dieses ehrgeizige Ziel stellt hohe Anforderungen an die Organisation der Projektworkflows und erfordert zudem die Schaffung einer eigenen nachhaltigen und international vernetzten digitalen Forschungsinfrastruktur. Das Projekt leistet somit jenseits seiner linguistischen Ausrichtung einen wichtigen Beitrag für die Digital Humanities.</p>
         </div>
         <div type="div1" rend="DH-Heading1">
@@ -166,8 +166,8 @@
             <p>2. Entwicklung hinsichtlich der Komplexität der Daten infolge von hinzuzufügenden Glossierungen und Mehrebenenannotationen, die sowohl innerhalb des Erfassungsprozesses jeder Einzelsprache als auch über den gesamte Laufzeit erfolgen. </p>
             <figure>
               <graphic n="1002" width="16.002cm" height="8.71108888888889cm" url="044-image2.png" rend="inline"/>
+              <p><hi rend="bold">Abb. 2</hi>: Teilprojekte.</p>
             </figure>
-            <p><hi rend="bold">Abb. 2</hi>: Teilprojekte.</p>
             <p>Das Projekt gliedert sich dem entsprechend in insgesamt zwölf Teilprojekte (s.
               Abbildung 2), von denen elf jeweils die Erschließung einer der zu erfassenden
               Sprachvarietäten zum Gegenstand haben. Das zwölfte technisch-infrastrukturelle
@@ -189,9 +189,9 @@
                   den Gesamtbestand erforderlich sind. </p>
                   <figure>
                     <graphic n="1003" width="16.002cm" height="12.0015cm" url="044-image3.png" rend="inline"/>
+                    <p><hi rend="bold">Abb. 3</hi>: Modularisierung und Anpassung der
+                    Verarbeitungsschritte.</p>
                   </figure>
-                  <p><hi rend="bold">Abb. 3</hi>: Modularisierung und Anpassung der
-                  Verarbeitungsschritte.</p>
                   <p>In der Praxis handelt es sich jedoch keineswegs um einen linearen Prozess,
                     den einzelne Texte einmalig durchlaufen und an dessen Ende die Speicherung
                     und Zugänglichkeit einer in sich geschlossenen Ressource in einem digitalen
@@ -208,10 +208,10 @@
                       <p>- Insbesondere bei Langzeitvorhaben entstehen oft neue Versionen von Korpora aus bereits bestehenden Ressourcen, indem diese mit zusätzlichen Annotationsebenen ausgezeichnet werden.</p>
                       <figure>
                         <graphic n="1004" width="16.002cm" height="7.355416666666667cm" url="044-image4.png" rend="inline"/>
-                      </figure>
-                      <p>
-                        <hi rend="bold">Abb. 4</hi>: Nicht-lineare Abfolge der
-                        Verarbeitungsschritte. </p>
+                        <p>
+                          <hi rend="bold">Abb. 4</hi>: Nicht-lineare Abfolge der
+                          Verarbeitungsschritte. </p>
+                        </figure>
                         <p>Diesen Gegebenheiten kann in der Praxis durch ein ausdifferenziertes Versionierungskonzept begegnet werden. Im Rahmen des Vortrages werden einige konkrete Workflows aus dem Projekt vorgestellt und ihre Implementierung unter Verwendung eines <ref target="http://git-scm.com">Git</ref>-basierten Repositoriums ausführlich erläutert.
                       </p>
                     </div>
