@@ -4,7 +4,8 @@ Dieses Repository enthält die gesamte Datenbasis des
 [DHd2016](http://dhd2016.de/)-Konferenzbandes, bestehend aus den korrigierten
 TEI/XML-Quellen aller eingereichten Konferenzabstracts, sowie den
 Transformationsskripten, die auf der Arbeit von Karin Dalziel beruhen.
-(https://github.com/karindalziel/TEI-to-PDF)
+
+https://github.com/karindalziel/TEI-to-PDF
 
 
 ## Erstellung
