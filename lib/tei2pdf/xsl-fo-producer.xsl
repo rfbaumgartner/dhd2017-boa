@@ -476,6 +476,12 @@
     <xsl:attribute name="font-weight">bold</xsl:attribute>
     <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
   </xsl:template>
+  
+  <xsl:template name="bold-italic">
+    <xsl:attribute name="font-weight">bold</xsl:attribute>
+    <xsl:attribute name="font-style">italic</xsl:attribute>
+    <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
+  </xsl:template>
 
   <!-- Figures -->
   <xsl:template name="figure_container">
@@ -700,7 +706,7 @@
         <fo:page-sequence master-reference="Full">
           <fo:flow flow-name="xsl-region-body">
             <fo:block>
-              <fo:external-graphic src="../../../input/images/front_cover.jpg" content-width="210mm" content-height="scale-to-fit"/>
+              <fo:external-graphic src="../../../input/images/DHd2017_Abstracts.png" content-width="210mm" content-height="scale-to-fit"/>
             </fo:block>
           </fo:flow>
         </fo:page-sequence>
@@ -741,7 +747,7 @@
                 <xsl:if test="not(teiHeader/fileDesc/titleStmt/title[1]/@type = 'nodisplay')">
                   <fo:block id="{@n}">
                     <xsl:call-template name="head"/>
-                    <xsl:value-of select="teiHeader/fileDesc/titleStmt/title"/>
+                    <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title"/>
                   </fo:block>
                 </xsl:if>
 
@@ -793,7 +799,7 @@
                   <!-- Reviewers has no authors, so gets a slightly different treatment -->
                   <fo:block text-align-last="justify">
                     <xsl:call-template name="text"/>
-                    <xsl:value-of select="teiHeader/fileDesc/titleStmt/title"/><xsl:text> </xsl:text>
+                    <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title"/><xsl:text> </xsl:text>
                     <fo:leader leader-pattern="dots"/>
                     <fo:basic-link internal-destination="{@n}">
                       <fo:page-number-citation letter-spacing="0" ref-id="{@n}" />
@@ -805,7 +811,7 @@
                   <fo:block page-break-inside="avoid">
                     <fo:block margin-right="35mm">
                       <xsl:call-template name="text"/>
-                      <xsl:value-of select="teiHeader/fileDesc/titleStmt/title"/>
+                      <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title"/>
                     </fo:block>
 
                     <fo:block text-align-last="justify">
@@ -855,7 +861,7 @@
                 <!-- Title -->
                 <fo:block id="{@n}">
                   <xsl:call-template name="head"/>
-                  <xsl:value-of select="teiHeader/fileDesc/titleStmt/title"/>
+                  <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title"/>
                   <!-- if variable is set, print ID's for proofing -->
                   <xsl:if test="$id= 'yes'">
                     <xsl:text> - </xsl:text>
@@ -864,7 +870,7 @@
 
                 </fo:block>
                 <!-- Text -->
-                <xsl:for-each select="text/body/div">
+                <xsl:for-each select="text">
                   <fo:block>
                     <xsl:call-template name="text"/>
                     <xsl:apply-templates/>
@@ -911,7 +917,7 @@
                 <!-- Title -->
                 <fo:block id="{@n}" keep-with-next="always">
                   <xsl:call-template name="head"/>
-                  <xsl:value-of select="teiHeader/fileDesc/titleStmt/title"/>
+                  <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title"/>
                   <!-- if variable is set, print ID's for proofing -->
                   <xsl:if test="$id= 'yes'">
                     <xsl:text> - </xsl:text>
@@ -946,7 +952,7 @@
                 </fo:block>
 
                 <!-- Text -->
-                <xsl:for-each select="text/body/div">
+                <xsl:for-each select="text">
                   <fo:block>
                     <xsl:call-template name="text"/>
                     <xsl:apply-templates/>
@@ -985,7 +991,7 @@
                 <!-- Title -->
                 <fo:block id="{@n}" keep-with-next="always">
                   <xsl:call-template name="head"/>
-                  <xsl:value-of select="teiHeader/fileDesc/titleStmt/title"/>
+                  <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title"/>
                   <!-- if variable is set, print ID's for proofing -->
                   <xsl:if test="$id= 'yes'">
                     <xsl:text> - </xsl:text>
@@ -1057,7 +1063,7 @@
                 <!-- Title -->
                 <fo:block id="{@n}" keep-with-next="always">
                   <xsl:call-template name="head"/>
-                  <xsl:value-of select="teiHeader/fileDesc/titleStmt/title"/>
+                  <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title"/>
                   <!-- if variable is set, print ID's for proofing -->
                   <xsl:if test="$id= 'yes'">
                     <xsl:text> - </xsl:text>
@@ -1092,7 +1098,7 @@
                 </fo:block>
 
                 <!-- Text -->
-                <xsl:for-each select="text/body/div">
+                <xsl:for-each select="text">
                   <fo:block>
                     <xsl:call-template name="text"/>
                     <xsl:apply-templates/>
@@ -1131,7 +1137,7 @@
                 <!-- Title -->
                 <fo:block id="{@n}" keep-with-next="always">
                   <xsl:call-template name="head"/>
-                  <xsl:value-of select="teiHeader/fileDesc/titleStmt/title"/>
+                  <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title"/>
                   <!-- if variable is set, print ID's for proofing -->
                   <xsl:if test="$id= 'yes'">
                     <xsl:text> - </xsl:text>
@@ -1202,7 +1208,7 @@
                 <!-- Title -->
                 <fo:block id="{@n}" keep-with-next="always">
                   <xsl:call-template name="head"/>
-                  <xsl:value-of select="teiHeader/fileDesc/titleStmt/title"/>
+                  <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title"/>
                   <!-- if variable is set, print ID's for proofing -->
                   <xsl:if test="$id= 'yes'">
                     <xsl:text> - </xsl:text>
@@ -1273,7 +1279,7 @@
                 <!-- Title -->
                 <fo:block id="{@n}" keep-with-next="always">
                   <xsl:call-template name="head"/>
-                  <xsl:value-of select="teiHeader/fileDesc/titleStmt/title"/>
+                  <xsl:apply-templates select="teiHeader/fileDesc/titleStmt/title"/>
                   <!-- if variable is set, print ID's for proofing -->
                   <xsl:if test="$id= 'yes'">
                     <xsl:text> - </xsl:text>
@@ -1349,7 +1355,7 @@
         <fo:page-sequence master-reference="Full">
           <fo:flow flow-name="xsl-region-body">
             <fo:block>
-              <fo:external-graphic src="../../../input/images/back_cover.jpg" content-height="297mm" content-width="210mm"/>
+              <fo:external-graphic src="../../../input/images/back.png" content-height="297mm" content-width="210mm"/>
             </fo:block>
           </fo:flow>
         </fo:page-sequence>
@@ -1562,6 +1568,34 @@
       <xsl:when test="@type='url'">
         <xsl:apply-templates/>
       </xsl:when>
+      <xsl:when test="@type='note'">
+        <fo:inline><xsl:call-template name="superscript"/>
+          <!--<xsl:text> </xsl:text>-->
+          <xsl:apply-templates/>
+          <xsl:text> </xsl:text></fo:inline>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template match="ptr">
+    <xsl:choose>
+      <xsl:when test="starts-with(@target, 'n')">
+        <fo:inline><xsl:call-template name="superscript"/>
+          <!--<xsl:text> </xsl:text>-->
+          <xsl:apply-templates/>
+          <xsl:text> </xsl:text></fo:inline>
+      </xsl:when>
+      <xsl:when test="starts-with(@target, 'http')">
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="@target"/>
+        <xsl:text> </xsl:text>
+      </xsl:when>
+      <xsl:when test="@type='url'">
+        <xsl:value-of select="@target"/>
+      </xsl:when>
       <xsl:otherwise></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -1622,6 +1656,9 @@
       </xsl:when>
       <xsl:when test="@rend='bold'">
         <fo:inline><xsl:call-template name="bold"/><xsl:apply-templates/></fo:inline>
+      </xsl:when>
+      <xsl:when test="@rend='bold italic'">
+        <fo:inline><xsl:call-template name="bold-italic"/><xsl:apply-templates/></fo:inline>
       </xsl:when>
       <xsl:when test="@rend='underline'">
         <fo:inline><xsl:call-template name="underline"/><xsl:apply-templates/></fo:inline>
@@ -1764,6 +1801,91 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+  
+  <xsl:template match="seg[@n='sponsoren']">
+    <fo:block>
+      <xsl:attribute name="space-before">2in</xsl:attribute>
+      <fo:inline-container inline-progression-dimension="49.9%">
+        <fo:block>
+          <xsl:call-template name="figure_container_sponsor"/>
+          <xsl:attribute name="text-align">left</xsl:attribute>
+          <fo:external-graphic>
+            <xsl:attribute name="src"><xsl:text>../../../input/images/burger.png</xsl:text></xsl:attribute>
+            <xsl:attribute name="content-height">1in</xsl:attribute>
+            <xsl:attribute name="content-width">scale-to-fit</xsl:attribute>
+            <xsl:attribute name="scaling">non-uniform</xsl:attribute>
+            <xsl:attribute name="text-align">center</xsl:attribute>
+            <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
+          </fo:external-graphic>
+        </fo:block>
+      </fo:inline-container>
+      <fo:inline-container inline-progression-dimension="49.9%">
+        <fo:block>
+          <xsl:call-template name="figure_container_sponsor"/>
+          <xsl:attribute name="text-align">right</xsl:attribute>
+          <fo:external-graphic>
+            <xsl:attribute name="src"><xsl:text>../../../input/images/sagw.png</xsl:text></xsl:attribute>
+            <xsl:attribute name="content-height">0.75in</xsl:attribute>
+            <xsl:attribute name="content-width">scale-to-fit</xsl:attribute>
+            <xsl:attribute name="scaling">non-uniform</xsl:attribute>
+            <xsl:attribute name="text-align">center</xsl:attribute>
+            <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
+          </fo:external-graphic>
+        </fo:block></fo:inline-container>
+    </fo:block>
+    <fo:block>
+      <xsl:attribute name="space-before">0.3in</xsl:attribute>
+      <fo:inline-container inline-progression-dimension="27.9%">
+        <fo:block>
+          <xsl:call-template name="figure_container_sponsor"/>
+          <xsl:attribute name="text-align">center</xsl:attribute>
+          <fo:external-graphic>
+            <xsl:attribute name="src"><xsl:text>../../../input/images/johanna.png</xsl:text></xsl:attribute>
+            <xsl:attribute name="content-height">1in</xsl:attribute>
+            <xsl:attribute name="content-width">scale-to-fit</xsl:attribute>
+            <xsl:attribute name="scaling">non-uniform</xsl:attribute>
+            <xsl:attribute name="text-align">center</xsl:attribute>
+            <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
+            </fo:external-graphic>
+          </fo:block>
+      </fo:inline-container>
+      <fo:inline-container inline-progression-dimension="35.9%">
+        <fo:block>
+          <xsl:call-template name="figure_container_sponsor"/>
+          <xsl:attribute name="text-align">center</xsl:attribute>
+          <fo:external-graphic>
+            <xsl:attribute name="src"><xsl:text>../../../input/images/snf.png</xsl:text></xsl:attribute>
+            <xsl:attribute name="content-height">0.75in</xsl:attribute>
+            <xsl:attribute name="content-width">scale-to-fit</xsl:attribute>
+            <xsl:attribute name="scaling">non-uniform</xsl:attribute>
+            <xsl:attribute name="text-align">center</xsl:attribute>
+            <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
+            </fo:external-graphic>
+          </fo:block>
+        </fo:inline-container>
+      <fo:inline-container inline-progression-dimension="35.9%">
+        <fo:block>
+          <xsl:call-template name="figure_container_sponsor"/>
+          <xsl:attribute name="text-align">center</xsl:attribute>
+          <fo:external-graphic>
+            <xsl:attribute name="src"><xsl:text>../../../input/images/switch.png</xsl:text></xsl:attribute>
+            <xsl:attribute name="content-height">0.6in</xsl:attribute>
+            <xsl:attribute name="content-width">scale-to-fit</xsl:attribute>
+            <xsl:attribute name="scaling">non-uniform</xsl:attribute>
+            <xsl:attribute name="text-align">center</xsl:attribute>
+            <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
+          </fo:external-graphic>
+        </fo:block>
+      </fo:inline-container>
+      </fo:block>
+  </xsl:template>
+  
+  <xsl:template name="figure_container_sponsor">
+    <xsl:attribute name="space-before">.2in</xsl:attribute>
+    <xsl:attribute name="space-after">.2in</xsl:attribute>
+    <xsl:attribute name="text-align">center</xsl:attribute>
+    <xsl:attribute name="font-family"><xsl:value-of select="$main_font"/></xsl:attribute>
+  </xsl:template>
 
   <xsl:template match="seg[@n='book_figure']">
     <xsl:choose>
@@ -1771,7 +1893,7 @@
         <fo:block>
           <xsl:call-template name="figure_container_intro"/>
           <fo:external-graphic>
-            <xsl:attribute name="src"><xsl:text>../../../input/images/logo_bw.jpg</xsl:text></xsl:attribute>
+            <xsl:attribute name="src"><xsl:text>../../../input/images/DHd2017Bern-bw.png</xsl:text></xsl:attribute>
             <xsl:call-template name="figure_intro"/>
           </fo:external-graphic>
         </fo:block>
@@ -1780,7 +1902,7 @@
         <fo:block>
           <xsl:call-template name="figure_container_intro"/>
           <fo:external-graphic>
-            <xsl:attribute name="src"><xsl:text>../../../input/images/logo_color.jpg</xsl:text></xsl:attribute>
+            <xsl:attribute name="src"><xsl:text>../../../input/images/DHd2017Bern.png</xsl:text></xsl:attribute>
             <xsl:call-template name="figure_intro"/>
           </fo:external-graphic>
         </fo:block>
