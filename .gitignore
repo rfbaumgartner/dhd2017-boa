@@ -1,0 +1,13 @@
+
+# PDFs und FO-Format
+output/*
+
+# Beitraege
+input/xml/plenary*.xml
+input/xml/panel*.xml
+input/xml/workshop*.xml
+input/xml/vortrag*.xml
+input/xml/poster*.xml
+
+# Bilder
+input/images/*
