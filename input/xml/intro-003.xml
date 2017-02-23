@@ -68,6 +68,25 @@
     
    <p> <seg n="book_figure">BOOK FIGURE GOES HERE (controlled by XSLT because of different print/PDF versions</seg></p>
 </div>
+    <div>
+        <head n="intro_head_medium_center">&#160;</head>
+        <head n="intro_head_medium_center">&#160;</head>
+        <head n="intro_head_medium_center">&#160;</head>
+        <head n="intro_head_medium_center">&#160;</head>
+        <head n="intro_head_medium_center">&#160;</head>
+        <head n="intro_head_medium_center">&#160;</head>
+        <head n="intro_head_medium_center">&#160;</head>
+        <head n="intro_head_medium_center">&#160;</head>
+        <head n="intro_head_medium_center">&#160;</head>
+        <head n="intro_head_medium_center">&#160;</head>
+        <head n="intro_head_medium_center">&#160;</head>
+        <head n="intro_head_medium_center">&#160;</head>
+        <head n="intro_head_medium_center">&#160;</head>
+        <head n="intro_head_medium_center">&#160;</head>
+        <head n="intro_head_medium_center">&#160;</head>
+        <head n="intro_head_medium_center">&#160;</head>
+        <p n="intro_text_center">Beachten Sie bitte die ergänzenden Abbildungen auf S. 304–306 am Ende des Bandes.</p>
+    </div>
 
 </body>
 
