@@ -27,6 +27,7 @@ Eine grobe Anleitung:
 * Manuelle Korrektur der Titel, um kursive Sequenzen korrekt darstellen zu können
 * Positionierung der Fussnoten mit dem Skript `move-notes.py` (benötigt das Python-Modul beautifulsoup4): Die Dateien vor der Umwandlung müssen dazu in den Ordner `input/xml-source` gelegt werden und das Resultat erscheint in `input/xml`. Die genauen Pfade im Skript sollten vor dem Benutzen angepasst werden. 
 * Korrektur der Beitragstypen und ergänzung einer `xml:id` pro Dokument
+* Bilder eindeutig benennen und sicherstellen, dass sie in einem `<figure>`-Element eingebettet sind. Das Stylesheet kann sie andernfalls nicht finden. Dies stellt dann ein Problem dar, wenn die Bilder mit Text einen Absatz teilen.
 
 ## Wichtigste Änderungen ggü. 2016
 
@@ -55,3 +56,7 @@ für alle Änderungen vergleiche die Versionen [Commit 6e040cbc0dc024f3528a26629
 (Eintrag `<xsl:when test="@type='note'"> ...` - Zeile 1571)
     * ergänzt ist das Handling für `<ptr target="http...">` für Links ohne eigenen Text.  
 (Eintrag `<xsl:template match="ptr"> ...` - Zeile 1583)
+
+## Disclaimer
+
+Die Stylesheets finden nur, was in gewissen Mustern vorkommt und setzen es entsprechend. Da der Input grundsätzlich mehr Freiheiten lässt, als man mit den Stylesheets abbilden kann, muss man nach der Konvertierung kontrollieren, ob alles korrekt gesetzt wurde und allenfalls die Auszeichnung präzisieren oder das Stylesheet ergänzen.
